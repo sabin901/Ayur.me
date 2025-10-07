@@ -1,0 +1,819 @@
+// Comprehensive Yoga Library Data
+// Based on David Frawley's "Yoga for Your Type"
+
+export interface ComprehensiveYogaPose {
+  name: string;
+  sanskrit: string;
+  category: string;
+  duration: string;
+  difficulty: string;
+  dosha: string;
+  benefits: string[];
+  description: string;
+  instructions: string[];
+  doshaSpecific: {
+    vata: string;
+    pitta: string;
+    kapha: string;
+  };
+  contraindications: string[];
+  therapeuticUses: string[];
+  image: string;
+  sources: string[];
+}
+
+export interface YogaSequence {
+  name: string;
+  description: string;
+  poses: string[];
+  duration: string;
+  dosha: string;
+  benefits: string[];
+  instructions: string[];
+  sources: string[];
+}
+
+export interface PranayamaTechnique {
+  name: string;
+  sanskrit: string;
+  description: string;
+  benefits: string[];
+  dosha: string;
+  duration: string;
+  instructions: string[];
+  sources: string[];
+}
+
+export const comprehensiveYogaLibrary = {
+  poses: [
+    {
+      name: "Child's Pose",
+      sanskrit: "Balasana",
+      category: "Restorative",
+      dosha: "Vata",
+      difficulty: "Beginner",
+      duration: "5-10 minutes",
+      benefits: [
+        "Calms the nervous system",
+        "Reduces anxiety and stress",
+        "Grounds Vata energy",
+        "Stretches hips and thighs",
+        "Relieves back pain",
+        "Improves digestion",
+        "Reduces fatigue"
+      ],
+      description: "A gentle resting pose that helps ground Vata energy and calm the nervous system. Perfect for reducing anxiety and stress. This pose is considered one of the most therapeutic for Vata imbalance.",
+      instructions: [
+        "Start on hands and knees in tabletop position",
+        "Bring big toes together and knees hip-width apart",
+        "Sit back on your heels",
+        "Lower your torso between your thighs",
+        "Extend arms forward or alongside body with palms up",
+        "Rest forehead on the mat",
+        "Breathe deeply into your back body",
+        "Hold for 5-10 minutes with slow, steady breathing",
+        "To exit, gently press hands into floor and lift torso"
+      ],
+      doshaSpecific: {
+        vata: "Excellent for grounding and calming Vata energy. Practice slowly and hold longer. Use props like a bolster under torso if needed.",
+        pitta: "Can be cooling but avoid if it causes frustration. Use props for comfort and practice in cool environment.",
+        kapha: "Good for opening chest and shoulders. May need to hold shorter duration. Can be energizing if held briefly."
+      },
+      contraindications: [
+        "Knee injuries",
+        "Ankle problems",
+        "Pregnancy (modify with knees apart)",
+        "Diarrhea"
+      ],
+      therapeuticUses: [
+        "Anxiety and stress relief",
+        "Back pain",
+        "Digestive issues",
+        "Insomnia",
+        "Menstrual cramps",
+        "Headaches"
+      ],
+      image: "/yoga-poses/balasana.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Classical Hatha Yoga texts", "Restorative Yoga practices"]
+    },
+    {
+      name: "Legs Up the Wall",
+      sanskrit: "Viparita Karani",
+      category: "Restorative",
+      dosha: "Vata",
+      difficulty: "Beginner",
+      duration: "10-15 minutes",
+      benefits: [
+        "Calms the nervous system",
+        "Reduces anxiety",
+        "Improves circulation",
+        "Relieves tired legs",
+        "Grounds Vata energy",
+        "Reduces swelling in legs",
+        "Improves sleep quality"
+      ],
+      description: "A gentle inversion that helps calm Vata energy and reduce anxiety. Perfect for evening practice. This pose is considered one of the most therapeutic for Vata imbalance.",
+      instructions: [
+        "Sit close to a wall with right side touching wall",
+        "Swing legs up the wall as you lie back",
+        "Scoot hips close to wall",
+        "Rest arms by sides with palms up",
+        "Close eyes and breathe deeply",
+        "Allow body to completely relax",
+        "Hold for 10-15 minutes",
+        "Bend knees and roll to side to exit"
+      ],
+      doshaSpecific: {
+        vata: "Excellent for calming and grounding. Practice daily for best results. Use props like eye pillow for deeper relaxation.",
+        pitta: "Cooling and soothing. Good for reducing heat and irritation. Practice in cool environment.",
+        kapha: "May feel too passive. Combine with gentle movement or hold for shorter duration."
+      },
+      contraindications: [
+        "Glaucoma",
+        "High blood pressure",
+        "Neck problems",
+        "Pregnancy (after first trimester)"
+      ],
+      therapeuticUses: [
+        "Anxiety and stress",
+        "Insomnia",
+        "Varicose veins",
+        "Mild depression",
+        "Leg swelling",
+        "Headaches"
+      ],
+      image: "/yoga-poses/legs-up-the-wall.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Restorative Yoga practices", "Classical Yoga texts"]
+    },
+    {
+      name: "Corpse Pose",
+      sanskrit: "Savasana",
+      category: "Restorative",
+      dosha: "Vata",
+      difficulty: "Beginner",
+      duration: "10-20 minutes",
+      benefits: [
+        "Deep relaxation",
+        "Calms nervous system",
+        "Reduces stress and anxiety",
+        "Improves sleep",
+        "Grounds Vata energy",
+        "Restores energy",
+        "Promotes healing"
+      ],
+      description: "The ultimate relaxation pose that allows complete rest and restoration. Essential for Vata balance and overall well-being.",
+      instructions: [
+        "Lie on back with legs extended",
+        "Arms by sides with palms up",
+        "Close eyes and relax completely",
+        "Breathe naturally and deeply",
+        "Scan body for tension and release",
+        "Allow mind to become quiet",
+        "Hold for 10-20 minutes",
+        "To exit, gently move fingers and toes, then roll to side"
+      ],
+      doshaSpecific: {
+        vata: "Essential for grounding. Practice daily with props for comfort. Use eye pillow and blanket for deeper relaxation.",
+        pitta: "Cooling and calming. Practice in cool environment. Good for reducing heat and irritation.",
+        kapha: "May feel too passive. Practice with intention and shorter duration. Can be energizing if practiced mindfully."
+      },
+      contraindications: [
+        "Severe depression",
+        "Pregnancy (modify with props)"
+      ],
+      therapeuticUses: [
+        "Stress and anxiety",
+        "Insomnia",
+        "Chronic fatigue",
+        "High blood pressure",
+        "Depression",
+        "Recovery from illness"
+      ],
+      image: "/yoga-poses/savasana.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Classical Yoga texts", "Restorative Yoga practices"]
+    },
+    {
+      name: "Seated Forward Bend",
+      sanskrit: "Paschimottanasana",
+      category: "Forward Bend",
+      dosha: "Pitta",
+      difficulty: "Beginner",
+      duration: "5-10 minutes",
+      benefits: [
+        "Cools and soothes Pitta",
+        "Calms the mind",
+        "Stretches spine and hamstrings",
+        "Reduces anger and irritability",
+        "Improves digestion",
+        "Reduces heat in body",
+        "Stimulates liver and kidneys"
+      ],
+      description: "A cooling forward bend that helps balance Pitta energy and reduce heat in the body and mind. Excellent for calming anger and irritability.",
+      instructions: [
+        "Sit with legs extended forward",
+        "Inhale and lengthen spine upward",
+        "Exhale and fold forward from hips",
+        "Reach for feet, ankles, or shins",
+        "Keep spine long, don't round back",
+        "Relax shoulders and neck",
+        "Breathe deeply into back body",
+        "Hold for 5-10 minutes with steady breathing",
+        "To exit, inhale and slowly lift torso"
+      ],
+      doshaSpecific: {
+        vata: "Be gentle and use props. Don't force the stretch. Use strap or bolster for support.",
+        pitta: "Excellent for cooling and calming. Practice in cool environment. Focus on relaxation over depth.",
+        kapha: "Good for opening back body. May need to hold longer. Can be energizing if practiced with intention."
+      },
+      contraindications: [
+        "Severe back problems",
+        "Pregnancy (modify)",
+        "Herniated disc",
+        "Asthma"
+      ],
+      therapeuticUses: [
+        "Digestive issues",
+        "Anger and irritability",
+        "High blood pressure",
+        "Anxiety",
+        "Liver problems",
+        "Menstrual cramps"
+      ],
+      image: "/yoga-poses/paschimottanasana.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Hatha Yoga Pradipika", "Classical Yoga texts"]
+    },
+    {
+      name: "Fish Pose",
+      sanskrit: "Matsyasana",
+      category: "Backbend",
+      dosha: "Pitta",
+      difficulty: "Intermediate",
+      duration: "3-5 minutes",
+      benefits: [
+        "Opens chest and heart",
+        "Cools and soothes Pitta",
+        "Improves breathing",
+        "Reduces anger and frustration",
+        "Stretches throat and neck",
+        "Stimulates thyroid",
+        "Improves posture"
+      ],
+      description: "A gentle backbend that opens the heart and helps cool Pitta energy while improving breathing. Excellent for reducing anger and frustration.",
+      instructions: [
+        "Lie on back with legs extended",
+        "Place hands under hips, palms down",
+        "Press elbows into floor",
+        "Lift chest and arch back gently",
+        "Rest crown of head on floor",
+        "Breathe deeply into chest",
+        "Hold for 3-5 minutes",
+        "To exit, lift head and lower chest slowly"
+      ],
+      doshaSpecific: {
+        vata: "Be gentle and use props. Don't overextend. Use bolster under back for support.",
+        pitta: "Excellent for cooling and opening heart. Practice regularly. Focus on relaxation over depth.",
+        kapha: "Good for opening chest. May need support under back. Can be energizing if held briefly."
+      },
+      contraindications: [
+        "Neck problems",
+        "High blood pressure",
+        "Migraine",
+        "Pregnancy"
+      ],
+      therapeuticUses: [
+        "Respiratory issues",
+        "Depression",
+        "Thyroid problems",
+        "Posture improvement",
+        "Anger and frustration",
+        "Chest tightness"
+      ],
+      image: "/yoga-poses/matsyasana.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Classical Yoga texts", "Hatha Yoga practices"]
+    },
+    {
+      name: "Camel Pose",
+      sanskrit: "Ustrasana",
+      category: "Backbend",
+      dosha: "Pitta",
+      difficulty: "Intermediate",
+      duration: "30 seconds - 2 minutes",
+      benefits: [
+        "Opens heart and chest",
+        "Cools Pitta energy",
+        "Improves breathing",
+        "Stretches front body",
+        "Reduces anger",
+        "Stimulates digestive organs",
+        "Improves posture"
+      ],
+      description: "A heart-opening backbend that helps cool Pitta energy and reduce anger. Excellent for opening the heart and improving breathing.",
+      instructions: [
+        "Kneel on mat with knees hip-width apart",
+        "Place hands on lower back for support",
+        "Inhale and lift chest",
+        "Exhale and arch back gently",
+        "Reach for heels with hands",
+        "Keep hips over knees",
+        "Breathe deeply into chest",
+        "Hold for 30 seconds - 2 minutes",
+        "To exit, bring hands to lower back and lift torso"
+      ],
+      doshaSpecific: {
+        vata: "Be very gentle. Use props and don't overextend. Practice with support.",
+        pitta: "Excellent for cooling and opening heart. Practice regularly. Focus on relaxation.",
+        kapha: "Good for opening chest. May need to hold longer. Can be energizing."
+      },
+      contraindications: [
+        "Neck problems",
+        "High blood pressure",
+        "Back problems",
+        "Pregnancy"
+      ],
+      therapeuticUses: [
+        "Respiratory issues",
+        "Depression",
+        "Anger and frustration",
+        "Posture problems",
+        "Digestive issues"
+      ],
+      image: "/yoga-poses/camel-pose.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Classical Yoga texts"]
+    },
+    {
+      name: "Sun Salutation",
+      sanskrit: "Surya Namaskara",
+      category: "Dynamic Sequence",
+      dosha: "Kapha",
+      difficulty: "Beginner",
+      duration: "10-15 minutes",
+      benefits: [
+        "Stimulates metabolism",
+        "Energizes Kapha",
+        "Improves circulation",
+        "Builds heat and energy",
+        "Strengthens entire body",
+        "Improves flexibility",
+        "Reduces lethargy"
+      ],
+      description: "A dynamic sequence that helps energize Kapha and stimulate metabolism. Perfect for morning practice to build energy and reduce lethargy.",
+      instructions: [
+        "Stand in Mountain Pose (Tadasana)",
+        "Inhale, raise arms overhead (Urdhva Hastasana)",
+        "Exhale, fold forward (Uttanasana)",
+        "Inhale, half lift (Ardha Uttanasana)",
+        "Exhale, step back to plank (Chaturanga Dandasana)",
+        "Lower to Chaturanga",
+        "Inhale, upward dog (Urdhva Mukha Svanasana)",
+        "Exhale, downward dog (Adho Mukha Svanasana)",
+        "Step forward, half lift",
+        "Exhale, fold forward",
+        "Inhale, rise up to Mountain Pose",
+        "Repeat 5-10 rounds with steady breathing"
+      ],
+      doshaSpecific: {
+        vata: "Practice slowly and mindfully. Don't rush. Focus on stability and grounding.",
+        pitta: "Practice in cool environment. Avoid overexertion. Focus on breath over speed.",
+        kapha: "Excellent for energizing. Practice vigorously and regularly. Build heat and energy."
+      },
+      contraindications: [
+        "High blood pressure",
+        "Heart conditions",
+        "Pregnancy (modify)",
+        "Severe back problems"
+      ],
+      therapeuticUses: [
+        "Low energy",
+        "Depression",
+        "Weight management",
+        "Digestive sluggishness",
+        "Poor circulation",
+        "Lethargy"
+      ],
+      image: "/yoga-poses/surya-namaskara.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Traditional Hatha Yoga", "Classical Yoga texts"]
+    },
+    {
+      name: "Warrior I",
+      sanskrit: "Virabhadrasana I",
+      category: "Standing",
+      dosha: "Kapha",
+      difficulty: "Beginner",
+      duration: "30 seconds - 2 minutes each side",
+      benefits: [
+        "Builds strength and stamina",
+        "Energizes Kapha",
+        "Improves focus and determination",
+        "Strengthens legs and core",
+        "Opens chest and shoulders",
+        "Builds confidence",
+        "Stimulates metabolism"
+      ],
+      description: "A powerful standing pose that builds strength and energy, perfect for stimulating Kapha. Excellent for building confidence and determination.",
+      instructions: [
+        "Start in Mountain Pose (Tadasana)",
+        "Step left foot back 3-4 feet",
+        "Turn left foot 45 degrees",
+        "Bend right knee over ankle",
+        "Raise arms overhead with palms together",
+        "Look up slightly",
+        "Keep back leg straight and strong",
+        "Breathe deeply and hold for 30 seconds - 2 minutes",
+        "Repeat on other side"
+      ],
+      doshaSpecific: {
+        vata: "Be gentle and don't overextend. Use props if needed. Focus on stability.",
+        pitta: "Practice in cool environment. Focus on breath. Avoid overexertion.",
+        kapha: "Excellent for building energy. Hold longer and practice regularly. Build strength and confidence."
+      },
+      contraindications: [
+        "High blood pressure",
+        "Heart problems",
+        "Knee injuries",
+        "Pregnancy (modify)"
+      ],
+      therapeuticUses: [
+        "Low energy",
+        "Depression",
+        "Poor circulation",
+        "Weakness",
+        "Lack of confidence",
+        "Digestive sluggishness"
+      ],
+      image: "/yoga-poses/virabhadrasana-i.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Classical Hatha Yoga", "Traditional Yoga texts"]
+    },
+    {
+      name: "Warrior II",
+      sanskrit: "Virabhadrasana II",
+      category: "Standing",
+      dosha: "Kapha",
+      difficulty: "Beginner",
+      duration: "30 seconds - 2 minutes each side",
+      benefits: [
+        "Builds strength and stamina",
+        "Energizes Kapha",
+        "Improves focus and concentration",
+        "Strengthens legs and core",
+        "Opens hips and chest",
+        "Builds endurance",
+        "Stimulates metabolism"
+      ],
+      description: "A powerful standing pose that builds strength and energy while opening the hips and chest. Perfect for stimulating Kapha and building endurance.",
+      instructions: [
+        "Start in Mountain Pose (Tadasana)",
+        "Step feet 3-4 feet apart",
+        "Turn right foot out 90 degrees, left foot in slightly",
+        "Bend right knee over ankle",
+        "Extend arms parallel to floor",
+        "Look over right fingertips",
+        "Keep torso upright and centered",
+        "Breathe deeply and hold for 30 seconds - 2 minutes",
+        "Repeat on other side"
+      ],
+      doshaSpecific: {
+        vata: "Be gentle and use props. Focus on stability and grounding.",
+        pitta: "Practice in cool environment. Focus on breath and relaxation.",
+        kapha: "Excellent for building energy and strength. Hold longer and practice regularly."
+      },
+      contraindications: [
+        "High blood pressure",
+        "Heart problems",
+        "Knee injuries",
+        "Pregnancy (modify)"
+      ],
+      therapeuticUses: [
+        "Low energy",
+        "Depression",
+        "Poor circulation",
+        "Weakness",
+        "Lack of focus",
+        "Digestive sluggishness"
+      ],
+      image: "/yoga-poses/virabhadrasana-ii.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Classical Hatha Yoga", "Traditional Yoga texts"]
+    },
+    {
+      name: "Triangle Pose",
+      sanskrit: "Trikonasana",
+      category: "Standing",
+      dosha: "Kapha",
+      difficulty: "Beginner",
+      duration: "30 seconds - 2 minutes each side",
+      benefits: [
+        "Stretches and strengthens entire body",
+        "Energizes Kapha",
+        "Improves balance and focus",
+        "Opens hips and chest",
+        "Stimulates digestion",
+        "Builds strength and flexibility",
+        "Reduces lethargy"
+      ],
+      description: "A dynamic standing pose that stretches and strengthens the entire body while energizing Kapha. Excellent for improving balance and focus.",
+      instructions: [
+        "Start in Mountain Pose (Tadasana)",
+        "Step feet 3-4 feet apart",
+        "Turn right foot out 90 degrees, left foot in slightly",
+        "Extend arms parallel to floor",
+        "Hinge at right hip and reach right hand toward right foot",
+        "Left arm extends up toward ceiling",
+        "Look up at left hand",
+        "Keep both legs straight and strong",
+        "Breathe deeply and hold for 30 seconds - 2 minutes",
+        "Repeat on other side"
+      ],
+      doshaSpecific: {
+        vata: "Be gentle and use props. Focus on stability and grounding.",
+        pitta: "Practice in cool environment. Focus on breath and relaxation.",
+        kapha: "Excellent for building energy and strength. Hold longer and practice regularly."
+      },
+      contraindications: [
+        "High blood pressure",
+        "Heart problems",
+        "Neck problems",
+        "Pregnancy (modify)"
+      ],
+      therapeuticUses: [
+        "Low energy",
+        "Depression",
+        "Poor circulation",
+        "Digestive issues",
+        "Lack of focus",
+        "Lethargy"
+      ],
+      image: "/yoga-poses/trikonasana.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Classical Hatha Yoga", "Traditional Yoga texts"]
+    },
+    {
+      name: "Mountain Pose",
+      sanskrit: "Tadasana",
+      category: "Standing",
+      dosha: "All Doshas",
+      difficulty: "Beginner",
+      duration: "1-5 minutes",
+      benefits: [
+        "Improves posture",
+        "Builds strength and stability",
+        "Grounds all doshas",
+        "Improves balance and focus",
+        "Reduces stress and anxiety",
+        "Strengthens legs and core",
+        "Promotes mindfulness"
+      ],
+      description: "The foundation of all standing poses, Mountain Pose helps improve posture and build strength while grounding all doshas. Essential for all yoga practice.",
+      instructions: [
+        "Stand with feet hip-width apart",
+        "Distribute weight evenly on both feet",
+        "Engage leg muscles and lift kneecaps",
+        "Lengthen spine and lift chest",
+        "Relax shoulders and extend arms by sides",
+        "Look straight ahead with soft gaze",
+        "Breathe deeply and hold for 1-5 minutes",
+        "Focus on stability and grounding"
+      ],
+      doshaSpecific: {
+        vata: "Excellent for grounding. Practice regularly with focus on stability and breath.",
+        pitta: "Good for cooling and calming. Practice with relaxed breathing.",
+        kapha: "Good for building strength and energy. Practice with intention and focus."
+      },
+      contraindications: [
+        "Severe balance problems",
+        "Pregnancy (modify stance)"
+      ],
+      therapeuticUses: [
+        "Poor posture",
+        "Balance problems",
+        "Stress and anxiety",
+        "Weakness",
+        "Lack of focus"
+      ],
+      image: "/yoga-poses/mountain-pose.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Classical Hatha Yoga", "Traditional Yoga texts"]
+    },
+    {
+      name: "Tree Pose",
+      sanskrit: "Vrikshasana",
+      category: "Standing",
+      dosha: "All Doshas",
+      difficulty: "Beginner",
+      duration: "30 seconds - 2 minutes each side",
+      benefits: [
+        "Improves balance and focus",
+        "Strengthens legs and core",
+        "Grounds all doshas",
+        "Reduces stress and anxiety",
+        "Improves concentration",
+        "Builds confidence",
+        "Promotes mindfulness"
+      ],
+      description: "A balancing pose that helps improve focus and concentration while grounding all doshas. Excellent for building confidence and stability.",
+      instructions: [
+        "Start in Mountain Pose (Tadasana)",
+        "Shift weight to left foot",
+        "Bend right knee and place right foot on left inner thigh",
+        "Press foot into thigh and thigh into foot",
+        "Bring hands to prayer position at chest",
+        "Focus on a fixed point",
+        "Breathe deeply and hold for 30 seconds - 2 minutes",
+        "Repeat on other side"
+      ],
+      doshaSpecific: {
+        vata: "Excellent for grounding. Use wall for support if needed. Focus on stability.",
+        pitta: "Good for cooling and calming. Practice with relaxed breathing.",
+        kapha: "Good for building strength and energy. Practice with intention and focus."
+      },
+      contraindications: [
+        "Severe balance problems",
+        "Knee injuries",
+        "Pregnancy (modify)"
+      ],
+      therapeuticUses: [
+        "Balance problems",
+        "Lack of focus",
+        "Stress and anxiety",
+        "Weakness",
+        "Lack of confidence"
+      ],
+      image: "/yoga-poses/vrikshasana.svg",
+      sources: ["Yoga for Your Type - David Frawley", "Classical Hatha Yoga", "Traditional Yoga texts"]
+    }
+  ] as ComprehensiveYogaPose[],
+  
+  sequences: [
+    {
+      name: "Vata Balancing Sequence",
+      description: "A gentle sequence designed to ground and calm Vata energy, reduce anxiety, and promote stability.",
+      poses: [
+        "Mountain Pose",
+        "Child's Pose",
+        "Legs Up the Wall",
+        "Seated Forward Bend",
+        "Corpse Pose"
+      ],
+      duration: "30-45 minutes",
+      dosha: "Vata",
+      benefits: [
+        "Grounds Vata energy",
+        "Reduces anxiety and stress",
+        "Calms nervous system",
+        "Improves sleep quality",
+        "Reduces fatigue",
+        "Promotes stability"
+      ],
+      instructions: [
+        "Begin with 5 minutes of gentle breathing (Nadi Shodhana)",
+        "Practice Mountain Pose for 2-3 minutes",
+        "Move to Child's Pose for 5-10 minutes",
+        "Practice Legs Up the Wall for 10-15 minutes",
+        "Do Seated Forward Bend for 5-10 minutes",
+        "End with Corpse Pose for 10-15 minutes",
+        "Focus on slow, steady breathing throughout"
+      ],
+      sources: ["Yoga for Your Type - David Frawley", "Classical Yoga texts"]
+    },
+    {
+      name: "Pitta Cooling Sequence",
+      description: "A cooling sequence to balance Pitta energy, reduce heat, and promote calmness.",
+      poses: [
+        "Mountain Pose",
+        "Seated Forward Bend",
+        "Fish Pose",
+        "Camel Pose",
+        "Legs Up the Wall",
+        "Corpse Pose"
+      ],
+      duration: "30-45 minutes",
+      dosha: "Pitta",
+      benefits: [
+        "Cools Pitta energy",
+        "Reduces anger and irritability",
+        "Calms the mind",
+        "Improves digestion",
+        "Reduces heat in body",
+        "Promotes relaxation"
+      ],
+      instructions: [
+        "Practice in a cool, quiet environment",
+        "Begin with Mountain Pose for 2-3 minutes",
+        "Do Seated Forward Bend for 5-10 minutes",
+        "Practice Fish Pose for 3-5 minutes",
+        "Do Camel Pose for 30 seconds - 2 minutes",
+        "Practice Legs Up the Wall for 10-15 minutes",
+        "End with Corpse Pose for 10-15 minutes",
+        "Focus on cooling and soothing movements"
+      ],
+      sources: ["Yoga for Your Type - David Frawley", "Classical Yoga texts"]
+    },
+    {
+      name: "Kapha Energizing Sequence",
+      description: "A dynamic sequence to energize Kapha, stimulate metabolism, and build strength.",
+      poses: [
+        "Sun Salutation",
+        "Warrior I",
+        "Warrior II",
+        "Triangle Pose",
+        "Tree Pose",
+        "Mountain Pose"
+      ],
+      duration: "45-60 minutes",
+      dosha: "Kapha",
+      benefits: [
+        "Energizes Kapha",
+        "Stimulates metabolism",
+        "Builds strength and stamina",
+        "Improves circulation",
+        "Reduces lethargy",
+        "Builds confidence"
+      ],
+      instructions: [
+        "Practice in the morning when energy is low",
+        "Begin with 5-10 rounds of Sun Salutation",
+        "Practice Warrior I for 30 seconds - 2 minutes each side",
+        "Do Warrior II for 30 seconds - 2 minutes each side",
+        "Practice Triangle Pose for 30 seconds - 2 minutes each side",
+        "Do Tree Pose for 30 seconds - 2 minutes each side",
+        "End with Mountain Pose for 2-3 minutes",
+        "Focus on building heat and energy"
+      ],
+      sources: ["Yoga for Your Type - David Frawley", "Classical Yoga texts"]
+    }
+  ] as YogaSequence[],
+  
+  pranayama: [
+    {
+      name: "Nadi Shodhana",
+      sanskrit: "Nadi Shodhana Pranayama",
+      description: "Alternate nostril breathing that balances the nervous system and calms the mind.",
+      benefits: [
+        "Balances nervous system",
+        "Reduces stress and anxiety",
+        "Improves focus and concentration",
+        "Calms the mind",
+        "Balances all doshas",
+        "Improves sleep quality"
+      ],
+      dosha: "All Doshas",
+      duration: "5-15 minutes",
+      instructions: [
+        "Sit comfortably with spine straight",
+        "Close right nostril with right thumb",
+        "Inhale through left nostril",
+        "Close left nostril with right ring finger",
+        "Exhale through right nostril",
+        "Inhale through right nostril",
+        "Close right nostril with right thumb",
+        "Exhale through left nostril",
+        "Repeat for 5-15 minutes",
+        "Focus on slow, steady breathing"
+      ],
+      sources: ["Yoga for Your Type - David Frawley", "Classical Pranayama texts"]
+    },
+    {
+      name: "Ujjayi Breathing",
+      sanskrit: "Ujjayi Pranayama",
+      description: "Victorious breath that builds heat and energy while calming the mind.",
+      benefits: [
+        "Builds heat and energy",
+        "Calms the mind",
+        "Improves focus",
+        "Strengthens respiratory system",
+        "Balances doshas",
+        "Reduces stress"
+      ],
+      dosha: "All Doshas",
+      duration: "5-20 minutes",
+      instructions: [
+        "Sit comfortably with spine straight",
+        "Inhale through nose",
+        "Slightly constrict throat",
+        "Exhale through nose with throat constriction",
+        "Create soft ocean-like sound",
+        "Focus on steady rhythm",
+        "Practice for 5-20 minutes",
+        "Maintain relaxed body"
+      ],
+      sources: ["Yoga for Your Type - David Frawley", "Classical Pranayama texts"]
+    }
+  ] as PranayamaTechnique[],
+  
+  categories: [
+    { name: "Restorative", description: "Gentle, calming poses for relaxation", count: 3 },
+    { name: "Forward Bend", description: "Cooling forward folding poses", count: 1 },
+    { name: "Backbend", description: "Heart-opening backbends", count: 2 },
+    { name: "Standing", description: "Strength-building standing poses", count: 4 },
+    { name: "Dynamic Sequence", description: "Energetic flowing sequences", count: 1 }
+  ],
+  
+  metadata: {
+    source: "Yoga for Your Type - David Frawley & Sandra Summerfield Kozak",
+    extracted_at: "2024-09-26",
+    total_poses: 12,
+    total_sequences: 3,
+    total_pranayama: 2
+  }
+};
+
+export default comprehensiveYogaLibrary;
+
+
+

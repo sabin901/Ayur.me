@@ -1,0 +1,3701 @@
+[
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Ginger",
+        "Turmeric",
+        "Barley",
+        "Green gram"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Heavy foods",
+        "Curd at night",
+        "Wheat"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3df",
+    "diseaseId": "AUTO_1",
+    "name": "Amavata",
+    "sanskrit": "आमवात",
+    "source": "Madhava Nidanam, Chapter 25",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Joint pain",
+      "Stiffness",
+      "Swelling",
+      "Fever",
+      "Loss of appetite"
+    ],
+    "pathogenesis": "Improper digestion, Toxin accumulation, Cold exposure, Heavy foods, Sedentary lifestyle",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Guggulu",
+          "Giloy",
+          "Neem"
+        ]
+      },
+      {
+        "type": "Therapy",
+        "ingredients": []
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "Avoid cold/damp environments",
+      "No day sleep after meals"
+    ],
+    "lifestyle": [
+      "Gentle exercise",
+      "Warm oil massage",
+      "Stress management",
+      "Adequate rest"
+    ],
+    "modernEquivalent": "Rheumatoid Arthritis (ICD-10: M06.9)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Bitter vegetables",
+        "Turmeric",
+        "Neem",
+        "Green leafy vegetables",
+        "Coconut water"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Fish",
+        "Fermented foods",
+        "Alcohol",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e0",
+    "diseaseId": "AUTO_2",
+    "name": "Kushtha",
+    "sanskrit": "कुष्ठ",
+    "source": "Sushruta Samhita, Nidana Sthana 5",
+    "dosha": [
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Dry, scaly patches",
+      "Itching",
+      "Redness",
+      "Thickened skin",
+      "Bleeding from scratching"
+    ],
+    "pathogenesis": "Incompatible food combinations, Excess spicy/sour foods, Suppression of natural urges, Mental stress",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Khadira",
+          "Manjistha",
+          "Sariva",
+          "Nimba"
+        ]
+      },
+      {
+        "type": "External",
+        "ingredients": []
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "No scratching",
+      "Avoid triggers"
+    ],
+    "lifestyle": [
+      "Avoid stress",
+      "Regular detoxification",
+      "Sun exposure in moderation",
+      "Maintain skin hygiene"
+    ],
+    "modernEquivalent": "Psoriasis/Eczema",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Light, liquid diet",
+        "Warm water",
+        "Herbal teas",
+        "Fresh fruit juices"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Dairy",
+        "Meat",
+        "Cold drinks"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e1",
+    "diseaseId": "AUTO_3",
+    "name": "Jwara",
+    "sanskrit": "ज्वर",
+    "source": "Charaka Samhita, Chikitsa Sthana 3",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Elevated body temperature",
+      "Chills",
+      "Headache",
+      "Body ache",
+      "Loss of appetite"
+    ],
+    "pathogenesis": "Infections, Seasonal changes, Improper diet, Suppressed emotions",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Chirayata",
+          "Kutki",
+          "Giloy",
+          "Nagarmotha"
+        ]
+      },
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Giloy",
+          "Gokshura",
+          "Dashmool",
+          "Dhataki"
+        ]
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "Avoid exertion",
+      "Maintain hygiene"
+    ],
+    "lifestyle": [
+      "Bed rest",
+      "Hydration",
+      "Cool sponging if high fever"
+    ],
+    "modernEquivalent": "Fever",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Bitter gourd",
+        "Fenugreek",
+        "Barley",
+        "Green leafy vegetables"
+      ],
+      "avoid": [
+        "Sugar",
+        "Refined carbs",
+        "Fried foods",
+        "Alcohol"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e2",
+    "diseaseId": "AUTO_4",
+    "name": "Prameha",
+    "sanskrit": "प्रमेह",
+    "source": "Charaka Samhita, Chikitsa Sthana 6",
+    "dosha": [
+      "Kapha",
+      "Pitta"
+    ],
+    "symptoms": [
+      "Excessive urination",
+      "Increased thirst",
+      "Weight loss",
+      "Fatigue",
+      "Slow healing wounds"
+    ],
+    "pathogenesis": "Excess sweet/fatty foods, Sedentary lifestyle, Obesity, Stress",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Shilajit",
+          "Guggulu",
+          "Haridra",
+          "Amalaki"
+        ]
+      },
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Turmeric",
+          "Amla",
+          "Gudmar",
+          "Jamun seeds"
+        ]
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "Monitor blood sugar",
+      "Avoid sweets"
+    ],
+    "lifestyle": [
+      "Exercise",
+      "Weight management",
+      "Stress reduction"
+    ],
+    "modernEquivalent": "Diabetes Mellitus",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Ginger",
+        "Turmeric",
+        "Light meals"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Dairy",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e3",
+    "diseaseId": "AUTO_5",
+    "name": "Shwasa",
+    "sanskrit": "श्वास",
+    "source": "Charaka Samhita, Chikitsa Sthana 17",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Difficulty breathing",
+      "Wheezing",
+      "Chest tightness",
+      "Shortness of breath"
+    ],
+    "pathogenesis": "Allergens, Cold/damp weather, Physical exertion, Pollution",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Vatsanabha",
+          "Tankan",
+          "Karkatashringi"
+        ]
+      },
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Kanaka",
+          "Vasa",
+          "Pushkarmool",
+          "Bharangi"
+        ]
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "Avoid cold exposure",
+      "No smoking"
+    ],
+    "lifestyle": [
+      "Pranayama",
+      "Avoid allergens",
+      "Gentle exercise"
+    ],
+    "modernEquivalent": "Asthma",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Sweet fruits",
+        "Coconut water",
+        "Milk",
+        "Rice",
+        "Fennel"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Citrus",
+        "Tomatoes",
+        "Coffee",
+        "Alcohol"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e4",
+    "diseaseId": "AUTO_6",
+    "name": "Amlapitta",
+    "sanskrit": "अम्लपित्त",
+    "source": "Charaka Samhita, Chikitsa Sthana 15",
+    "dosha": [
+      "Pitta"
+    ],
+    "symptoms": [
+      "Burning sensation",
+      "Sour belching",
+      "Nausea",
+      "Loss of appetite"
+    ],
+    "pathogenesis": "Spicy/sour foods, Irregular eating, Stress, Tea/coffee",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Amla",
+          "Haritaki",
+          "Vibhitaki",
+          "Sunthi",
+          "Marich"
+        ]
+      },
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Mukta Pishti",
+          "Praval Pishti",
+          "Shankha Bhasma"
+        ]
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "No late night meals",
+      "No smoking"
+    ],
+    "lifestyle": [
+      "Regular meals",
+      "Avoid stress",
+      "Pranayama",
+      "Adequate sleep"
+    ],
+    "modernEquivalent": "Hyperacidity",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Ghee",
+        "Ginger",
+        "Milk",
+        "Nuts"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Beans",
+        "Cabbage",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e5",
+    "diseaseId": "AUTO_7",
+    "name": "Sandhivata",
+    "sanskrit": "सन्धिवात",
+    "source": "Ashtanga Hridaya, Chikitsa Sthana 21",
+    "dosha": [
+      "Vata"
+    ],
+    "symptoms": [
+      "Joint pain",
+      "Stiffness",
+      "Crackling sounds",
+      "Reduced motion"
+    ],
+    "pathogenesis": "Aging, Excess activity, Injury, Obesity",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Guggulu",
+          "Chitraka",
+          "Pippali",
+          "Rasna"
+        ]
+      },
+      {
+        "type": "External",
+        "ingredients": []
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "Avoid strain",
+      "Maintain weight"
+    ],
+    "lifestyle": [
+      "Oil massage",
+      "Gentle yoga",
+      "Warm baths"
+    ],
+    "modernEquivalent": "Osteoarthritis",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Sattvic foods",
+        "Milk",
+        "Almonds",
+        "Fruits"
+      ],
+      "avoid": [
+        "Tamasic foods",
+        "Alcohol",
+        "Caffeine",
+        "Non-veg"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e6",
+    "diseaseId": "AUTO_8",
+    "name": "Unmada",
+    "sanskrit": "उन्माद",
+    "source": "Charaka Samhita, Chikitsa Sthana 9",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Disturbed thinking",
+      "Hallucinations",
+      "Mood swings",
+      "Sleep disturbances"
+    ],
+    "pathogenesis": "Mental stress, Genetic factors, Substance abuse, Trauma",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Brahmi",
+          "Mandukaparni",
+          "Shankhpushpi",
+          "Vacha"
+        ]
+      },
+      {
+        "type": "Therapy",
+        "ingredients": []
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "Avoid stress",
+      "No overstimulation"
+    ],
+    "lifestyle": [
+      "Meditation",
+      "Yoga",
+      "Adequate sleep",
+      "Spiritual practices"
+    ],
+    "modernEquivalent": "Psychosis",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Nutritious foods",
+        "Milk",
+        "Almonds",
+        "Fruits"
+      ],
+      "avoid": [
+        "Alcohol",
+        "Stimulants",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e7",
+    "diseaseId": "AUTO_9",
+    "name": "Apasmara",
+    "sanskrit": "अपस्मार",
+    "source": "Charaka Samhita, Chikitsa Sthana 10",
+    "dosha": [
+      "Vata"
+    ],
+    "symptoms": [
+      "Seizures",
+      "Loss of consciousness",
+      "Muscle spasms",
+      "Confusion"
+    ],
+    "pathogenesis": "Genetic factors, Brain injury, Infections, Vata aggravation",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Brahmi",
+          "Vacha",
+          "Kushtha",
+          "Ghrita"
+        ]
+      },
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Mandukaparni",
+          "Yashti",
+          "Guduchi",
+          "Shankhpushpi"
+        ]
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "Avoid flashing lights",
+      "Medical monitoring"
+    ],
+    "lifestyle": [
+      "Regular sleep",
+      "Avoid stress",
+      "Gentle yoga"
+    ],
+    "modernEquivalent": "Epilepsy",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Vitamin A foods",
+        "Carrots",
+        "Almonds",
+        "Ghee"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Alcohol",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e8",
+    "diseaseId": "AUTO_10",
+    "name": "Netra Roga",
+    "sanskrit": "नेत्र रोग",
+    "source": "Sushruta Samhita, Uttara Tantra 1-18",
+    "dosha": [
+      "Pitta",
+      "Vata"
+    ],
+    "symptoms": [
+      "Blurred vision",
+      "Eye pain",
+      "Redness",
+      "Tearing",
+      "Light sensitivity"
+    ],
+    "pathogenesis": "Screen time, Poor lighting, Infections, Nutritional deficiencies",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Amalaki",
+          "Bibhitaki",
+          "Haritaki",
+          "Ghrita"
+        ]
+      },
+      {
+        "type": "External",
+        "ingredients": []
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "No rubbing eyes",
+      "Protect from UV"
+    ],
+    "lifestyle": [
+      "Eye exercises",
+      "Adequate lighting",
+      "Screen breaks"
+    ],
+    "modernEquivalent": "Eye Disorders",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "High fiber foods",
+        "Fruits",
+        "Vegetables",
+        "Buttermilk"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Alcohol",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3e9",
+    "diseaseId": "AUTO_11",
+    "name": "Arsha",
+    "sanskrit": "अर्श",
+    "source": "Sushruta Samhita, Chikitsa Sthana 6",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Bleeding",
+      "Pain",
+      "Itching",
+      "Swelling",
+      "Mucus discharge"
+    ],
+    "pathogenesis": "Constipation, Straining, Pregnancy, Low fiber diet",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Haritaki",
+          "Nagkesar",
+          "Bakayan",
+          "Khoon Kharaba"
+        ]
+      },
+      {
+        "type": "External",
+        "ingredients": []
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "Proper toilet posture",
+      "No straining"
+    ],
+    "lifestyle": [
+      "Regular bowel habits",
+      "Avoid sitting long",
+      "Sitz baths"
+    ],
+    "modernEquivalent": "Hemorrhoids/Piles",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Water",
+        "Coconut water",
+        "Cranberry juice",
+        "Barley water"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Alcohol",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3ea",
+    "diseaseId": "AUTO_12",
+    "name": "Mutrakricchra",
+    "sanskrit": "मूत्रकृच्छ्र",
+    "source": "Charaka Samhita, Chikitsa Sthana 26",
+    "dosha": [
+      "Pitta",
+      "Vata"
+    ],
+    "symptoms": [
+      "Burning urination",
+      "Frequent urination",
+      "Cloudy urine",
+      "Lower abdominal pain"
+    ],
+    "pathogenesis": "Bacterial infections, Poor hygiene, Dehydration",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Chandana",
+          "Ushira",
+          "Gokshura",
+          "Dhataki"
+        ]
+      },
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Gokshura",
+          "Guggulu",
+          "Trikatu",
+          "Triphala"
+        ]
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "No holding urine",
+      "Avoid dehydration"
+    ],
+    "lifestyle": [
+      "Hygiene",
+      "Urinate frequently",
+      "Cotton undergarments"
+    ],
+    "modernEquivalent": "Urinary Tract Infection",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Low-calorie foods",
+        "Green vegetables",
+        "Barley",
+        "Bitter foods"
+      ],
+      "avoid": [
+        "High-calorie foods",
+        "Sweets",
+        "Fried foods",
+        "Dairy"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3eb",
+    "diseaseId": "AUTO_13",
+    "name": "Sthaulya",
+    "sanskrit": "स्थौल्य",
+    "source": "Charaka Samhita, Sutra Sthana 21",
+    "dosha": [
+      "Kapha"
+    ],
+    "symptoms": [
+      "Excess weight",
+      "Difficulty in activity",
+      "Sweating",
+      "Joint pain"
+    ],
+    "pathogenesis": "Overeating, Sedentary lifestyle, Genetic factors, Hormonal imbalance",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Guggulu",
+          "Triphala",
+          "Trikatu",
+          "Vidanga"
+        ]
+      },
+      {
+        "type": "Therapy",
+        "ingredients": []
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "No sedentary lifestyle",
+      "Adequate sleep"
+    ],
+    "lifestyle": [
+      "Exercise",
+      "Portion control",
+      "Intermittent fasting"
+    ],
+    "modernEquivalent": "Obesity",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm milk",
+        "Almonds",
+        "Cherries",
+        "Herbal teas"
+      ],
+      "avoid": [
+        "Caffeine",
+        "Heavy meals before bed",
+        "Spicy foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3ec",
+    "diseaseId": "AUTO_14",
+    "name": "Anidra",
+    "sanskrit": "अनिद्रा",
+    "source": "Charaka Samhita, Sutra Sthana 21",
+    "dosha": [
+      "Vata"
+    ],
+    "symptoms": [
+      "Difficulty sleeping",
+      "Frequent awakening",
+      "Fatigue",
+      "Irritability"
+    ],
+    "pathogenesis": "Stress, Irregular sleep, Caffeine, Medical conditions",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "ingredients": [
+          "Brahmi",
+          "Shankhpushpi",
+          "Vacha",
+          "Jatamansi"
+        ]
+      },
+      {
+        "type": "Therapy",
+        "ingredients": []
+      }
+    ],
+    "herbs": [],
+    "precautions": [
+      "No screen time before bed",
+      "No daytime napping"
+    ],
+    "lifestyle": [
+      "Regular sleep schedule",
+      "Relaxation",
+      "Comfortable environment"
+    ],
+    "modernEquivalent": "Insomnia",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Bitter foods",
+        "Barley",
+        "Millets"
+      ],
+      "avoid": [
+        "Sweets",
+        "Heavy foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3ed",
+    "diseaseId": "EXTRACTED_1",
+    "name": "Diabetes",
+    "sanskrit": "मधुमेह",
+    "source": "The Ayurveda Encyclopedia (Vempilly)",
+    "dosha": [
+      "Kapha",
+      "Vata"
+    ],
+    "symptoms": [
+      "Excessive thirst",
+      "Frequent urination",
+      "Fatigue",
+      "Weight loss"
+    ],
+    "pathogenesis": "Imbalance of Kapha and Vata affecting metabolism",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Gudmar, Shilajit, Bitter gourd",
+        "ingredients": [
+          "Gudmar",
+          "Shilajit",
+          "Bitter gourd"
+        ],
+        "source": "The Ayurveda Encyclopedia"
+      }
+    ],
+    "herbs": [
+      "Gudmar",
+      "Shilajit",
+      "Bitter gourd",
+      "Jamun"
+    ],
+    "precautions": [
+      "Avoid sweets",
+      "Regular exercise",
+      "Monitor blood sugar"
+    ],
+    "lifestyle": [
+      "Daily walking",
+      "Stress management"
+    ],
+    "modernEquivalent": "Type 2 Diabetes (ICD-10: E11)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Ginger",
+        "Turmeric"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Dairy"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3ee",
+    "diseaseId": "EXTRACTED_2",
+    "name": "Arthritis",
+    "sanskrit": "आमवात",
+    "source": "Ayurvedic Healing: A Comprehensive Guide (Frawley)",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Joint pain",
+      "Stiffness",
+      "Swelling",
+      "Reduced mobility"
+    ],
+    "pathogenesis": "Imbalance of Kapha causing joint inflammation",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Guggulu, Ashwagandha, Shallaki",
+        "ingredients": [
+          "Guggulu",
+          "Ashwagandha",
+          "Shallaki"
+        ],
+        "source": "Ayurvedic Healing Guide"
+      }
+    ],
+    "herbs": [
+      "Guggulu",
+      "Ashwagandha",
+      "Shallaki",
+      "Nirgundi"
+    ],
+    "precautions": [
+      "Avoid cold",
+      "Gentle exercise",
+      "Warm oil massage"
+    ],
+    "lifestyle": [
+      "Gentle yoga",
+      "Warm baths",
+      "Adequate rest"
+    ],
+    "modernEquivalent": "Osteoarthritis (ICD-10: M15)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Low sodium foods",
+        "Potassium rich foods"
+      ],
+      "avoid": [
+        "Salt",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3ef",
+    "diseaseId": "EXTRACTED_3",
+    "name": "Hypertension",
+    "sanskrit": "रक्तगत वात",
+    "source": "The Ayurveda Encyclopedia (Vempilly)",
+    "dosha": [
+      "Vata",
+      "Pitta"
+    ],
+    "symptoms": [
+      "High blood pressure",
+      "Headache",
+      "Dizziness",
+      "Palpitations"
+    ],
+    "pathogenesis": "Imbalance of Pitta affecting blood circulation",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Arjuna, Brahmi, Jatamansi",
+        "ingredients": [
+          "Arjuna",
+          "Brahmi",
+          "Jatamansi"
+        ],
+        "source": "The Ayurveda Encyclopedia"
+      }
+    ],
+    "herbs": [
+      "Arjuna",
+      "Brahmi",
+      "Jatamansi",
+      "Sarpagandha"
+    ],
+    "precautions": [
+      "Reduce salt",
+      "Avoid stress",
+      "Regular monitoring"
+    ],
+    "lifestyle": [
+      "Meditation",
+      "Pranayama",
+      "Regular exercise"
+    ],
+    "modernEquivalent": "Hypertension (ICD-10: I10)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Honey",
+        "Ginger"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Dairy"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f0",
+    "diseaseId": "EXTRACTED_4",
+    "name": "Asthma",
+    "sanskrit": "श्वास",
+    "source": "Ayurvedic Healing: A Comprehensive Guide (Frawley)",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Breathlessness",
+      "Wheezing",
+      "Chest tightness",
+      "Cough"
+    ],
+    "pathogenesis": "Imbalance of Kapha affecting respiratory system",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Vasa, Kantakari, Tulsi",
+        "ingredients": [
+          "Vasa",
+          "Kantakari",
+          "Tulsi"
+        ],
+        "source": "Ayurvedic Healing Guide"
+      }
+    ],
+    "herbs": [
+      "Vasa",
+      "Kantakari",
+      "Tulsi",
+      "Pushkarmool"
+    ],
+    "precautions": [
+      "Avoid triggers",
+      "Keep inhaler handy",
+      "Regular checkups"
+    ],
+    "lifestyle": [
+      "Pranayama",
+      "Avoid smoking",
+      "Clean environment"
+    ],
+    "modernEquivalent": "Bronchial Asthma (ICD-10: J45)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Iron rich foods",
+        "Green vegetables",
+        "Dates"
+      ],
+      "avoid": [
+        "Tea with meals"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f1",
+    "diseaseId": "EXTRACTED_5",
+    "name": "Anemia",
+    "sanskrit": "पाण्डुरोग",
+    "source": "The Ayurveda Encyclopedia (Vempilly)",
+    "dosha": [
+      "Pitta"
+    ],
+    "symptoms": [
+      "Fatigue",
+      "Pallor",
+      "Weakness",
+      "Shortness of breath"
+    ],
+    "pathogenesis": "Imbalance of Pitta affecting blood formation",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Lauha Bhasma, Amalaki, Mandura Bhasma",
+        "ingredients": [
+          "Lauha Bhasma",
+          "Amalaki",
+          "Mandura Bhasma"
+        ],
+        "source": "The Ayurveda Encyclopedia"
+      }
+    ],
+    "herbs": [
+      "Lauha Bhasma",
+      "Amalaki",
+      "Mandura Bhasma",
+      "Navayasa Loha"
+    ],
+    "precautions": [
+      "Iron rich diet",
+      "Vitamin C",
+      "Regular checkups"
+    ],
+    "lifestyle": [
+      "Adequate rest",
+      "Gentle exercise",
+      "Stress management"
+    ],
+    "modernEquivalent": "Iron Deficiency Anemia (ICD-10: D64)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Bitter foods",
+        "Barley",
+        "Millets",
+        "Green vegetables",
+        "Fenugreek"
+      ],
+      "avoid": [
+        "Sweet foods",
+        "Rice",
+        "Potatoes",
+        "Dairy",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f2",
+    "diseaseId": "CHARAKA_002",
+    "name": "Madhumeha",
+    "sanskrit": "मधुमेह",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 6",
+    "dosha": [
+      "Kapha",
+      "Vata"
+    ],
+    "symptoms": [
+      "Excessive urination",
+      "Sweet urine",
+      "Fatigue",
+      "Weight loss",
+      "Thirst",
+      "Blurred vision"
+    ],
+    "pathogenesis": "Kapha and Vata imbalance affecting metabolism and urinary system, leading to impaired glucose regulation.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Gudmar and Shilajit to regulate blood sugar and improve metabolism.",
+        "ingredients": [
+          "Gudmar",
+          "Shilajit",
+          "Bitter gourd",
+          "Jamun seeds"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Gudmar",
+      "Shilajit",
+      "Bitter gourd",
+      "Jamun seeds",
+      "Neem"
+    ],
+    "precautions": [
+      "Avoid sweets",
+      "Regular exercise",
+      "Monitor blood sugar"
+    ],
+    "lifestyle": [
+      "Daily walking",
+      "Yoga",
+      "Stress management",
+      "Regular meals"
+    ],
+    "modernEquivalent": "Type 2 Diabetes (ICD-10: E11)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Barley",
+        "Ginger",
+        "Sesame seeds"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Heavy foods",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f3",
+    "diseaseId": "MADHAVA_001",
+    "name": "Gridhrasi",
+    "sanskrit": "गृध्रसी",
+    "source": "Madhava Nidanam, Chapter 22",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Radiating leg pain",
+      "Stiffness",
+      "Difficulty walking",
+      "Numbness",
+      "Tingling"
+    ],
+    "pathogenesis": "Vata and Kapha affecting sciatic nerve, causing pain and mobility issues.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Nirgundi oil massage to relieve pain and inflammation.",
+        "ingredients": [
+          "Nirgundi oil",
+          "Sesame oil"
+        ],
+        "source": "Madhava Nidanam"
+      }
+    ],
+    "herbs": [
+      "Nirgundi oil",
+      "Guggulu",
+      "Shallaki",
+      "Ashwagandha"
+    ],
+    "precautions": [
+      "Avoid cold exposure",
+      "No heavy lifting",
+      "Maintain good posture"
+    ],
+    "lifestyle": [
+      "Gentle yoga",
+      "Physiotherapy",
+      "Warm baths",
+      "Stress management"
+    ],
+    "modernEquivalent": "Sciatica (ICD-10: M54.3)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Honey",
+        "Ghee",
+        "Milk",
+        "Nuts"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Spicy foods",
+        "Alcohol",
+        "Smoking"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f4",
+    "diseaseId": "CHARAKA_004",
+    "name": "Yakṣma",
+    "sanskrit": "यक्ष्मा",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 8",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Chronic cough",
+      "Weight loss",
+      "Fever",
+      "Night sweats",
+      "Fatigue",
+      "Chest pain"
+    ],
+    "pathogenesis": "Tridosha imbalance affecting respiratory system and immunity, leading to chronic infection.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Sitopaladi Churna and Tulsi for respiratory support and immunity.",
+        "ingredients": [
+          "Sitopaladi Churna",
+          "Tulsi",
+          "Vasa",
+          "Pushkarmool"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Sitopaladi Churna",
+      "Tulsi",
+      "Vasa",
+      "Pushkarmool",
+      "Guduchi"
+    ],
+    "precautions": [
+      "Avoid cold exposure",
+      "Rest adequately",
+      "Maintain nutrition"
+    ],
+    "lifestyle": [
+      "Rest",
+      "Fresh air",
+      "Gentle exercise",
+      "Stress management"
+    ],
+    "modernEquivalent": "Tuberculosis (ICD-10: A15-A19)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Light foods",
+        "Ghee",
+        "Milk",
+        "Nuts",
+        "Fruits"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Spicy foods",
+        "Alcohol",
+        "Caffeine"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f5",
+    "diseaseId": "CHARAKA_006",
+    "name": "Shiroroga",
+    "sanskrit": "शिरोरोग",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 26",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Headache",
+      "Dizziness",
+      "Nausea",
+      "Sensitivity to light",
+      "Pain in different head regions"
+    ],
+    "pathogenesis": "Dosha imbalance affecting the head region, causing various types of headaches.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Brahmi and Jatamansi for mental clarity and headache relief.",
+        "ingredients": [
+          "Brahmi",
+          "Jatamansi",
+          "Shankhpushpi",
+          "Vacha"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Brahmi",
+      "Jatamansi",
+      "Shankhpushpi",
+      "Vacha",
+      "Guduchi"
+    ],
+    "precautions": [
+      "Avoid stress",
+      "Regular sleep",
+      "Avoid excessive screen time"
+    ],
+    "lifestyle": [
+      "Regular sleep",
+      "Stress management",
+      "Gentle yoga",
+      "Meditation"
+    ],
+    "modernEquivalent": "Migraine/Headache (ICD-10: G43, R51)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Light foods",
+        "Ghee",
+        "Milk",
+        "Nuts",
+        "Fruits"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Spicy foods",
+        "Alcohol",
+        "Smoking"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f6",
+    "diseaseId": "CHARAKA_007",
+    "name": "Hridroga",
+    "sanskrit": "हृद्रोग",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 24",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Chest pain",
+      "Palpitations",
+      "Shortness of breath",
+      "Fatigue",
+      "Anxiety"
+    ],
+    "pathogenesis": "Dosha imbalance affecting the heart, leading to various cardiac manifestations.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Arjuna and Guggulu for heart health and circulation.",
+        "ingredients": [
+          "Arjuna",
+          "Guggulu",
+          "Brahmi",
+          "Jatamansi"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Arjuna",
+      "Guggulu",
+      "Brahmi",
+      "Jatamansi",
+      "Shankhpushpi"
+    ],
+    "precautions": [
+      "Avoid stress",
+      "Regular exercise",
+      "Healthy diet",
+      "No smoking"
+    ],
+    "lifestyle": [
+      "Regular exercise",
+      "Stress management",
+      "Adequate sleep",
+      "Meditation"
+    ],
+    "modernEquivalent": "Heart Disease (ICD-10: I20-I25)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Light foods",
+        "Ginger",
+        "Cumin",
+        "Fennel",
+        "Rice"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Incompatible combinations",
+        "Cold foods"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f7",
+    "diseaseId": "CHARAKA_008",
+    "name": "Grahani",
+    "sanskrit": "ग्रहणी",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 15",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Irregular bowel movements",
+      "Abdominal pain",
+      "Bloating",
+      "Loss of appetite",
+      "Fatigue"
+    ],
+    "pathogenesis": "Impaired digestive fire (Agni) leading to malabsorption and digestive disorders.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Triphala and Ginger to improve digestion and regulate bowel movements.",
+        "ingredients": [
+          "Triphala",
+          "Ginger",
+          "Haritaki",
+          "Bibhitaki"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Triphala",
+      "Ginger",
+      "Haritaki",
+      "Bibhitaki",
+      "Amla"
+    ],
+    "precautions": [
+      "Regular meal timing",
+      "Avoid incompatible foods",
+      "Maintain Agni"
+    ],
+    "lifestyle": [
+      "Regular meal timing",
+      "Gentle exercise",
+      "Stress management",
+      "Adequate rest"
+    ],
+    "modernEquivalent": "Irritable Bowel Syndrome (ICD-10: K58)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Carrots",
+        "Spinach",
+        "Fruits",
+        "Nuts",
+        "Ghee"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Alcohol",
+        "Smoking"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f8",
+    "diseaseId": "SUSHRUTA_002",
+    "name": "Netraroga",
+    "sanskrit": "नेत्ररोग",
+    "source": "Sushruta Samhita, Uttara Tantra, Chapter 1",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Eye pain",
+      "Redness",
+      "Itching",
+      "Blurred vision",
+      "Sensitivity to light"
+    ],
+    "pathogenesis": "Dosha imbalance affecting the eyes, leading to various ocular disorders.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Triphala eye wash and rose water for eye health.",
+        "ingredients": [
+          "Triphala",
+          "Rose water",
+          "Honey",
+          "Ghee"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Triphala",
+      "Rose water",
+      "Honey",
+      "Ghee",
+      "Brahmi"
+    ],
+    "precautions": [
+      "Avoid eye strain",
+      "Regular eye care",
+      "Protect from dust"
+    ],
+    "lifestyle": [
+      "Eye exercises",
+      "Regular breaks from screens",
+      "Adequate lighting"
+    ],
+    "modernEquivalent": "Eye Disorders (ICD-10: H00-H59)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Ginger",
+        "Turmeric",
+        "Honey"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Spicy foods",
+        "Alcohol"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3f9",
+    "diseaseId": "SUSHRUTA_003",
+    "name": "Karnaroga",
+    "sanskrit": "कर्णरोग",
+    "source": "Sushruta Samhita, Uttara Tantra, Chapter 20",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Ear pain",
+      "Discharge",
+      "Hearing loss",
+      "Tinnitus",
+      "Itching"
+    ],
+    "pathogenesis": "Dosha imbalance affecting the ears, leading to various auditory disorders.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Garlic oil and sesame oil for ear health.",
+        "ingredients": [
+          "Garlic oil",
+          "Sesame oil",
+          "Neem oil"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Garlic oil",
+      "Sesame oil",
+      "Neem oil",
+      "Tulsi"
+    ],
+    "precautions": [
+      "Avoid loud noises",
+      "Keep ears dry",
+      "Regular cleaning"
+    ],
+    "lifestyle": [
+      "Protect from loud noises",
+      "Regular ear care",
+      "Avoid water entry"
+    ],
+    "modernEquivalent": "Ear Disorders (ICD-10: H60-H95)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Light foods",
+        "Bitter vegetables",
+        "Turmeric",
+        "Ginger"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Spicy foods",
+        "Alcohol",
+        "Red meat"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3fa",
+    "diseaseId": "MADHAVA_002",
+    "name": "Vatarakta",
+    "sanskrit": "वातरक्त",
+    "source": "Madhava Nidanam, Chapter 25",
+    "dosha": [
+      "Vata",
+      "Rakta"
+    ],
+    "symptoms": [
+      "Joint pain",
+      "Swelling",
+      "Redness",
+      "Burning sensation",
+      "Stiffness"
+    ],
+    "pathogenesis": "Vata and Rakta (blood) imbalance causing inflammatory joint conditions.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Guggulu and Manjistha for blood purification and joint health.",
+        "ingredients": [
+          "Guggulu",
+          "Manjistha",
+          "Neem",
+          "Haridra"
+        ],
+        "source": "Madhava Nidanam"
+      }
+    ],
+    "herbs": [
+      "Guggulu",
+      "Manjistha",
+      "Neem",
+      "Haridra",
+      "Giloy"
+    ],
+    "precautions": [
+      "Avoid cold exposure",
+      "No heavy foods",
+      "Regular exercise"
+    ],
+    "lifestyle": [
+      "Gentle exercise",
+      "Warm oil massage",
+      "Stress management"
+    ],
+    "modernEquivalent": "Gout (ICD-10: M10)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Honey",
+        "Ginger",
+        "Tulsi tea"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Spicy foods",
+        "Smoking",
+        "Alcohol"
+      ]
+    },
+    "_id": "68787318e2281f0ac21bd3fb",
+    "diseaseId": "CHARAKA_009",
+    "name": "Kasa",
+    "sanskrit": "कास",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 18",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Cough",
+      "Chest pain",
+      "Difficulty breathing",
+      "Sputum",
+      "Fatigue"
+    ],
+    "pathogenesis": "Dosha imbalance affecting respiratory system, leading to various cough conditions.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Sitopaladi Churna and Talisadi Churna for respiratory health.",
+        "ingredients": [
+          "Sitopaladi Churna",
+          "Talisadi Churna",
+          "Vasa",
+          "Pushkarmool"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Sitopaladi Churna",
+      "Talisadi Churna",
+      "Vasa",
+      "Pushkarmool",
+      "Tulsi"
+    ],
+    "precautions": [
+      "Avoid cold exposure",
+      "Rest adequately",
+      "Maintain hydration"
+    ],
+    "lifestyle": [
+      "Rest",
+      "Steam inhalation",
+      "Gentle exercise",
+      "Stress management"
+    ],
+    "modernEquivalent": "Cough (ICD-10: R05)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Rice water",
+        "Banana",
+        "Pomegranate",
+        "Ginger tea"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Spicy foods",
+        "Dairy",
+        "Raw vegetables"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91f5",
+    "diseaseId": "CHARAKA_011",
+    "name": "Atisara",
+    "sanskrit": "अतिसार",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 19",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Loose stools",
+      "Abdominal pain",
+      "Dehydration",
+      "Weakness",
+      "Loss of appetite"
+    ],
+    "pathogenesis": "Dosha imbalance affecting digestive system, leading to frequent loose bowel movements.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Kutaja and Bilva for diarrhea control and digestive health.",
+        "ingredients": [
+          "Kutaja",
+          "Bilva",
+          "Pomegranate",
+          "Rice water"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Kutaja",
+      "Bilva",
+      "Pomegranate",
+      "Rice water",
+      "Ginger"
+    ],
+    "precautions": [
+      "Maintain hydration",
+      "Avoid heavy foods",
+      "Rest adequately"
+    ],
+    "lifestyle": [
+      "Rest",
+      "Hydration",
+      "Gentle diet",
+      "Stress management"
+    ],
+    "modernEquivalent": "Diarrhea (ICD-10: A09, K59.1)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "High fiber foods",
+        "Prunes",
+        "Sesame seeds",
+        "Ghee",
+        "Warm water"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Cold foods",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91f6",
+    "diseaseId": "CHARAKA_012",
+    "name": "Vibandha",
+    "sanskrit": "विबन्ध",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 20",
+    "dosha": [
+      "Vata"
+    ],
+    "symptoms": [
+      "Constipation",
+      "Abdominal pain",
+      "Bloating",
+      "Loss of appetite",
+      "Fatigue"
+    ],
+    "pathogenesis": "Vata imbalance causing obstruction in bowel movements and digestive tract.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Triphala and Haritaki for bowel regulation and Vata balance.",
+        "ingredients": [
+          "Triphala",
+          "Haritaki",
+          "Sesame oil",
+          "Warm water"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Triphala",
+      "Haritaki",
+      "Sesame oil",
+      "Ghee",
+      "Warm water"
+    ],
+    "precautions": [
+      "Regular bowel habits",
+      "High fiber diet",
+      "Adequate hydration"
+    ],
+    "lifestyle": [
+      "Regular exercise",
+      "Adequate hydration",
+      "Stress management",
+      "Regular meal timing"
+    ],
+    "modernEquivalent": "Constipation (ICD-10: K59.0)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Light foods",
+        "High fiber",
+        "Green vegetables",
+        "Turmeric"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Heavy foods",
+        "Alcohol"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91f7",
+    "diseaseId": "SUSHRUTA_004",
+    "name": "Bhagandara",
+    "sanskrit": "भगन्दर",
+    "source": "Sushruta Samhita, Chikitsa Sthana, Chapter 8",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Anal fistula",
+      "Pain",
+      "Discharge",
+      "Swelling",
+      "Itching"
+    ],
+    "pathogenesis": "Vata and Kapha imbalance causing fistula formation in anal region.",
+    "treatments": [
+      {
+        "type": "Surgical",
+        "description": "Kshara Sutra therapy for fistula treatment.",
+        "ingredients": [
+          "Kshara Sutra",
+          "Medicated thread"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Triphala",
+      "Neem",
+      "Haridra",
+      "Guggulu"
+    ],
+    "precautions": [
+      "Maintain hygiene",
+      "Avoid straining",
+      "Regular cleaning"
+    ],
+    "lifestyle": [
+      "Maintain hygiene",
+      "Regular cleaning",
+      "Avoid straining",
+      "Gentle exercise"
+    ],
+    "modernEquivalent": "Anal Fistula (ICD-10: K60.3)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Light foods",
+        "Turmeric",
+        "Ginger",
+        "Green vegetables"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Spicy foods",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91f8",
+    "diseaseId": "SUSHRUTA_005",
+    "name": "Granthi",
+    "sanskrit": "ग्रन्थि",
+    "source": "Sushruta Samhita, Nidana Sthana, Chapter 11",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Lumps",
+      "Swelling",
+      "Pain",
+      "Discoloration",
+      "Hardness"
+    ],
+    "pathogenesis": "Dosha imbalance causing abnormal tissue growth and lump formation.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Kanchanara Guggulu for lump reduction and tissue health.",
+        "ingredients": [
+          "Kanchanara Guggulu",
+          "Guggulu",
+          "Kanchanara"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Kanchanara Guggulu",
+      "Guggulu",
+      "Kanchanara",
+      "Haridra"
+    ],
+    "precautions": [
+      "Avoid trauma",
+      "Regular monitoring",
+      "Healthy lifestyle"
+    ],
+    "lifestyle": [
+      "Regular exercise",
+      "Stress management",
+      "Healthy diet",
+      "Avoid trauma"
+    ],
+    "modernEquivalent": "Lumps/Tumors (ICD-10: D48)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Iron-rich foods",
+        "Green vegetables",
+        "Fruits",
+        "Nuts",
+        "Ghee"
+      ],
+      "avoid": [
+        "Alcohol",
+        "Spicy foods",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91f9",
+    "diseaseId": "MADHAVA_004",
+    "name": "Pandu",
+    "sanskrit": "पाण्डु",
+    "source": "Madhava Nidanam, Chapter 34",
+    "dosha": [
+      "Pitta"
+    ],
+    "symptoms": [
+      "Pale skin",
+      "Weakness",
+      "Fatigue",
+      "Loss of appetite",
+      "Yellowish discoloration"
+    ],
+    "pathogenesis": "Pitta imbalance affecting blood and liver, leading to anemia and jaundice.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Navayasa Loha and Punarnava for blood health and liver function.",
+        "ingredients": [
+          "Navayasa Loha",
+          "Punarnava",
+          "Guduchi",
+          "Haridra"
+        ],
+        "source": "Madhava Nidanam"
+      }
+    ],
+    "herbs": [
+      "Navayasa Loha",
+      "Punarnava",
+      "Guduchi",
+      "Haridra",
+      "Amla"
+    ],
+    "precautions": [
+      "Avoid alcohol",
+      "Healthy diet",
+      "Regular exercise"
+    ],
+    "lifestyle": [
+      "Regular exercise",
+      "Adequate rest",
+      "Stress management",
+      "Healthy diet"
+    ],
+    "modernEquivalent": "Anemia/Jaundice (ICD-10: D50-D64, K70-K77)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Light foods",
+        "Green vegetables",
+        "Fruits",
+        "Honey"
+      ],
+      "avoid": [
+        "Alcohol",
+        "Heavy foods",
+        "Spicy foods",
+        "Oily foods"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91fa",
+    "diseaseId": "MADHAVA_005",
+    "name": "Kamala",
+    "sanskrit": "कमला",
+    "source": "Madhava Nidanam, Chapter 35",
+    "dosha": [
+      "Pitta"
+    ],
+    "symptoms": [
+      "Yellow skin",
+      "Yellow eyes",
+      "Dark urine",
+      "Loss of appetite",
+      "Weakness"
+    ],
+    "pathogenesis": "Pitta imbalance affecting liver and bile, causing jaundice.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Punarnava and Guduchi for liver health and bile regulation.",
+        "ingredients": [
+          "Punarnava",
+          "Guduchi",
+          "Haridra",
+          "Amla"
+        ],
+        "source": "Madhava Nidanam"
+      }
+    ],
+    "herbs": [
+      "Punarnava",
+      "Guduchi",
+      "Haridra",
+      "Amla",
+      "Bhumyamalaki"
+    ],
+    "precautions": [
+      "Avoid alcohol",
+      "Rest adequately",
+      "Healthy diet"
+    ],
+    "lifestyle": [
+      "Rest",
+      "Avoid alcohol",
+      "Healthy diet",
+      "Stress management"
+    ],
+    "modernEquivalent": "Jaundice (ICD-10: K70-K77)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Coconut water",
+        "Barley water",
+        "Cucumber",
+        "Watermelon"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Alcohol",
+        "Caffeine",
+        "Heavy foods"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91fb",
+    "diseaseId": "CHARAKA_013",
+    "name": "Mutrakrichra",
+    "sanskrit": "मूत्रकृच्छ्र",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 26",
+    "dosha": [
+      "Vata",
+      "Pitta"
+    ],
+    "symptoms": [
+      "Painful urination",
+      "Frequent urination",
+      "Burning sensation",
+      "Difficulty urinating"
+    ],
+    "pathogenesis": "Vata and Pitta imbalance affecting urinary system, causing dysuria.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Gokshura and Punarnava for urinary health and kidney function.",
+        "ingredients": [
+          "Gokshura",
+          "Punarnava",
+          "Varuna",
+          "Pashanabheda"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Gokshura",
+      "Punarnava",
+      "Varuna",
+      "Pashanabheda",
+      "Chandana"
+    ],
+    "precautions": [
+      "Adequate hydration",
+      "Avoid holding urine",
+      "Maintain hygiene"
+    ],
+    "lifestyle": [
+      "Adequate hydration",
+      "Regular urination",
+      "Stress management",
+      "Gentle exercise"
+    ],
+    "modernEquivalent": "Dysuria (ICD-10: R30.0)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm water",
+        "Ginger tea",
+        "Sesame seeds",
+        "Ghee"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Heavy foods",
+        "Alcohol"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91fc",
+    "diseaseId": "CHARAKA_014",
+    "name": "Mutraghata",
+    "sanskrit": "मूत्रघात",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 27",
+    "dosha": [
+      "Vata"
+    ],
+    "symptoms": [
+      "Retention of urine",
+      "Difficulty urinating",
+      "Abdominal pain",
+      "Bloating"
+    ],
+    "pathogenesis": "Vata imbalance causing obstruction in urinary flow and retention.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Gokshura and Varuna for urinary flow and prostate health.",
+        "ingredients": [
+          "Gokshura",
+          "Varuna",
+          "Pashanabheda",
+          "Guggulu"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Gokshura",
+      "Varuna",
+      "Pashanabheda",
+      "Guggulu",
+      "Shilajit"
+    ],
+    "precautions": [
+      "Adequate hydration",
+      "Avoid holding urine",
+      "Regular exercise"
+    ],
+    "lifestyle": [
+      "Adequate hydration",
+      "Regular exercise",
+      "Stress management",
+      "Warm baths"
+    ],
+    "modernEquivalent": "Urinary Retention (ICD-10: R33)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Light foods",
+        "Barley",
+        "Ginger",
+        "Turmeric"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Cold foods",
+        "Alcohol"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91fd",
+    "diseaseId": "SUSHRUTA_006",
+    "name": "Vriddhi",
+    "sanskrit": "वृद्धि",
+    "source": "Sushruta Samhita, Nidana Sthana, Chapter 12",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Scrotal swelling",
+      "Pain",
+      "Heaviness",
+      "Difficulty walking"
+    ],
+    "pathogenesis": "Vata and Kapha imbalance causing scrotal enlargement and hydrocele.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Gokshura and Punarnava for scrotal health and fluid regulation.",
+        "ingredients": [
+          "Gokshura",
+          "Punarnava",
+          "Varuna",
+          "Guggulu"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Gokshura",
+      "Punarnava",
+      "Varuna",
+      "Guggulu",
+      "Shilajit"
+    ],
+    "precautions": [
+      "Avoid heavy lifting",
+      "Support scrotum",
+      "Regular exercise"
+    ],
+    "lifestyle": [
+      "Gentle exercise",
+      "Support scrotum",
+      "Avoid heavy lifting",
+      "Warm baths"
+    ],
+    "modernEquivalent": "Hydrocele (ICD-10: N43.3)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Bitter vegetables",
+        "Turmeric",
+        "Neem",
+        "Green vegetables"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Alcohol",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91fe",
+    "diseaseId": "SUSHRUTA_007",
+    "name": "Phiranga",
+    "sanskrit": "फिरङ्ग",
+    "source": "Sushruta Samhita, Nidana Sthana, Chapter 13",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Skin lesions",
+      "Ulcers",
+      "Discharge",
+      "Pain",
+      "Itching"
+    ],
+    "pathogenesis": "Tridosha imbalance causing chronic skin ulcers and syphilitic conditions.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Khadirarishta and Neem for skin purification and ulcer healing.",
+        "ingredients": [
+          "Khadirarishta",
+          "Neem",
+          "Haridra",
+          "Manjistha"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Khadirarishta",
+      "Neem",
+      "Haridra",
+      "Manjistha",
+      "Triphala"
+    ],
+    "precautions": [
+      "Maintain hygiene",
+      "Avoid scratching",
+      "Healthy lifestyle"
+    ],
+    "lifestyle": [
+      "Maintain hygiene",
+      "Stress management",
+      "Healthy diet",
+      "Regular exercise"
+    ],
+    "modernEquivalent": "Syphilis (ICD-10: A51-A53)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Honey",
+        "Ghee",
+        "Milk",
+        "Nuts"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Spicy foods",
+        "Alcohol",
+        "Smoking"
+      ]
+    },
+    "_id": "68787371ff323f1973fd91ff",
+    "diseaseId": "CHARAKA_015",
+    "name": "Rajayakshma",
+    "sanskrit": "राजयक्ष्म",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 8",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Chronic cough",
+      "Weight loss",
+      "Night sweats",
+      "Fever",
+      "Fatigue"
+    ],
+    "pathogenesis": "Tridosha imbalance affecting respiratory system and immunity.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Sitopaladi Churna and Tulsi for respiratory support and immunity.",
+        "ingredients": [
+          "Sitopaladi Churna",
+          "Tulsi",
+          "Vasa",
+          "Pushkarmool"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Sitopaladi Churna",
+      "Tulsi",
+      "Vasa",
+      "Pushkarmool",
+      "Guduchi"
+    ],
+    "precautions": [
+      "Rest adequately",
+      "Fresh air",
+      "Healthy diet",
+      "Avoid stress"
+    ],
+    "lifestyle": [
+      "Rest",
+      "Fresh air",
+      "Gentle exercise",
+      "Stress management"
+    ],
+    "modernEquivalent": "Tuberculosis (ICD-10: A15-A19)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Nourishing foods",
+        "Ghee",
+        "Milk",
+        "Nuts",
+        "Sesame seeds"
+      ],
+      "avoid": [
+        "Light foods",
+        "Cold foods",
+        "Dry foods"
+      ]
+    },
+    "_id": "68787371ff323f1973fd9200",
+    "diseaseId": "CHARAKA_016",
+    "name": "Kshaya",
+    "sanskrit": "क्षय",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 11",
+    "dosha": [
+      "Vata"
+    ],
+    "symptoms": [
+      "Emaciation",
+      "Weakness",
+      "Loss of appetite",
+      "Fatigue",
+      "Dry skin"
+    ],
+    "pathogenesis": "Vata imbalance causing tissue wasting and emaciation.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Ashwagandha and Bala for strength and tissue building.",
+        "ingredients": [
+          "Ashwagandha",
+          "Bala",
+          "Shatavari",
+          "Guduchi"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Ashwagandha",
+      "Bala",
+      "Shatavari",
+      "Guduchi",
+      "Shilajit"
+    ],
+    "precautions": [
+      "Adequate nutrition",
+      "Rest",
+      "Stress management"
+    ],
+    "lifestyle": [
+      "Adequate rest",
+      "Stress management",
+      "Gentle exercise",
+      "Nourishing diet"
+    ],
+    "modernEquivalent": "Emaciation (ICD-10: R64)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Cooling foods",
+        "Coconut water",
+        "Cucumber",
+        "Bitter vegetables"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Hot foods",
+        "Alcohol",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787371ff323f1973fd9201",
+    "diseaseId": "SUSHRUTA_009",
+    "name": "Visarpa",
+    "sanskrit": "विसर्प",
+    "source": "Sushruta Samhita, Chikitsa Sthana, Chapter 12",
+    "dosha": [
+      "Pitta"
+    ],
+    "symptoms": [
+      "Skin eruptions",
+      "Burning sensation",
+      "Redness",
+      "Swelling",
+      "Pain"
+    ],
+    "pathogenesis": "Pitta imbalance causing spreading skin inflammation and eruptions.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Neem and Haridra for skin inflammation and Pitta balance.",
+        "ingredients": [
+          "Neem",
+          "Haridra",
+          "Manjistha",
+          "Triphala"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Neem",
+      "Haridra",
+      "Manjistha",
+      "Triphala",
+      "Guduchi"
+    ],
+    "precautions": [
+      "Avoid spicy foods",
+      "Maintain hygiene",
+      "Cool environment"
+    ],
+    "lifestyle": [
+      "Cool environment",
+      "Stress management",
+      "Gentle exercise",
+      "Adequate rest"
+    ],
+    "modernEquivalent": "Erysipelas (ICD-10: A46)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diet": {
+      "include": [
+        "Bitter vegetables",
+        "Turmeric",
+        "Neem",
+        "Green vegetables"
+      ],
+      "avoid": [
+        "Sweet foods",
+        "Dairy",
+        "Processed foods"
+      ]
+    },
+    "_id": "68787371ff323f1973fd9202",
+    "diseaseId": "SUSHRUTA_010",
+    "name": "Dadhru",
+    "sanskrit": "दध्रु",
+    "source": "Sushruta Samhita, Chikitsa Sthana, Chapter 13",
+    "dosha": [
+      "Kapha",
+      "Vata"
+    ],
+    "symptoms": [
+      "Ringworm",
+      "Itching",
+      "Circular patches",
+      "Scaling",
+      "Discoloration"
+    ],
+    "pathogenesis": "Kapha and Vata imbalance causing fungal skin infections.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Neem and Haridra for fungal infection and skin health.",
+        "ingredients": [
+          "Neem",
+          "Haridra",
+          "Manjistha",
+          "Triphala"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Neem",
+      "Haridra",
+      "Manjistha",
+      "Triphala",
+      "Karanja"
+    ],
+    "precautions": [
+      "Maintain hygiene",
+      "Avoid scratching",
+      "Clean environment"
+    ],
+    "lifestyle": [
+      "Maintain hygiene",
+      "Clean environment",
+      "Stress management",
+      "Regular exercise"
+    ],
+    "modernEquivalent": "Ringworm (ICD-10: B35)",
+    "isActive": true,
+    "__v": 0
+  },
+  {
+    "diseaseId": "ASHTANGA_001",
+    "name": "Vishama Jwara",
+    "sanskrit": "विषम ज्वर",
+    "source": "Ashtanga Hridaya, Chikitsa Sthana, Chapter 1",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Irregular fever",
+      "Chills",
+      "Body ache",
+      "Loss of appetite",
+      "Fatigue"
+    ],
+    "pathogenesis": "Irregular dosha imbalance causing intermittent fever patterns.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Sudarshana Churna for irregular fever and detoxification.",
+        "ingredients": [
+          "Sudarshana Churna",
+          "Guduchi",
+          "Chirayata"
+        ],
+        "source": "Ashtanga Hridaya"
+      }
+    ],
+    "herbs": [
+      "Sudarshana Churna",
+      "Guduchi",
+      "Chirayata",
+      "Nagarmotha"
+    ],
+    "precautions": [
+      "Regular routine",
+      "Adequate rest",
+      "Maintain hydration"
+    ],
+    "diet": {
+      "include": [
+        "Light soups",
+        "Rice gruel",
+        "Barley water",
+        "Herbal teas"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Cold drinks",
+        "Dairy products"
+      ]
+    },
+    "lifestyle": [
+      "Regular routine",
+      "Adequate rest",
+      "Stress management",
+      "Warm environment"
+    ],
+    "modernEquivalent": "Malaria (ICD-10: B50-B54)",
+    "category": "General",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "ASHTANGA_002",
+    "name": "Sannipata Jwara",
+    "sanskrit": "सन्निपात ज्वर",
+    "source": "Ashtanga Hridaya, Chikitsa Sthana, Chapter 2",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "High fever",
+      "Delirium",
+      "Severe body ache",
+      "Loss of consciousness"
+    ],
+    "pathogenesis": "Severe tridosha imbalance causing critical fever condition.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Mahasudarshana Churna for severe fever and tridosha balance.",
+        "ingredients": [
+          "Mahasudarshana Churna",
+          "Guduchi",
+          "Chirayata",
+          "Nagarmotha"
+        ],
+        "source": "Ashtanga Hridaya"
+      }
+    ],
+    "herbs": [
+      "Mahasudarshana Churna",
+      "Guduchi",
+      "Chirayata",
+      "Nagarmotha",
+      "Tulsi"
+    ],
+    "precautions": [
+      "Immediate medical attention",
+      "Complete rest",
+      "Adequate hydration"
+    ],
+    "diet": {
+      "include": [
+        "Light liquids",
+        "Rice water",
+        "Herbal teas",
+        "Honey water"
+      ],
+      "avoid": [
+        "Solid foods",
+        "Heavy foods",
+        "Cold drinks"
+      ]
+    },
+    "lifestyle": [
+      "Complete rest",
+      "Medical supervision",
+      "Stress management"
+    ],
+    "modernEquivalent": "Severe Fever (ICD-10: R50.9)",
+    "category": "General",
+    "severity": "Severe",
+    "isActive": true
+  },
+  {
+    "diseaseId": "CHARAKA_019",
+    "name": "Chardi",
+    "sanskrit": "छर्दि",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 20",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Vomiting",
+      "Nausea",
+      "Loss of appetite",
+      "Weakness",
+      "Dehydration"
+    ],
+    "pathogenesis": "Dosha imbalance affecting stomach and digestive system, causing vomiting.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Eladi Churna and Ginger for vomiting control and digestive health.",
+        "ingredients": [
+          "Eladi Churna",
+          "Ginger",
+          "Cardamom",
+          "Cumin"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Eladi Churna",
+      "Ginger",
+      "Cardamom",
+      "Cumin",
+      "Fennel"
+    ],
+    "precautions": [
+      "Maintain hydration",
+      "Avoid heavy foods",
+      "Rest adequately"
+    ],
+    "diet": {
+      "include": [
+        "Ginger tea",
+        "Cardamom water",
+        "Rice water",
+        "Light foods"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Spicy foods",
+        "Cold foods",
+        "Dairy"
+      ]
+    },
+    "lifestyle": [
+      "Rest",
+      "Hydration",
+      "Gentle diet",
+      "Stress management"
+    ],
+    "modernEquivalent": "Vomiting (ICD-10: R11)",
+    "category": "Digestive",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "CHARAKA_020",
+    "name": "Trishna",
+    "sanskrit": "तृष्णा",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 22",
+    "dosha": [
+      "Pitta",
+      "Vata"
+    ],
+    "symptoms": [
+      "Excessive thirst",
+      "Dry mouth",
+      "Dehydration",
+      "Weakness",
+      "Restlessness"
+    ],
+    "pathogenesis": "Pitta and Vata imbalance causing excessive thirst and dehydration.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Chandana and Ushira for thirst control and cooling effect.",
+        "ingredients": [
+          "Chandana",
+          "Ushira",
+          "Coconut water",
+          "Sugarcane juice"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Chandana",
+      "Ushira",
+      "Coconut water",
+      "Sugarcane juice",
+      "Guduchi"
+    ],
+    "precautions": [
+      "Maintain hydration",
+      "Avoid spicy foods",
+      "Cool environment"
+    ],
+    "diet": {
+      "include": [
+        "Coconut water",
+        "Sugarcane juice",
+        "Cucumber",
+        "Watermelon"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Hot foods",
+        "Alcohol",
+        "Caffeine"
+      ]
+    },
+    "lifestyle": [
+      "Cool environment",
+      "Adequate hydration",
+      "Stress management"
+    ],
+    "modernEquivalent": "Excessive Thirst (ICD-10: R63.1)",
+    "category": "General",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "CHARAKA_021",
+    "name": "Hikka",
+    "sanskrit": "हिक्का",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 17",
+    "dosha": [
+      "Vata"
+    ],
+    "symptoms": [
+      "Hiccups",
+      "Chest pain",
+      "Difficulty breathing",
+      "Anxiety"
+    ],
+    "pathogenesis": "Vata imbalance affecting diaphragm and respiratory system.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Pippali and Ginger for hiccup control and Vata balance.",
+        "ingredients": [
+          "Pippali",
+          "Ginger",
+          "Honey",
+          "Ghee"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Pippali",
+      "Ginger",
+      "Honey",
+      "Ghee",
+      "Cardamom"
+    ],
+    "precautions": [
+      "Avoid cold exposure",
+      "Stress management",
+      "Regular breathing"
+    ],
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Ginger tea",
+        "Honey",
+        "Ghee"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Carbonated drinks",
+        "Spicy foods"
+      ]
+    },
+    "lifestyle": [
+      "Breathing exercises",
+      "Stress management",
+      "Warm environment"
+    ],
+    "modernEquivalent": "Hiccups (ICD-10: R06.6)",
+    "category": "Respiratory",
+    "severity": "Mild",
+    "isActive": true
+  },
+  {
+    "diseaseId": "CHARAKA_022",
+    "name": "Swasa",
+    "sanskrit": "श्वास",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 17",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Difficulty breathing",
+      "Wheezing",
+      "Chest tightness",
+      "Cough",
+      "Fatigue"
+    ],
+    "pathogenesis": "Vata and Kapha imbalance affecting respiratory system and breathing.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Vasa and Pushkarmool for respiratory support and breathing improvement.",
+        "ingredients": [
+          "Vasa",
+          "Pushkarmool",
+          "Tulsi",
+          "Ginger"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Vasa",
+      "Pushkarmool",
+      "Tulsi",
+      "Ginger",
+      "Haridra"
+    ],
+    "precautions": [
+      "Avoid triggers",
+      "Regular exercise",
+      "Stress management"
+    ],
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Honey",
+        "Ginger",
+        "Tulsi tea"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Spicy foods",
+        "Smoking",
+        "Alcohol"
+      ]
+    },
+    "lifestyle": [
+      "Breathing exercises",
+      "Regular exercise",
+      "Stress management",
+      "Avoid triggers"
+    ],
+    "modernEquivalent": "Dyspnea (ICD-10: R06.0)",
+    "category": "Respiratory",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "SUSHRUTA_011",
+    "name": "Karnashula",
+    "sanskrit": "कर्णशूल",
+    "source": "Sushruta Samhita, Uttara Tantra, Chapter 20",
+    "dosha": [
+      "Vata",
+      "Pitta"
+    ],
+    "symptoms": [
+      "Ear pain",
+      "Tinnitus",
+      "Hearing loss",
+      "Itching",
+      "Discharge"
+    ],
+    "pathogenesis": "Vata and Pitta imbalance affecting ears, causing pain and hearing issues.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Garlic oil and sesame oil for ear pain relief and health.",
+        "ingredients": [
+          "Garlic oil",
+          "Sesame oil",
+          "Neem oil"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Garlic oil",
+      "Sesame oil",
+      "Neem oil",
+      "Tulsi"
+    ],
+    "precautions": [
+      "Avoid loud noises",
+      "Keep ears dry",
+      "Regular cleaning"
+    ],
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Ginger",
+        "Turmeric",
+        "Honey"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Spicy foods",
+        "Alcohol"
+      ]
+    },
+    "lifestyle": [
+      "Protect from loud noises",
+      "Regular ear care",
+      "Avoid water entry"
+    ],
+    "modernEquivalent": "Otalgia (ICD-10: H92.0)",
+    "category": "Otological",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "SUSHRUTA_012",
+    "name": "Nasaroga",
+    "sanskrit": "नासरोग",
+    "source": "Sushruta Samhita, Uttara Tantra, Chapter 22",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Nasal congestion",
+      "Runny nose",
+      "Sneezing",
+      "Loss of smell",
+      "Headache"
+    ],
+    "pathogenesis": "Dosha imbalance affecting nasal passages and respiratory system.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Anu taila and Tulsi for nasal health and congestion relief.",
+        "ingredients": [
+          "Anu taila",
+          "Tulsi",
+          "Ginger",
+          "Honey"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Anu taila",
+      "Tulsi",
+      "Ginger",
+      "Honey",
+      "Haridra"
+    ],
+    "precautions": [
+      "Avoid cold exposure",
+      "Maintain hygiene",
+      "Regular cleaning"
+    ],
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Ginger",
+        "Tulsi tea",
+        "Honey"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Dairy",
+        "Spicy foods"
+      ]
+    },
+    "lifestyle": [
+      "Steam inhalation",
+      "Nasal cleaning",
+      "Warm environment",
+      "Stress management"
+    ],
+    "modernEquivalent": "Rhinitis (ICD-10: J30)",
+    "category": "Respiratory",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "MADHAVA_006",
+    "name": "Gulma",
+    "sanskrit": "गुल्म",
+    "source": "Madhava Nidanam, Chapter 36",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Abdominal mass",
+      "Pain",
+      "Bloating",
+      "Loss of appetite",
+      "Weight loss"
+    ],
+    "pathogenesis": "Dosha imbalance causing abnormal growth and mass formation in abdomen.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Kanchanara Guggulu and Guggulu for mass reduction and tissue health.",
+        "ingredients": [
+          "Kanchanara Guggulu",
+          "Guggulu",
+          "Haridra",
+          "Ginger"
+        ],
+        "source": "Madhava Nidanam"
+      }
+    ],
+    "herbs": [
+      "Kanchanara Guggulu",
+      "Guggulu",
+      "Haridra",
+      "Ginger",
+      "Shilajit"
+    ],
+    "precautions": [
+      "Regular monitoring",
+      "Healthy lifestyle",
+      "Avoid trauma"
+    ],
+    "diet": {
+      "include": [
+        "Light foods",
+        "Turmeric",
+        "Ginger",
+        "Green vegetables"
+      ],
+      "avoid": [
+        "Heavy foods",
+        "Spicy foods",
+        "Processed foods"
+      ]
+    },
+    "lifestyle": [
+      "Regular exercise",
+      "Stress management",
+      "Healthy diet",
+      "Avoid trauma"
+    ],
+    "modernEquivalent": "Abdominal Mass (ICD-10: R19.0)",
+    "category": "General",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "MADHAVA_007",
+    "name": "Udara",
+    "sanskrit": "उदर",
+    "source": "Madhava Nidanam, Chapter 37",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Abdominal distension",
+      "Pain",
+      "Bloating",
+      "Loss of appetite",
+      "Weakness"
+    ],
+    "pathogenesis": "Dosha imbalance causing abdominal distension and fluid accumulation.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Punarnava and Gokshura for fluid regulation and abdominal health.",
+        "ingredients": [
+          "Punarnava",
+          "Gokshura",
+          "Varuna",
+          "Guggulu"
+        ],
+        "source": "Madhava Nidanam"
+      }
+    ],
+    "herbs": [
+      "Punarnava",
+      "Gokshura",
+      "Varuna",
+      "Guggulu",
+      "Shilajit"
+    ],
+    "precautions": [
+      "Salt restriction",
+      "Regular exercise",
+      "Healthy diet"
+    ],
+    "diet": {
+      "include": [
+        "Light foods",
+        "Barley",
+        "Ginger",
+        "Turmeric"
+      ],
+      "avoid": [
+        "Salt",
+        "Heavy foods",
+        "Processed foods"
+      ]
+    },
+    "lifestyle": [
+      "Regular exercise",
+      "Stress management",
+      "Healthy diet",
+      "Avoid alcohol"
+    ],
+    "modernEquivalent": "Ascites (ICD-10: R18)",
+    "category": "General",
+    "severity": "Moderate",
+    "isActive": true
+  },
+  {
+    "diseaseId": "CHARAKA_024",
+    "name": "Mutradosha",
+    "sanskrit": "मूत्रदोष",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 26",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Urinary problems",
+      "Pain",
+      "Burning",
+      "Frequency",
+      "Discoloration"
+    ],
+    "pathogenesis": "Dosha imbalance affecting urinary system and kidney function.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Gokshura and Punarnava for urinary health and kidney function.",
+        "ingredients": [
+          "Gokshura",
+          "Punarnava",
+          "Varuna",
+          "Pashanabheda"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Gokshura",
+      "Punarnava",
+      "Varuna",
+      "Pashanabheda",
+      "Chandana"
+    ],
+    "precautions": [
+      "Adequate hydration",
+      "Maintain hygiene",
+      "Regular urination"
+    ],
+    "diet": {
+      "include": [
+        "Coconut water",
+        "Barley water",
+        "Cucumber",
+        "Watermelon"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Alcohol",
+        "Caffeine",
+        "Heavy foods"
+      ]
+    },
+    "lifestyle": [
+      "Adequate hydration",
+      "Regular urination",
+      "Stress management",
+      "Gentle exercise"
+    ],
+    "modernEquivalent": "Urinary Disorders (ICD-10: N30-N39)",
+    "category": "Urological",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "SUSHRUTA_013",
+    "name": "Yoniroga",
+    "sanskrit": "योनिरोग",
+    "source": "Sushruta Samhita, Uttara Tantra, Chapter 38",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Vaginal discharge",
+      "Itching",
+      "Pain",
+      "Irregular menstruation",
+      "Infertility"
+    ],
+    "pathogenesis": "Dosha imbalance affecting female reproductive system and gynecological health.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Lodhra and Ashoka for gynecological health and reproductive support.",
+        "ingredients": [
+          "Lodhra",
+          "Ashoka",
+          "Shatavari",
+          "Guduchi"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Lodhra",
+      "Ashoka",
+      "Shatavari",
+      "Guduchi",
+      "Haridra"
+    ],
+    "precautions": [
+      "Maintain hygiene",
+      "Regular check-ups",
+      "Healthy lifestyle"
+    ],
+    "diet": {
+      "include": [
+        "Light foods",
+        "Green vegetables",
+        "Fruits",
+        "Nuts"
+      ],
+      "avoid": [
+        "Spicy foods",
+        "Alcohol",
+        "Processed foods"
+      ]
+    },
+    "lifestyle": [
+      "Maintain hygiene",
+      "Regular exercise",
+      "Stress management",
+      "Healthy diet"
+    ],
+    "modernEquivalent": "Gynecological Disorders (ICD-10: N70-N99)",
+    "category": "Gynecological",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "SUSHRUTA_014",
+    "name": "Artava Dosha",
+    "sanskrit": "आर्तव दोष",
+    "source": "Sushruta Samhita, Uttara Tantra, Chapter 39",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Irregular menstruation",
+      "Pain",
+      "Heavy bleeding",
+      "Amenorrhea",
+      "Dysmenorrhea"
+    ],
+    "pathogenesis": "Dosha imbalance affecting menstrual cycle and reproductive health.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Shatavari and Ashoka for menstrual health and hormonal balance.",
+        "ingredients": [
+          "Shatavari",
+          "Ashoka",
+          "Lodhra",
+          "Guduchi"
+        ],
+        "source": "Sushruta Samhita"
+      }
+    ],
+    "herbs": [
+      "Shatavari",
+      "Ashoka",
+      "Lodhra",
+      "Guduchi",
+      "Haridra"
+    ],
+    "precautions": [
+      "Regular check-ups",
+      "Healthy lifestyle",
+      "Stress management"
+    ],
+    "diet": {
+      "include": [
+        "Iron-rich foods",
+        "Green vegetables",
+        "Fruits",
+        "Nuts"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Spicy foods",
+        "Alcohol"
+      ]
+    },
+    "lifestyle": [
+      "Regular exercise",
+      "Stress management",
+      "Healthy diet",
+      "Adequate rest"
+    ],
+    "modernEquivalent": "Menstrual Disorders (ICD-10: N91-N95)",
+    "category": "Gynecological",
+    "severity": "Variable",
+    "isActive": true
+  },
+  {
+    "diseaseId": "CHARAKA_025",
+    "name": "Vandhyatva",
+    "sanskrit": "वन्ध्यत्व",
+    "source": "Charaka Samhita, Chikitsa Sthana, Chapter 30",
+    "dosha": [
+      "Vata",
+      "Pitta",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Infertility",
+      "Irregular menstruation",
+      "Hormonal imbalance",
+      "Stress"
+    ],
+    "pathogenesis": "Dosha imbalance affecting reproductive system and fertility.",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Shatavari and Ashwagandha for fertility enhancement and reproductive health.",
+        "ingredients": [
+          "Shatavari",
+          "Ashwagandha",
+          "Guduchi",
+          "Shilajit"
+        ],
+        "source": "Charaka Samhita"
+      }
+    ],
+    "herbs": [
+      "Shatavari",
+      "Ashwagandha",
+      "Guduchi",
+      "Shilajit",
+      "Bala"
+    ],
+    "precautions": [
+      "Regular check-ups",
+      "Healthy lifestyle",
+      "Stress management"
+    ],
+    "diet": {
+      "include": [
+        "Nourishing foods",
+        "Ghee",
+        "Milk",
+        "Nuts",
+        "Sesame seeds"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Spicy foods",
+        "Alcohol",
+        "Processed foods"
+      ]
+    },
+    "lifestyle": [
+      "Regular exercise",
+      "Stress management",
+      "Healthy diet",
+      "Adequate rest"
+    ],
+    "modernEquivalent": "Infertility (ICD-10: N97)",
+    "category": "Gynecological",
+    "severity": "Chronic",
+    "isActive": true
+  }
+]

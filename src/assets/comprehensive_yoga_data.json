@@ -1,0 +1,406 @@
+{
+  "poses": [
+    {
+      "name": "Child's Pose",
+      "sanskrit": "Balasana",
+      "category": "Restorative",
+      "dosha": "Vata",
+      "difficulty": "Beginner",
+      "duration": "5-10 minutes",
+      "benefits": [
+        "Calms the nervous system",
+        "Reduces anxiety and stress",
+        "Grounds Vata energy",
+        "Stretches hips and thighs",
+        "Relieves back pain"
+      ],
+      "description": "A gentle resting pose that helps ground Vata energy and calm the nervous system. Perfect for reducing anxiety and stress.",
+      "instructions": [
+        "Start on hands and knees",
+        "Sit back on your heels",
+        "Lower your torso between your thighs",
+        "Extend arms forward or alongside body",
+        "Rest forehead on the mat",
+        "Breathe deeply and hold for 5-10 minutes"
+      ],
+      "doshaSpecific": {
+        "vata": "Excellent for grounding and calming Vata energy. Practice slowly and hold longer.",
+        "pitta": "Can be cooling but avoid if it causes frustration. Use props for comfort.",
+        "kapha": "Good for opening chest and shoulders. May need to hold shorter duration."
+      },
+      "contraindications": [
+        "Knee injuries",
+        "Ankle problems",
+        "Pregnancy (modify with knees apart)"
+      ],
+      "therapeuticUses": [
+        "Anxiety and stress relief",
+        "Back pain",
+        "Digestive issues",
+        "Insomnia"
+      ],
+      "image": "/yoga-poses/balasana.svg",
+      "sources": [
+        "Yoga for Your Type - David Frawley",
+        "Classical Hatha Yoga texts"
+      ]
+    },
+    {
+      "name": "Legs Up the Wall",
+      "sanskrit": "Viparita Karani",
+      "category": "Restorative",
+      "dosha": "Vata",
+      "difficulty": "Beginner",
+      "duration": "10-15 minutes",
+      "benefits": [
+        "Calms the nervous system",
+        "Reduces anxiety",
+        "Improves circulation",
+        "Relieves tired legs",
+        "Grounds Vata energy"
+      ],
+      "description": "A gentle inversion that helps calm Vata energy and reduce anxiety. Perfect for evening practice.",
+      "instructions": [
+        "Sit close to a wall",
+        "Swing legs up the wall",
+        "Lie back and rest arms by sides",
+        "Close eyes and breathe deeply",
+        "Hold for 10-15 minutes",
+        "Bend knees and roll to side to exit"
+      ],
+      "doshaSpecific": {
+        "vata": "Excellent for calming and grounding. Practice daily for best results.",
+        "pitta": "Cooling and soothing. Good for reducing heat and irritation.",
+        "kapha": "May feel too passive. Combine with gentle movement."
+      },
+      "contraindications": [
+        "Glaucoma",
+        "High blood pressure",
+        "Neck problems"
+      ],
+      "therapeuticUses": [
+        "Anxiety and stress",
+        "Insomnia",
+        "Varicose veins",
+        "Mild depression"
+      ],
+      "image": "/yoga-poses/legs-up-the-wall.svg",
+      "sources": [
+        "Yoga for Your Type - David Frawley",
+        "Restorative Yoga practices"
+      ]
+    },
+    {
+      "name": "Seated Forward Bend",
+      "sanskrit": "Paschimottanasana",
+      "category": "Forward Bend",
+      "dosha": "Pitta",
+      "difficulty": "Beginner",
+      "duration": "5-10 minutes",
+      "benefits": [
+        "Cools and soothes Pitta",
+        "Calms the mind",
+        "Stretches spine and hamstrings",
+        "Reduces anger and irritability",
+        "Improves digestion"
+      ],
+      "description": "A cooling forward bend that helps balance Pitta energy and reduce heat in the body and mind.",
+      "instructions": [
+        "Sit with legs extended forward",
+        "Inhale and lengthen spine",
+        "Exhale and fold forward from hips",
+        "Reach for feet, ankles, or shins",
+        "Keep spine long, don't round back",
+        "Hold for 5-10 minutes with deep breathing"
+      ],
+      "doshaSpecific": {
+        "vata": "Be gentle and use props. Don't force the stretch.",
+        "pitta": "Excellent for cooling and calming. Practice in cool environment.",
+        "kapha": "Good for opening back body. May need to hold longer."
+      },
+      "contraindications": [
+        "Severe back problems",
+        "Pregnancy (modify)",
+        "Herniated disc"
+      ],
+      "therapeuticUses": [
+        "Digestive issues",
+        "Anger and irritability",
+        "High blood pressure",
+        "Anxiety"
+      ],
+      "image": "/yoga-poses/paschimottanasana.svg",
+      "sources": [
+        "Yoga for Your Type - David Frawley",
+        "Hatha Yoga Pradipika"
+      ]
+    },
+    {
+      "name": "Fish Pose",
+      "sanskrit": "Matsyasana",
+      "category": "Backbend",
+      "dosha": "Pitta",
+      "difficulty": "Intermediate",
+      "duration": "3-5 minutes",
+      "benefits": [
+        "Opens chest and heart",
+        "Cools and soothes Pitta",
+        "Improves breathing",
+        "Reduces anger and frustration",
+        "Stretches throat and neck"
+      ],
+      "description": "A gentle backbend that opens the heart and helps cool Pitta energy while improving breathing.",
+      "instructions": [
+        "Lie on back with legs extended",
+        "Place hands under hips, palms down",
+        "Press elbows into floor",
+        "Lift chest and arch back",
+        "Rest crown of head on floor",
+        "Breathe deeply and hold for 3-5 minutes"
+      ],
+      "doshaSpecific": {
+        "vata": "Be gentle and use props. Don't overextend.",
+        "pitta": "Excellent for cooling and opening heart. Practice regularly.",
+        "kapha": "Good for opening chest. May need support under back."
+      },
+      "contraindications": [
+        "Neck problems",
+        "High blood pressure",
+        "Migraine"
+      ],
+      "therapeuticUses": [
+        "Respiratory issues",
+        "Depression",
+        "Thyroid problems",
+        "Posture improvement"
+      ],
+      "image": "/yoga-poses/matsyasana.svg",
+      "sources": [
+        "Yoga for Your Type - David Frawley",
+        "Classical Yoga texts"
+      ]
+    },
+    {
+      "name": "Sun Salutation",
+      "sanskrit": "Surya Namaskara",
+      "category": "Dynamic Sequence",
+      "dosha": "Kapha",
+      "difficulty": "Beginner",
+      "duration": "10-15 minutes",
+      "benefits": [
+        "Stimulates metabolism",
+        "Energizes Kapha",
+        "Improves circulation",
+        "Builds heat and energy",
+        "Strengthens entire body"
+      ],
+      "description": "A dynamic sequence that helps energize Kapha and stimulate metabolism. Perfect for morning practice.",
+      "instructions": [
+        "Stand in Mountain Pose",
+        "Inhale, raise arms overhead",
+        "Exhale, fold forward",
+        "Inhale, half lift",
+        "Exhale, step back to plank",
+        "Lower to Chaturanga",
+        "Inhale, upward dog",
+        "Exhale, downward dog",
+        "Step forward, half lift",
+        "Exhale, fold forward",
+        "Inhale, rise up",
+        "Repeat 5-10 rounds"
+      ],
+      "doshaSpecific": {
+        "vata": "Practice slowly and mindfully. Don't rush.",
+        "pitta": "Practice in cool environment. Avoid overexertion.",
+        "kapha": "Excellent for energizing. Practice vigorously and regularly."
+      },
+      "contraindications": [
+        "High blood pressure",
+        "Heart conditions",
+        "Pregnancy (modify)",
+        "Severe back problems"
+      ],
+      "therapeuticUses": [
+        "Low energy",
+        "Depression",
+        "Weight management",
+        "Digestive sluggishness"
+      ],
+      "image": "/yoga-poses/surya-namaskara.svg",
+      "sources": [
+        "Yoga for Your Type - David Frawley",
+        "Traditional Hatha Yoga"
+      ]
+    },
+    {
+      "name": "Warrior I",
+      "sanskrit": "Virabhadrasana I",
+      "category": "Standing",
+      "dosha": "Kapha",
+      "difficulty": "Beginner",
+      "duration": "30 seconds - 2 minutes each side",
+      "benefits": [
+        "Builds strength and stamina",
+        "Energizes Kapha",
+        "Improves focus and determination",
+        "Strengthens legs and core",
+        "Opens chest and shoulders"
+      ],
+      "description": "A powerful standing pose that builds strength and energy, perfect for stimulating Kapha.",
+      "instructions": [
+        "Start in Mountain Pose",
+        "Step left foot back 3-4 feet",
+        "Turn left foot 45 degrees",
+        "Bend right knee over ankle",
+        "Raise arms overhead",
+        "Look up slightly",
+        "Hold for 30 seconds - 2 minutes",
+        "Repeat on other side"
+      ],
+      "doshaSpecific": {
+        "vata": "Be gentle and don't overextend. Use props if needed.",
+        "pitta": "Practice in cool environment. Focus on breath.",
+        "kapha": "Excellent for building energy. Hold longer and practice regularly."
+      },
+      "contraindications": [
+        "High blood pressure",
+        "Heart problems",
+        "Knee injuries"
+      ],
+      "therapeuticUses": [
+        "Low energy",
+        "Depression",
+        "Poor circulation",
+        "Weakness"
+      ],
+      "image": "/yoga-poses/virabhadrasana-i.svg",
+      "sources": [
+        "Yoga for Your Type - David Frawley",
+        "Classical Hatha Yoga"
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "name": "Vata Balancing Sequence",
+      "description": "A gentle sequence designed to ground and calm Vata energy",
+      "poses": [
+        "Mountain Pose",
+        "Child's Pose",
+        "Legs Up the Wall",
+        "Seated Forward Bend",
+        "Corpse Pose"
+      ],
+      "duration": "30-45 minutes",
+      "dosha": "Vata",
+      "benefits": [
+        "Grounds Vata energy",
+        "Reduces anxiety",
+        "Calms nervous system",
+        "Improves sleep"
+      ],
+      "instructions": [
+        "Begin with 5 minutes of gentle breathing",
+        "Practice each pose for 5-10 minutes",
+        "Move slowly and mindfully",
+        "Focus on grounding and stability",
+        "End with 10 minutes of relaxation"
+      ],
+      "sources": [
+        "Yoga for Your Type - David Frawley"
+      ]
+    },
+    {
+      "name": "Pitta Cooling Sequence",
+      "description": "A cooling sequence to balance Pitta energy and reduce heat",
+      "poses": [
+        "Mountain Pose",
+        "Seated Forward Bend",
+        "Fish Pose",
+        "Legs Up the Wall",
+        "Corpse Pose"
+      ],
+      "duration": "30-45 minutes",
+      "dosha": "Pitta",
+      "benefits": [
+        "Cools Pitta energy",
+        "Reduces anger and irritability",
+        "Calms the mind",
+        "Improves digestion"
+      ],
+      "instructions": [
+        "Practice in a cool, quiet environment",
+        "Focus on cooling and soothing movements",
+        "Hold poses longer for deeper effect",
+        "Breathe slowly and deeply",
+        "End with extended relaxation"
+      ],
+      "sources": [
+        "Yoga for Your Type - David Frawley"
+      ]
+    },
+    {
+      "name": "Kapha Energizing Sequence",
+      "description": "A dynamic sequence to energize Kapha and stimulate metabolism",
+      "poses": [
+        "Sun Salutation",
+        "Warrior I",
+        "Warrior II",
+        "Triangle Pose",
+        "Mountain Pose"
+      ],
+      "duration": "45-60 minutes",
+      "dosha": "Kapha",
+      "benefits": [
+        "Energizes Kapha",
+        "Stimulates metabolism",
+        "Builds strength and stamina",
+        "Improves circulation"
+      ],
+      "instructions": [
+        "Practice in the morning when energy is low",
+        "Move dynamically and with purpose",
+        "Build heat and energy",
+        "Focus on strength and determination",
+        "End with brief relaxation"
+      ],
+      "sources": [
+        "Yoga for Your Type - David Frawley"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Restorative",
+      "description": "Gentle, calming poses",
+      "count": 2
+    },
+    {
+      "name": "Forward Bend",
+      "description": "Cooling forward folding poses",
+      "count": 1
+    },
+    {
+      "name": "Backbend",
+      "description": "Heart-opening backbends",
+      "count": 1
+    },
+    {
+      "name": "Standing",
+      "description": "Strength-building standing poses",
+      "count": 1
+    },
+    {
+      "name": "Dynamic Sequence",
+      "description": "Energetic flowing sequences",
+      "count": 1
+    }
+  ],
+  "metadata": {
+    "source": "Yoga for Your Type - David Frawley & Sandra Summerfield Kozak",
+    "extracted_at": "2024-09-26",
+    "total_poses": 6,
+    "total_sequences": 3,
+    "total_pranayama": 0
+  }
+}

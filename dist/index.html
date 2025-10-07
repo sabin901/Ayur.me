@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>ayur.me - Discover Your Ayurvedic Constitution</title>
+    <meta name="title" content="ayur.me - Discover Your Ayurvedic Constitution">
+    <meta name="description" content="Discover your dosha (Prakriti) and explore authentic Ayurvedic wisdom for holistic wellness. Learn about diseases, yoga practices, mental health, and personalized wellness recommendations based on classical Ayurvedic texts.">
+    <meta name="keywords" content="Ayurveda, dosha, Prakriti, Vata, Pitta, Kapha, wellness, yoga, mental health, traditional medicine, holistic health">
+    <meta name="author" content="ayur.me">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ayur.me/">
+    <meta property="og:title" content="ayur.me - Authentic Ayurvedic Wellness Platform">
+    <meta property="og:description" content="Discover your dosha and explore authentic Ayurvedic wisdom for holistic wellness. Based on classical texts and modern research.">
+    <meta property="og:image" content="https://ayur.me/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ayur.me/">
+    <meta property="twitter:title" content="ayur.me - Authentic Ayurvedic Wellness Platform">
+    <meta property="twitter:description" content="Discover your dosha and explore authentic Ayurvedic wisdom for holistic wellness.">
+    <meta property="twitter:image" content="https://ayur.me/og-image.jpg">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#84cc16">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="ayur.me">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ayur.me",
+      "description": "Authentic Ayurvedic Wellness Platform",
+      "url": "https://ayur.me",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://ayur.me/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ayur.me",
+      "url": "https://ayur.me",
+      "logo": "https://ayur.me/logo.png",
+      "description": "Authentic Ayurvedic wellness platform based on classical texts",
+      "sameAs": [
+        "https://twitter.com/ayur_me",
+        "https://facebook.com/ayur.me"
+      ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HealthAndBeautyBusiness",
+      "name": "ayur.me",
+      "description": "Ayurvedic wellness platform providing dosha analysis and holistic health guidance",
+      "url": "https://ayur.me",
+      "telephone": "+1-555-0123",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "serviceType": "Ayurvedic Wellness Consultation",
+      "areaServed": "Worldwide"
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-Sse5bUT-.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-Co0Yk43v.js">
+    <link rel="modulepreload" crossorigin href="/assets/ui-DnISmbsJ.js">
+    <link rel="modulepreload" crossorigin href="/assets/three-Qo6zBhgm.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DPIaPG0J.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

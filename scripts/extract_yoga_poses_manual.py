@@ -1,0 +1,465 @@
+#!/usr/bin/env python3
+"""
+Manual Yoga Pose Extraction from David Frawley Book
+Adds specific yoga poses and sequences to the yoga library
+"""
+
+import json
+import os
+
+def create_enhanced_yoga_data():
+    """Create enhanced yoga data with poses from David Frawley's book"""
+    
+    # Enhanced yoga poses based on David Frawley's Yoga and Ayurveda
+    enhanced_poses = [
+        {
+            "name": "Sun Salutation",
+            "sanskrit": "Surya Namaskara",
+            "category": "Ayurvedic Yoga",
+            "duration": "10-15 mins",
+            "difficulty": "Beginner",
+            "dosha": "All Doshas",
+            "benefits": [
+                "Stimulates Agni (digestive fire)",
+                "Improves circulation and removes Ama",
+                "Balances all three doshas",
+                "Enhances Prana flow",
+                "Strengthens the entire body",
+                "Improves flexibility"
+            ],
+            "description": "A complete sequence that warms up the entire body and connects breath with movement. According to David Frawley, this practice is excellent for stimulating the digestive fire (Agni) and removing toxins (Ama) from the body.",
+            "image": "/yoga-poses/surya-namaskara.svg",
+            "therapeuticUses": [
+                "Stimulates Agni (digestive fire) - beneficial for Kapha imbalance",
+                "Improves circulation and removes Ama (toxins)",
+                "Balances all three doshas when practiced mindfully",
+                "Enhances Prana (vital energy) flow throughout the body",
+                "Strengthens the musculoskeletal system",
+                "Improves respiratory function"
+            ],
+            "doshaSpecific": {
+                "vata": "Practice slowly with grounding awareness, focus on steady breathing and gentle movements",
+                "pitta": "Practice in cool environment, avoid over-exertion, maintain calm breathing",
+                "kapha": "Practice vigorously to stimulate metabolism and energy, focus on dynamic movement"
+            },
+            "contraindications": ["High blood pressure", "Heart conditions", "Pregnancy (consult teacher)", "Severe back problems"],
+            "sources": ["Yoga and Ayurveda - David Frawley", "Charaka Samhita", "Sushruta Samhita"]
+        },
+        {
+            "name": "Child's Pose",
+            "sanskrit": "Balasana",
+            "category": "Restorative",
+            "duration": "5-10 mins",
+            "difficulty": "Beginner",
+            "dosha": "Vata, Pitta",
+            "benefits": [
+                "Calms the nervous system",
+                "Relieves back tension",
+                "Promotes introspection",
+                "Reduces stress and anxiety",
+                "Gentle stretch for hips and thighs"
+            ],
+            "description": "A gentle resting pose that promotes introspection and calms the nervous system. Excellent for Vata and Pitta types who need grounding and cooling.",
+            "image": "/yoga-poses/balasana.svg",
+            "therapeuticUses": [
+                "Calms Vata dosha - reduces anxiety and nervous tension",
+                "Cools Pitta dosha - reduces heat and inflammation",
+                "Promotes introspection and mental clarity",
+                "Relieves lower back tension and stress"
+            ],
+            "doshaSpecific": {
+                "vata": "Excellent for grounding and calming, practice with deep breathing",
+                "pitta": "Perfect for cooling and reducing heat, maintain for longer periods",
+                "kapha": "Use as a transition pose, avoid staying too long to prevent lethargy"
+            },
+            "contraindications": ["Knee problems", "Pregnancy (third trimester)"],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Cobra Pose",
+            "sanskrit": "Bhujangasana",
+            "category": "Backbend",
+            "duration": "5-8 mins",
+            "difficulty": "Beginner",
+            "dosha": "Kapha, Vata",
+            "benefits": [
+                "Strengthens back muscles",
+                "Opens chest and lungs",
+                "Stimulates digestive organs",
+                "Improves posture",
+                "Energizes the body"
+            ],
+            "description": "A gentle backbend that strengthens the spine and opens the chest. Excellent for Kapha types who need stimulation and Vata types who need gentle strengthening.",
+            "image": "/yoga-poses/bhujangasana.svg",
+            "therapeuticUses": [
+                "Stimulates Kapha dosha - energizes and awakens",
+                "Strengthens Vata dosha - builds stability and confidence",
+                "Opens the chest and improves respiratory function",
+                "Stimulates digestive organs and Agni"
+            ],
+            "doshaSpecific": {
+                "vata": "Practice gently with focus on stability and grounding",
+                "pitta": "Practice moderately, avoid over-exertion",
+                "kapha": "Practice vigorously to stimulate energy and metabolism"
+            },
+            "contraindications": ["Severe back problems", "Pregnancy", "Recent abdominal surgery"],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Plow Pose",
+            "sanskrit": "Halasana",
+            "category": "Inversion",
+            "duration": "3-5 mins",
+            "difficulty": "Intermediate",
+            "dosha": "Pitta, Kapha",
+            "benefits": [
+                "Calms the nervous system",
+                "Stimulates thyroid gland",
+                "Improves digestion",
+                "Relieves fatigue",
+                "Stretches back and shoulders"
+            ],
+            "description": "An inversion that calms the nervous system and stimulates the thyroid gland. Excellent for Pitta types who need cooling and Kapha types who need stimulation.",
+            "image": "/yoga-poses/halasana.svg",
+            "therapeuticUses": [
+                "Cools Pitta dosha - reduces heat and inflammation",
+                "Stimulates Kapha dosha - energizes and awakens",
+                "Calms the nervous system and reduces stress",
+                "Stimulates thyroid function and metabolism"
+            ],
+            "doshaSpecific": {
+                "vata": "Practice with support, avoid if feeling unstable",
+                "pitta": "Excellent for cooling and calming, maintain longer",
+                "kapha": "Good for stimulation, practice with energy"
+            },
+            "contraindications": ["Neck problems", "High blood pressure", "Pregnancy", "Glaucoma"],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Seated Forward Bend",
+            "sanskrit": "Paschimottanasana",
+            "category": "Forward Bend",
+            "duration": "5-10 mins",
+            "difficulty": "Beginner",
+            "dosha": "Pitta, Vata",
+            "benefits": [
+                "Calms the mind",
+                "Stretches back and hamstrings",
+                "Improves digestion",
+                "Reduces stress",
+                "Promotes introspection"
+            ],
+            "description": "A calming forward bend that promotes introspection and stretches the back. Excellent for Pitta and Vata types who need cooling and calming.",
+            "image": "/yoga-poses/paschimottanasana.svg",
+            "therapeuticUses": [
+                "Cools Pitta dosha - reduces heat and inflammation",
+                "Calms Vata dosha - promotes grounding and stability",
+                "Improves digestion and stimulates abdominal organs",
+                "Promotes introspection and mental clarity"
+            ],
+            "doshaSpecific": {
+                "vata": "Practice gently with focus on breathing and relaxation",
+                "pitta": "Excellent for cooling, maintain longer periods",
+                "kapha": "Practice with energy to avoid lethargy"
+            },
+            "contraindications": ["Severe back problems", "Sciatica", "Pregnancy (second and third trimester)"],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Corpse Pose",
+            "sanskrit": "Savasana",
+            "category": "Restorative",
+            "duration": "10-20 mins",
+            "difficulty": "Beginner",
+            "dosha": "All Doshas",
+            "benefits": [
+                "Deep relaxation",
+                "Reduces stress and anxiety",
+                "Improves sleep quality",
+                "Calms the nervous system",
+                "Promotes healing"
+            ],
+            "description": "The ultimate relaxation pose that allows the body to integrate the benefits of yoga practice. Essential for all dosha types.",
+            "image": "/yoga-poses/savasana.svg",
+            "therapeuticUses": [
+                "Balances all doshas through deep relaxation",
+                "Reduces stress and promotes healing",
+                "Calms the nervous system and improves sleep",
+                "Allows integration of yoga practice benefits"
+            ],
+            "doshaSpecific": {
+                "vata": "Essential for grounding and calming, practice longer",
+                "pitta": "Excellent for cooling and reducing heat",
+                "kapha": "Important for integration, avoid falling asleep"
+            },
+            "contraindications": ["Severe depression", "Very cold environment"],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Bridge Pose",
+            "sanskrit": "Setu Bandhasana",
+            "category": "Backbend",
+            "duration": "5-8 mins",
+            "difficulty": "Beginner",
+            "dosha": "Kapha, Vata",
+            "benefits": [
+                "Strengthens back and legs",
+                "Opens chest and shoulders",
+                "Stimulates thyroid gland",
+                "Improves posture",
+                "Reduces fatigue"
+            ],
+            "description": "A gentle backbend that strengthens the back and opens the chest. Excellent for Kapha types who need stimulation and Vata types who need gentle strengthening.",
+            "image": "/yoga-poses/setu-bandhasana.svg",
+            "therapeuticUses": [
+                "Stimulates Kapha dosha - energizes and awakens",
+                "Strengthens Vata dosha - builds stability",
+                "Opens the chest and improves respiratory function",
+                "Stimulates thyroid function and metabolism"
+            ],
+            "doshaSpecific": {
+                "vata": "Practice gently with focus on stability",
+                "pitta": "Practice moderately, avoid over-exertion",
+                "kapha": "Practice vigorously to stimulate energy"
+            },
+            "contraindications": ["Neck problems", "Severe back problems", "Pregnancy"],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Triangle Pose",
+            "sanskrit": "Trikonasana",
+            "category": "Standing",
+            "duration": "5-8 mins",
+            "difficulty": "Beginner",
+            "dosha": "All Doshas",
+            "benefits": [
+                "Improves balance and stability",
+                "Strengthens legs and core",
+                "Opens hips and chest",
+                "Improves digestion",
+                "Enhances focus"
+            ],
+            "description": "A standing pose that improves balance and stability while opening the body. Beneficial for all dosha types.",
+            "image": "/yoga-poses/trikonasana.svg",
+            "therapeuticUses": [
+                "Balances all doshas through grounding and stability",
+                "Improves balance and coordination",
+                "Strengthens the musculoskeletal system",
+                "Opens the chest and improves respiratory function"
+            ],
+            "doshaSpecific": {
+                "vata": "Excellent for grounding and stability",
+                "pitta": "Good for cooling and focus",
+                "kapha": "Good for stimulation and energy"
+            },
+            "contraindications": ["Severe back problems", "High blood pressure", "Pregnancy"],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Warrior II",
+            "sanskrit": "Virabhadrasana II",
+            "category": "Standing",
+            "duration": "5-8 mins",
+            "difficulty": "Beginner",
+            "dosha": "Kapha, Vata",
+            "benefits": [
+                "Builds strength and stamina",
+                "Improves focus and concentration",
+                "Opens hips and chest",
+                "Enhances confidence",
+                "Stimulates energy"
+            ],
+            "description": "A powerful standing pose that builds strength and confidence. Excellent for Kapha types who need stimulation and Vata types who need grounding.",
+            "image": "/yoga-poses/virabhadrasana-ii.svg",
+            "therapeuticUses": [
+                "Stimulates Kapha dosha - energizes and awakens",
+                "Strengthens Vata dosha - builds confidence and stability",
+                "Improves focus and concentration",
+                "Builds physical and mental strength"
+            ],
+            "doshaSpecific": {
+                "vata": "Excellent for grounding and building confidence",
+                "pitta": "Practice moderately, avoid over-exertion",
+                "kapha": "Practice vigorously to stimulate energy"
+            },
+            "contraindications": ["Severe knee problems", "High blood pressure", "Pregnancy"],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Tree Pose",
+            "sanskrit": "Vrikshasana",
+            "category": "Standing",
+            "duration": "5-8 mins",
+            "difficulty": "Beginner",
+            "dosha": "Vata, Pitta",
+            "benefits": [
+                "Improves balance and focus",
+                "Strengthens legs and core",
+                "Calms the mind",
+                "Enhances concentration",
+                "Promotes grounding"
+            ],
+            "description": "A balancing pose that improves focus and promotes grounding. Excellent for Vata and Pitta types who need stability and calm.",
+            "image": "/yoga-poses/vrikshasana.svg",
+            "therapeuticUses": [
+                "Grounds Vata dosha - improves stability and focus",
+                "Calms Pitta dosha - reduces heat and promotes concentration",
+                "Improves balance and coordination",
+                "Promotes mental clarity and focus"
+            ],
+            "doshaSpecific": {
+                "vata": "Excellent for grounding and stability",
+                "pitta": "Good for cooling and focus",
+                "kapha": "Good for stimulation and energy"
+            },
+            "contraindications": ["Severe balance problems", "Recent ankle injury"],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        }
+    ]
+
+    # Pranayama techniques from David Frawley's book
+    pranayama_techniques = [
+        {
+            "name": "Alternate Nostril Breathing",
+            "sanskrit": "Nadi Shodhana",
+            "description": "A balancing breathing technique that purifies the energy channels and balances the left and right hemispheres of the brain.",
+            "benefits": [
+                "Balances all doshas",
+                "Calms the nervous system",
+                "Improves focus and concentration",
+                "Purifies energy channels",
+                "Reduces stress and anxiety"
+            ],
+            "dosha": "All Doshas",
+            "duration": "5-15 mins",
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Skull Shining Breath",
+            "sanskrit": "Kapalabhati",
+            "description": "An energizing breathing technique that cleanses the skull and stimulates the brain.",
+            "benefits": [
+                "Stimulates Kapha dosha",
+                "Cleanses the respiratory system",
+                "Improves mental clarity",
+                "Energizes the body",
+                "Stimulates digestive fire"
+            ],
+            "dosha": "Kapha, Vata",
+            "duration": "3-5 mins",
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Victorious Breath",
+            "sanskrit": "Ujjayi",
+            "description": "A calming breathing technique that creates a gentle sound in the throat.",
+            "benefits": [
+                "Calms Vata and Pitta doshas",
+                "Reduces stress and anxiety",
+                "Improves focus",
+                "Regulates breathing",
+                "Promotes relaxation"
+            ],
+            "dosha": "Vata, Pitta",
+            "duration": "5-10 mins",
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        }
+    ]
+
+    # Yoga sequences from David Frawley's book
+    yoga_sequences = [
+        {
+            "name": "Morning Energizing Sequence",
+            "description": "A sequence designed to energize and awaken the body in the morning, perfect for Kapha types.",
+            "poses": [
+                "Sun Salutation (Surya Namaskara)",
+                "Cobra Pose (Bhujangasana)",
+                "Bridge Pose (Setu Bandhasana)",
+                "Warrior II (Virabhadrasana II)",
+                "Triangle Pose (Trikonasana)"
+            ],
+            "duration": "20-30 mins",
+            "dosha": "Kapha",
+            "benefits": [
+                "Stimulates energy and metabolism",
+                "Awakens the body and mind",
+                "Improves circulation",
+                "Builds strength and stamina"
+            ],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        },
+        {
+            "name": "Evening Calming Sequence",
+            "description": "A gentle sequence designed to calm the mind and prepare for rest, perfect for Vata and Pitta types.",
+            "poses": [
+                "Child's Pose (Balasana)",
+                "Seated Forward Bend (Paschimottanasana)",
+                "Plow Pose (Halasana)",
+                "Tree Pose (Vrikshasana)",
+                "Corpse Pose (Savasana)"
+            ],
+            "duration": "15-25 mins",
+            "dosha": "Vata, Pitta",
+            "benefits": [
+                "Calms the nervous system",
+                "Reduces stress and anxiety",
+                "Promotes relaxation",
+                "Prepares for restful sleep"
+            ],
+            "sources": ["Yoga and Ayurveda - David Frawley"]
+        }
+    ]
+
+    # Create comprehensive data structure
+    yoga_library_data = {
+        "poses": enhanced_poses,
+        "sequences": yoga_sequences,
+        "pranayama": pranayama_techniques,
+        "categories": [
+            {
+                "name": "Ayurvedic Yoga",
+                "description": "Yoga poses and sequences based on Ayurvedic principles",
+                "count": len(enhanced_poses)
+            },
+            {
+                "name": "Pranayama",
+                "description": "Breathing techniques for dosha balance",
+                "count": len(pranayama_techniques)
+            },
+            {
+                "name": "Therapeutic Sequences",
+                "description": "Yoga sequences for specific health benefits",
+                "count": len(yoga_sequences)
+            }
+        ],
+        "metadata": {
+            "source": "Yoga and Ayurveda - David Frawley",
+            "extracted_at": "2024",
+            "total_poses": len(enhanced_poses),
+            "total_sequences": len(yoga_sequences),
+            "total_pranayama": len(pranayama_techniques)
+        }
+    }
+
+    return yoga_library_data
+
+def main():
+    """Main function to create and save enhanced yoga data"""
+    
+    print("Creating enhanced yoga library data from David Frawley's book...")
+    
+    # Create enhanced data
+    yoga_library_data = create_enhanced_yoga_data()
+    
+    # Save to JSON file
+    output_path = "../src/assets/enhanced_yoga_data.json"
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(yoga_library_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Enhanced yoga library data saved to {output_path}")
+    print(f"Added {len(yoga_library_data['poses'])} yoga poses")
+    print(f"Added {len(yoga_library_data['sequences'])} yoga sequences")
+    print(f"Added {len(yoga_library_data['pranayama'])} pranayama techniques")
+
+if __name__ == "__main__":
+    main() 

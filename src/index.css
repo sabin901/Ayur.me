@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ayur.me Design System - Blending Ancient Wisdom with Modern Aesthetics */
+
+@layer base {
+  :root {
+    /* Base Colors - Warm, Natural Foundation */
+    --background: 48 15% 97%;  /* Warm off-white #F8F7F4 */
+    --foreground: 210 11% 15%; /* Deep slate gray #475569 */
+
+    /* Card & Surface Colors */
+    --card: 48 15% 97%;
+    --card-foreground: 210 11% 15%;
+
+    --popover: 48 15% 97%;
+    --popover-foreground: 210 11% 15%;
+
+    /* Primary - Earth Tones */
+    --primary: 210 11% 15%;     /* Slate gray for primary actions */
+    --primary-foreground: 48 15% 97%;
+
+    --secondary: 45 25% 95%;    /* Light warm gray */
+    --secondary-foreground: 210 11% 15%;
+
+    --muted: 45 15% 92%;
+    --muted-foreground: 210 8% 46%;
+
+    --accent: 42 88% 65%;       /* Warm gold accent */
+    --accent-foreground: 210 11% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 48 15% 97%;
+
+    --border: 45 15% 87%;
+    --input: 45 15% 87%;
+    --ring: 42 88% 65%;
+
+    --radius: 0.75rem;
+
+    /* ayur.me Semantic Colors */
+    --earth: 210 11% 15%;       /* Primary earth tone */
+    --earth-foreground: 48 15% 97%;
+
+    --gold: 42 88% 65%;         /* Warm gold for highlights */
+    --gold-foreground: 210 11% 15%;
+
+    --sage: 120 15% 65%;        /* Muted sage green */
+    --sage-foreground: 210 11% 15%;
+
+    /* Dosha Colors - For diagnostic and educational content */
+    --vata: 215 20% 75%;        /* Light blue-gray for Air/Ether */
+    --vata-foreground: 210 11% 15%;
+
+    --pitta: 15 55% 65%;        /* Terracotta for Fire/Water */
+    --pitta-foreground: 48 15% 97%;
+
+    --kapha: 120 25% 65%;       /* Sage green for Earth/Water */
+    --kapha-foreground: 210 11% 15%;
+
+    /* Sidebar */
+    --sidebar-background: 48 15% 95%;
+    --sidebar-foreground: 210 11% 15%;
+    --sidebar-primary: 210 11% 15%;
+    --sidebar-primary-foreground: 48 15% 97%;
+    --sidebar-accent: 45 25% 92%;
+    --sidebar-accent-foreground: 210 11% 15%;
+    --sidebar-border: 45 15% 87%;
+    --sidebar-ring: 42 88% 65%;
+
+    /* Custom Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--earth)), hsl(var(--sage)));
+    --gradient-dosha: linear-gradient(45deg, hsl(var(--vata)), hsl(var(--pitta)), hsl(var(--kapha)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(var(--earth) / 0.1);
+    --shadow-card: 0 8px 30px -8px hsl(var(--earth) / 0.15);
+    --shadow-gold: 0 4px 20px -4px hsl(var(--gold) / 0.3);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  /* Ensure proper canvas container sizing */
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Canvas container specific styles */
+  .canvas-container {
+    height: calc(100vh - 120px);
+    width: 100%;
+    position: relative;
+  }
+
+  /* Three.js canvas styles */
+  canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+@layer components {
+  /* Hero Section Styles */
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .dosha-gradient {
+    background: var(--gradient-dosha);
+  }
+
+  /* Custom Button Variants */
+  .btn-gold {
+    @apply bg-gold text-gold-foreground hover:bg-gold/90 shadow-md hover:shadow-lg transition-all duration-300;
+  }
+
+  .btn-earth {
+    @apply bg-earth text-earth-foreground hover:bg-earth/90 shadow-md hover:shadow-lg transition-all duration-300;
+  }
+
+  /* Responsive Button Styles */
+  .btn-responsive {
+    @apply w-full sm:w-auto px-4 py-2 text-sm sm:text-base font-medium rounded-lg transition-all duration-300;
+  }
+
+  .btn-responsive-sm {
+    @apply w-full sm:w-auto px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md transition-all duration-300;
+  }
+
+  .btn-responsive-lg {
+    @apply w-full sm:w-auto px-6 py-3 text-base sm:text-lg font-medium rounded-xl transition-all duration-300;
+  }
+
+  /* Interactive Button States */
+  .btn-interactive {
+    @apply transform hover:scale-105 active:scale-95 focus:ring-2 focus:ring-offset-2 focus:ring-gold;
+  }
+
+  .btn-touch-friendly {
+    @apply min-h-[44px] min-w-[44px] touch-manipulation;
+  }
+
+  /* Card Effects */
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-1;
+    will-change: transform;
+    transform: translateZ(0);
+  }
+
+  .card-dosha {
+    @apply border-2 border-transparent hover:border-current transition-all duration-300 cursor-pointer;
+  }
+
+  .card-dosha.vata {
+    @apply hover:border-vata hover:bg-vata/10;
+  }
+
+  .card-dosha.pitta {
+    @apply hover:border-pitta hover:bg-pitta/10;
+  }
+
+  .card-dosha.kapha {
+    @apply hover:border-kapha hover:bg-kapha/10;
+  }
+
+  /* Text Effects */
+  .text-gradient {
+    @apply bg-gradient-to-r from-earth to-sage bg-clip-text text-transparent;
+  }
+
+  /* Animations */
+  .fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+  }
+
+  .slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+
+  /* Progress Bar Utility */
+  .progress-bar {
+    @apply w-full h-2 rounded-full bg-muted overflow-hidden;
+  }
+  .progress-bar-inner {
+    @apply h-full bg-gold transition-all duration-300;
+  }
+
+  /* Progress Section Utility */
+  .progress-section {
+    @apply py-6 px-4 sm:px-8 max-w-4xl mx-auto;
+  }
+
+
+}
+
+@layer utilities {
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInSimple {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+  will-change: opacity, transform;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.6s ease-out 0.2s forwards;
+  will-change: transform, opacity;
+}
+
+
+
+/* Optimize backdrop blur for better performance */
+.backdrop-blur-sm {
+  will-change: backdrop-filter;
+}
+
+.backdrop-blur-md {
+  will-change: backdrop-filter;
+}
+
+/* Additional performance optimizations */
+.transform {
+  will-change: transform;
+}
+
+.hover\:scale-\[1\.02\]:hover {
+  transform: scale(1.02) translateZ(0);
+}
+
+.hover\:-translate-y-1:hover {
+  transform: translateY(-0.25rem) translateZ(0);
+}
+
+/* Optimize transitions for better performance */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reduce paint operations */
+.bg-white\/90 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-white\/10 {
+  background-color: rgba(255, 255, 255, 0.1);
+}

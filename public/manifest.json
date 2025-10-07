@@ -1,0 +1,32 @@
+{
+  "name": "ayur.me - Ayurvedic Wellness Platform",
+  "short_name": "ayur.me",
+  "description": "Discover your dosha and explore authentic Ayurvedic wisdom for holistic wellness",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fefce8",
+  "theme_color": "#84cc16",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "lifestyle", "education"],
+  "lang": "en",
+  "dir": "ltr"
+} 
