@@ -1,0 +1,1044 @@
+{
+  "diseases": [
+    {
+      "diseaseId": "common_cold_001",
+      "name": "Common Cold",
+      "sanskrit": "Pratishyaya",
+      "englishName": "Acute Viral Rhinopharyngitis",
+      "dosha": "Kapha",
+      "symptoms": [
+        "Runny nose",
+        "Congestion",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever",
+        "Fatigue"
+      ],
+      "causes": [
+        "Kapha aggravation",
+        "Seasonal changes",
+        "Weak immunity",
+        "Exposure to cold"
+      ],
+      "remedies": [
+        "Tulsi tea with ginger and honey",
+        "Steam inhalation with eucalyptus",
+        "Rest and warm fluids",
+        "Avoid cold foods and drinks"
+      ],
+      "prevention": [
+        "Regular exercise",
+        "Balanced diet",
+        "Adequate sleep",
+        "Seasonal lifestyle adjustments"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Mild",
+      "category": "Respiratory",
+      "globalPrevalence": "Universal - affects everyone multiple times per year"
+    },
+    {
+      "name": "Dental Caries",
+      "ayurvedicName": "Danta Shoola",
+      "englishName": "Tooth Decay",
+      "dosha": "Pitta",
+      "symptoms": [
+        "Tooth pain",
+        "Sensitivity to hot/cold",
+        "Visible cavities",
+        "Bad breath",
+        "Tooth discoloration"
+      ],
+      "causes": [
+        "Poor oral hygiene",
+        "Excessive sweet foods",
+        "Pitta aggravation",
+        "Acidic diet"
+      ],
+      "remedies": [
+        "Oil pulling with sesame oil",
+        "Neem twig brushing",
+        "Triphala mouthwash",
+        "Clove oil application"
+      ],
+      "prevention": [
+        "Regular brushing with herbal pastes",
+        "Oil pulling daily",
+        "Limit sugary foods",
+        "Regular dental checkups"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Dental",
+      "globalPrevalence": "Most common disease globally - affects 100% of adults"
+    },
+    {
+      "name": "Hypertension",
+      "ayurvedicName": "Raktagata Vata",
+      "englishName": "High Blood Pressure",
+      "dosha": "Pitta-Vata",
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Fatigue",
+        "Vision problems",
+        "Chest pain",
+        "Irregular heartbeat"
+      ],
+      "causes": [
+        "Stress and anxiety",
+        "Poor diet",
+        "Lack of exercise",
+        "Pitta aggravation",
+        "Vata imbalance"
+      ],
+      "remedies": [
+        "Arjuna bark decoction",
+        "Brahmi supplements",
+        "Jatamansi for stress",
+        "Sarpagandha powder"
+      ],
+      "prevention": [
+        "Stress management",
+        "Regular exercise",
+        "Low-salt diet",
+        "Meditation and yoga"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "High",
+      "category": "Cardiovascular",
+      "globalPrevalence": "Affects 1.3+ billion people worldwide"
+    },
+    {
+      "name": "Diabetes",
+      "ayurvedicName": "Madhumeha",
+      "englishName": "Diabetes Mellitus",
+      "dosha": "Kapha-Pitta",
+      "symptoms": [
+        "Excessive thirst",
+        "Frequent urination",
+        "Increased hunger",
+        "Weight loss",
+        "Fatigue",
+        "Blurred vision"
+      ],
+      "causes": [
+        "Poor diet",
+        "Lack of exercise",
+        "Obesity",
+        "Genetic factors",
+        "Kapha aggravation"
+      ],
+      "remedies": [
+        "Gudmar (Gymnema sylvestre)",
+        "Neem leaves",
+        "Jamun seeds",
+        "Bitter gourd juice"
+      ],
+      "prevention": [
+        "Balanced diet",
+        "Regular exercise",
+        "Weight management",
+        "Stress reduction"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "High",
+      "category": "Metabolic",
+      "globalPrevalence": "Over 400 million people affected globally"
+    },
+    {
+      "name": "Migraine",
+      "ayurvedicName": "Ardhavabhedaka",
+      "englishName": "Migraine Headache",
+      "dosha": "Vata-Pitta",
+      "symptoms": [
+        "Severe one-sided headache",
+        "Nausea and vomiting",
+        "Sensitivity to light",
+        "Sensitivity to sound",
+        "Aura symptoms"
+      ],
+      "causes": [
+        "Vata aggravation",
+        "Pitta imbalance",
+        "Stress",
+        "Dietary triggers",
+        "Hormonal changes"
+      ],
+      "remedies": [
+        "Jatamansi powder",
+        "Brahmi supplements",
+        "Shankhpushpi",
+        "Nasya with sesame oil"
+      ],
+      "prevention": [
+        "Identify and avoid triggers",
+        "Regular sleep schedule",
+        "Stress management",
+        "Balanced diet"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Moderate",
+      "category": "Neurological",
+      "globalPrevalence": "Affects 75% of adults annually"
+    },
+    {
+      "name": "Seasonal Allergies",
+      "ayurvedicName": "Pratishyaya",
+      "englishName": "Allergic Rhinitis",
+      "dosha": "Kapha",
+      "symptoms": [
+        "Sneezing",
+        "Runny nose",
+        "Itchy eyes",
+        "Nasal congestion",
+        "Post-nasal drip"
+      ],
+      "causes": [
+        "Kapha aggravation",
+        "Seasonal changes",
+        "Pollen exposure",
+        "Weak immunity"
+      ],
+      "remedies": [
+        "Tulsi tea",
+        "Yashtimadhu powder",
+        "Haridra (turmeric)",
+        "Steam inhalation"
+      ],
+      "prevention": [
+        "Seasonal lifestyle adjustments",
+        "Immunity building",
+        "Avoid allergens",
+        "Regular nasal cleansing"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Mild",
+      "category": "Respiratory",
+      "globalPrevalence": "Impacts 400+ million people globally"
+    },
+    {
+      "name": "Acne",
+      "ayurvedicName": "Yuvan Pidika",
+      "englishName": "Acne Vulgaris",
+      "dosha": "Pitta",
+      "symptoms": [
+        "Pimples and blackheads",
+        "Whiteheads",
+        "Inflammation",
+        "Scarring",
+        "Oily skin"
+      ],
+      "causes": [
+        "Pitta aggravation",
+        "Hormonal changes",
+        "Poor diet",
+        "Stress",
+        "Oily foods"
+      ],
+      "remedies": [
+        "Neem paste",
+        "Turmeric paste",
+        "Aloe vera gel",
+        "Sandalwood paste"
+      ],
+      "prevention": [
+        "Balanced diet",
+        "Regular cleansing",
+        "Stress management",
+        "Avoid oily foods"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Mild",
+      "category": "Dermatological",
+      "globalPrevalence": "Affects 85% of adolescents and 50% of adults"
+    },
+    {
+      "name": "Anxiety",
+      "ayurvedicName": "Chittodvega",
+      "englishName": "Anxiety Disorders",
+      "dosha": "Vata",
+      "symptoms": [
+        "Excessive worry",
+        "Restlessness",
+        "Panic attacks",
+        "Sleep problems",
+        "Concentration issues"
+      ],
+      "causes": [
+        "Vata aggravation",
+        "Stress",
+        "Poor diet",
+        "Lack of sleep",
+        "Overthinking"
+      ],
+      "remedies": [
+        "Jatamansi powder",
+        "Brahmi supplements",
+        "Shankhpushpi",
+        "Ashwagandha"
+      ],
+      "prevention": [
+        "Meditation and yoga",
+        "Regular exercise",
+        "Balanced diet",
+        "Adequate sleep"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Mental Health",
+      "globalPrevalence": "284 million people affected globally"
+    },
+    {
+      "name": "GERD",
+      "ayurvedicName": "Amlapitta",
+      "englishName": "Gastroesophageal Reflux Disease",
+      "dosha": "Pitta",
+      "symptoms": [
+        "Heartburn",
+        "Acid reflux",
+        "Chest pain",
+        "Difficulty swallowing",
+        "Regurgitation"
+      ],
+      "causes": [
+        "Pitta aggravation",
+        "Poor diet",
+        "Stress",
+        "Obesity",
+        "Smoking"
+      ],
+      "remedies": [
+        "Amla powder",
+        "Yashtimadhu",
+        "Shatavari",
+        "Cooling herbs"
+      ],
+      "prevention": [
+        "Avoid spicy foods",
+        "Eat smaller meals",
+        "Don't lie down after eating",
+        "Stress management"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Moderate",
+      "category": "Digestive",
+      "globalPrevalence": "Affects 20-30% of Western populations"
+    },
+    {
+      "name": "Osteoarthritis",
+      "ayurvedicName": "Sandhivata",
+      "englishName": "Degenerative Joint Disease",
+      "dosha": "Vata",
+      "symptoms": [
+        "Joint pain",
+        "Stiffness",
+        "Reduced mobility",
+        "Joint swelling",
+        "Crepitus"
+      ],
+      "causes": [
+        "Vata aggravation",
+        "Age",
+        "Obesity",
+        "Joint injury",
+        "Overuse"
+      ],
+      "remedies": [
+        "Guggulu supplements",
+        "Ashwagandha",
+        "Shallaki (Boswellia)",
+        "Sesame oil massage"
+      ],
+      "prevention": [
+        "Regular exercise",
+        "Weight management",
+        "Joint protection",
+        "Balanced diet"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Musculoskeletal",
+      "globalPrevalence": "528 million people live with this condition"
+    },
+    {
+      "name": "Depression",
+      "ayurvedicName": "Vishada",
+      "englishName": "Major Depressive Disorder",
+      "dosha": "Kapha",
+      "symptoms": [
+        "Persistent sadness",
+        "Loss of interest",
+        "Low energy",
+        "Sleep problems",
+        "Concentration issues"
+      ],
+      "causes": [
+        "Kapha aggravation",
+        "Stress",
+        "Life events",
+        "Chemical imbalance",
+        "Lack of sunlight"
+      ],
+      "remedies": [
+        "Brahmi supplements",
+        "Jatamansi",
+        "Ashwagandha",
+        "Saffron"
+      ],
+      "prevention": [
+        "Regular exercise",
+        "Social connections",
+        "Sunlight exposure",
+        "Stress management"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "High",
+      "category": "Mental Health",
+      "globalPrevalence": "280+ million people affected globally"
+    },
+    {
+      "name": "Insomnia",
+      "ayurvedicName": "Anidra",
+      "englishName": "Sleep Disorders",
+      "dosha": "Vata",
+      "symptoms": [
+        "Difficulty falling asleep",
+        "Waking up frequently",
+        "Early morning awakening",
+        "Daytime fatigue",
+        "Irritability"
+      ],
+      "causes": [
+        "Vata aggravation",
+        "Stress",
+        "Poor sleep hygiene",
+        "Caffeine",
+        "Screen time"
+      ],
+      "remedies": [
+        "Jatamansi powder",
+        "Brahmi supplements",
+        "Warm milk with nutmeg",
+        "Sesame oil massage"
+      ],
+      "prevention": [
+        "Regular sleep schedule",
+        "Avoid screens before bed",
+        "Create sleep environment",
+        "Stress management"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Moderate",
+      "category": "Sleep",
+      "globalPrevalence": "30% of adults experience chronic sleep issues"
+    },
+    {
+      "name": "Back Pain",
+      "ayurvedicName": "Kati Shoola",
+      "englishName": "Lower Back Pain",
+      "dosha": "Vata",
+      "symptoms": [
+        "Lower back pain",
+        "Stiffness",
+        "Reduced mobility",
+        "Radiating pain",
+        "Muscle spasms"
+      ],
+      "causes": [
+        "Vata aggravation",
+        "Poor posture",
+        "Lifting heavy objects",
+        "Sedentary lifestyle",
+        "Stress"
+      ],
+      "remedies": [
+        "Sesame oil massage",
+        "Guggulu supplements",
+        "Ashwagandha",
+        "Warm compress"
+      ],
+      "prevention": [
+        "Proper posture",
+        "Regular exercise",
+        "Ergonomic setup",
+        "Stress management"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Musculoskeletal",
+      "globalPrevalence": "Lifetime prevalence: 84%"
+    },
+    {
+      "name": "Anemia",
+      "ayurvedicName": "Pandu",
+      "englishName": "Iron Deficiency Anemia",
+      "dosha": "Pitta",
+      "symptoms": [
+        "Fatigue",
+        "Weakness",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "causes": [
+        "Iron deficiency",
+        "Poor diet",
+        "Blood loss",
+        "Pitta aggravation",
+        "Malabsorption"
+      ],
+      "remedies": [
+        "Iron-rich foods",
+        "Amla powder",
+        "Shatavari",
+        "Yashtimadhu"
+      ],
+      "prevention": [
+        "Balanced diet",
+        "Iron supplements",
+        "Regular checkups",
+        "Treat underlying causes"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Moderate",
+      "category": "Hematological",
+      "globalPrevalence": "Affects 33% of women globally"
+    },
+    {
+      "name": "Obesity",
+      "ayurvedicName": "Sthaulya",
+      "englishName": "Overweight and Obesity",
+      "dosha": "Kapha",
+      "symptoms": [
+        "Excess body weight",
+        "Difficulty breathing",
+        "Joint pain",
+        "Fatigue",
+        "Sleep problems"
+      ],
+      "causes": [
+        "Kapha aggravation",
+        "Poor diet",
+        "Lack of exercise",
+        "Genetic factors",
+        "Stress eating"
+      ],
+      "remedies": [
+        "Guggulu supplements",
+        "Triphala",
+        "Ginger tea",
+        "Regular exercise"
+      ],
+      "prevention": [
+        "Balanced diet",
+        "Regular exercise",
+        "Portion control",
+        "Stress management"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "High",
+      "category": "Metabolic",
+      "globalPrevalence": "Major risk factor affecting billions globally"
+    },
+    {
+      "name": "Influenza",
+      "ayurvedicName": "Jwara",
+      "englishName": "Seasonal Flu",
+      "dosha": "Kapha-Pitta",
+      "symptoms": [
+        "High fever",
+        "Body aches",
+        "Fatigue",
+        "Cough",
+        "Sore throat"
+      ],
+      "causes": [
+        "Viral infection",
+        "Seasonal changes",
+        "Weak immunity",
+        "Kapha-Pitta aggravation"
+      ],
+      "remedies": [
+        "Tulsi tea",
+        "Ginger tea",
+        "Turmeric milk",
+        "Rest and hydration"
+      ],
+      "prevention": [
+        "Annual vaccination",
+        "Good hygiene",
+        "Immunity building",
+        "Seasonal lifestyle"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Moderate",
+      "category": "Respiratory",
+      "globalPrevalence": "Seasonal epidemics affect millions globally"
+    },
+    {
+      "name": "Gastroenteritis",
+      "ayurvedicName": "Atisara",
+      "englishName": "Stomach Flu",
+      "dosha": "Pitta",
+      "symptoms": [
+        "Diarrhea",
+        "Vomiting",
+        "Abdominal cramps",
+        "Fever",
+        "Dehydration"
+      ],
+      "causes": [
+        "Viral/bacterial infection",
+        "Pitta aggravation",
+        "Contaminated food",
+        "Poor hygiene"
+      ],
+      "remedies": [
+        "Ginger tea",
+        "Cumin water",
+        "Pomegranate juice",
+        "ORS solution"
+      ],
+      "prevention": [
+        "Good hygiene",
+        "Safe food handling",
+        "Clean water",
+        "Proper cooking"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Digestive",
+      "globalPrevalence": "Common cause of illness globally"
+    },
+    {
+      "name": "UTI",
+      "ayurvedicName": "Mutrakricchra",
+      "englishName": "Urinary Tract Infection",
+      "dosha": "Pitta",
+      "symptoms": [
+        "Frequent urination",
+        "Burning sensation",
+        "Cloudy urine",
+        "Lower abdominal pain",
+        "Fever"
+      ],
+      "causes": [
+        "Bacterial infection",
+        "Pitta aggravation",
+        "Poor hygiene",
+        "Dehydration"
+      ],
+      "remedies": [
+        "Cranberry juice",
+        "Gokshura powder",
+        "Punarnava",
+        "Increased water intake"
+      ],
+      "prevention": [
+        "Good hygiene",
+        "Adequate hydration",
+        "Urinate after intercourse",
+        "Avoid holding urine"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Moderate",
+      "category": "Urological",
+      "globalPrevalence": "Especially common in women"
+    },
+    {
+      "name": "Asthma",
+      "ayurvedicName": "Shwasa",
+      "englishName": "Bronchial Asthma",
+      "dosha": "Kapha-Vata",
+      "symptoms": [
+        "Wheezing",
+        "Shortness of breath",
+        "Chest tightness",
+        "Coughing",
+        "Difficulty breathing"
+      ],
+      "causes": [
+        "Kapha-Vata aggravation",
+        "Allergies",
+        "Respiratory infections",
+        "Environmental factors"
+      ],
+      "remedies": [
+        "Vasaka leaves",
+        "Kantakari",
+        "Talisadi churna",
+        "Sitopaladi churna"
+      ],
+      "prevention": [
+        "Avoid triggers",
+        "Regular exercise",
+        "Breathing exercises",
+        "Clean environment"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "High",
+      "category": "Respiratory",
+      "globalPrevalence": "Affects people of all ages, very common in children"
+    },
+    {
+      "name": "Constipation",
+      "ayurvedicName": "Vibandha",
+      "englishName": "Chronic Constipation",
+      "dosha": "Vata",
+      "symptoms": [
+        "Infrequent bowel movements",
+        "Hard stools",
+        "Straining",
+        "Abdominal discomfort",
+        "Bloating"
+      ],
+      "causes": [
+        "Vata aggravation",
+        "Poor diet",
+        "Lack of fiber",
+        "Dehydration",
+        "Sedentary lifestyle"
+      ],
+      "remedies": [
+        "Triphala powder",
+        "Haritaki",
+        "Sesame oil",
+        "Warm water"
+      ],
+      "prevention": [
+        "High-fiber diet",
+        "Adequate hydration",
+        "Regular exercise",
+        "Regular meal times"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Mild",
+      "category": "Digestive",
+      "globalPrevalence": "Common digestive issue affecting millions"
+    },
+    {
+      "name": "Eczema",
+      "ayurvedicName": "Vicharchika",
+      "englishName": "Atopic Dermatitis",
+      "dosha": "Pitta-Kapha",
+      "symptoms": [
+        "Itchy skin",
+        "Red patches",
+        "Dry skin",
+        "Scaling",
+        "Inflammation"
+      ],
+      "causes": [
+        "Pitta-Kapha aggravation",
+        "Allergies",
+        "Stress",
+        "Environmental factors",
+        "Genetic factors"
+      ],
+      "remedies": [
+        "Neem paste",
+        "Turmeric paste",
+        "Coconut oil",
+        "Aloe vera"
+      ],
+      "prevention": [
+        "Moisturize regularly",
+        "Avoid triggers",
+        "Stress management",
+        "Gentle skin care"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Dermatological",
+      "globalPrevalence": "Common skin condition affecting millions"
+    },
+    {
+      "name": "Hemorrhoids",
+      "ayurvedicName": "Arsha",
+      "englishName": "Piles",
+      "dosha": "Vata-Pitta",
+      "symptoms": [
+        "Rectal pain",
+        "Bleeding",
+        "Itching",
+        "Swelling",
+        "Discomfort"
+      ],
+      "causes": [
+        "Vata-Pitta aggravation",
+        "Chronic constipation",
+        "Straining",
+        "Pregnancy",
+        "Sedentary lifestyle"
+      ],
+      "remedies": [
+        "Triphala powder",
+        "Haritaki",
+        "Sitz bath",
+        "Witch hazel"
+      ],
+      "prevention": [
+        "High-fiber diet",
+        "Adequate hydration",
+        "Regular exercise",
+        "Avoid straining"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Moderate",
+      "category": "Proctological",
+      "globalPrevalence": "Affects 50% of people by age 50"
+    },
+    {
+      "name": "Tinnitus",
+      "ayurvedicName": "Karnanada",
+      "englishName": "Ringing in Ears",
+      "dosha": "Vata",
+      "symptoms": [
+        "Ringing in ears",
+        "Buzzing",
+        "Hissing",
+        "Clicking sounds",
+        "Hearing sensitivity"
+      ],
+      "causes": [
+        "Vata aggravation",
+        "Age-related hearing loss",
+        "Loud noise exposure",
+        "Stress",
+        "Ear infections"
+      ],
+      "remedies": [
+        "Jatamansi powder",
+        "Brahmi supplements",
+        "Sesame oil drops",
+        "Stress management"
+      ],
+      "prevention": [
+        "Protect from loud noises",
+        "Stress management",
+        "Regular checkups",
+        "Healthy lifestyle"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Otological",
+      "globalPrevalence": "Affects 15-20% of people"
+    },
+    {
+      "name": "Carpal Tunnel",
+      "ayurvedicName": "Manibandha Shoola",
+      "englishName": "Carpal Tunnel Syndrome",
+      "dosha": "Vata",
+      "symptoms": [
+        "Hand numbness",
+        "Tingling",
+        "Weakness",
+        "Pain in wrist",
+        "Difficulty gripping"
+      ],
+      "causes": [
+        "Vata aggravation",
+        "Repetitive movements",
+        "Computer work",
+        "Wrist injury",
+        "Pregnancy"
+      ],
+      "remedies": [
+        "Sesame oil massage",
+        "Ashwagandha",
+        "Guggulu supplements",
+        "Wrist exercises"
+      ],
+      "prevention": [
+        "Ergonomic setup",
+        "Regular breaks",
+        "Wrist exercises",
+        "Proper posture"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Neurological",
+      "globalPrevalence": "3-6% prevalence, common in office workers"
+    },
+    {
+      "name": "Myopia",
+      "ayurvedicName": "Drishti Dosha",
+      "englishName": "Nearsightedness",
+      "dosha": "Vata",
+      "symptoms": [
+        "Blurred distance vision",
+        "Eye strain",
+        "Headaches",
+        "Squinting",
+        "Difficulty driving"
+      ],
+      "causes": [
+        "Vata aggravation",
+        "Genetic factors",
+        "Excessive screen time",
+        "Poor lighting",
+        "Lack of outdoor time"
+      ],
+      "remedies": [
+        "Triphala eye wash",
+        "Rose water",
+        "Eye exercises",
+        "Amla supplements"
+      ],
+      "prevention": [
+        "Regular eye breaks",
+        "Outdoor activities",
+        "Proper lighting",
+        "Regular eye checkups"
+      ],
+      "references": "Charaka Samhita, Sushruta Samhita",
+      "severity": "Mild",
+      "category": "Ophthalmological",
+      "globalPrevalence": "Affecting 30%+ of global population"
+    },
+    {
+      "name": "Vitamin D Deficiency",
+      "ayurvedicName": "Surya Kshaya",
+      "englishName": "Hypovitaminosis D",
+      "dosha": "Vata",
+      "symptoms": [
+        "Fatigue",
+        "Bone pain",
+        "Muscle weakness",
+        "Mood changes",
+        "Frequent infections"
+      ],
+      "causes": [
+        "Lack of sunlight",
+        "Poor diet",
+        "Dark skin",
+        "Obesity",
+        "Age"
+      ],
+      "remedies": [
+        "Sunlight exposure",
+        "Vitamin D supplements",
+        "Fatty fish",
+        "Egg yolks"
+      ],
+      "prevention": [
+        "Regular sunlight exposure",
+        "Balanced diet",
+        "Supplements if needed",
+        "Regular checkups"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Nutritional",
+      "globalPrevalence": "Affects ~1 billion people"
+    },
+    {
+      "name": "Digital Eye Strain",
+      "ayurvedicName": "Netra Shrama",
+      "englishName": "Computer Vision Syndrome",
+      "dosha": "Vata-Pitta",
+      "symptoms": [
+        "Eye fatigue",
+        "Dry eyes",
+        "Blurred vision",
+        "Headaches",
+        "Neck pain"
+      ],
+      "causes": [
+        "Prolonged screen time",
+        "Poor lighting",
+        "Improper screen distance",
+        "Vata-Pitta aggravation"
+      ],
+      "remedies": [
+        "Triphala eye wash",
+        "Rose water drops",
+        "Eye exercises",
+        "20-20-20 rule"
+      ],
+      "prevention": [
+        "Regular breaks",
+        "Proper lighting",
+        "Correct screen distance",
+        "Blue light filters"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Mild",
+      "category": "Ophthalmological",
+      "globalPrevalence": "Affects 60% of screen users"
+    },
+    {
+      "name": "Chronic Stress",
+      "ayurvedicName": "Manasika Shrama",
+      "englishName": "Stress Disorders",
+      "dosha": "Vata",
+      "symptoms": [
+        "Anxiety",
+        "Irritability",
+        "Sleep problems",
+        "Fatigue",
+        "Physical symptoms"
+      ],
+      "causes": [
+        "Work pressure",
+        "Life changes",
+        "Financial worries",
+        "Relationship issues",
+        "Vata aggravation"
+      ],
+      "remedies": [
+        "Ashwagandha",
+        "Brahmi supplements",
+        "Jatamansi",
+        "Meditation"
+      ],
+      "prevention": [
+        "Stress management",
+        "Regular exercise",
+        "Healthy relationships",
+        "Work-life balance"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "High",
+      "category": "Mental Health",
+      "globalPrevalence": "Linked to 75-90% of doctor visits"
+    },
+    {
+      "name": "Sedentary Lifestyle",
+      "ayurvedicName": "Alasya",
+      "englishName": "Physical Inactivity",
+      "dosha": "Kapha",
+      "symptoms": [
+        "Weight gain",
+        "Fatigue",
+        "Poor posture",
+        "Weak muscles",
+        "Low energy"
+      ],
+      "causes": [
+        "Desk jobs",
+        "Technology use",
+        "Lack of motivation",
+        "Kapha aggravation",
+        "Poor habits"
+      ],
+      "remedies": [
+        "Regular exercise",
+        "Walking",
+        "Yoga",
+        "Active hobbies"
+      ],
+      "prevention": [
+        "Daily movement",
+        "Standing desk",
+        "Regular breaks",
+        "Active transportation"
+      ],
+      "references": "Charaka Samhita, Ashtanga Hridaya",
+      "severity": "Moderate",
+      "category": "Lifestyle",
+      "globalPrevalence": "Major health risk affecting billions"
+    }
+  ]
+} 

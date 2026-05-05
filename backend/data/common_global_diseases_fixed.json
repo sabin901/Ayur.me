@@ -1,0 +1,1586 @@
+{
+  "diseases": [
+    {
+      "diseaseId": "common_common_cold_001",
+      "name": "Common Cold",
+      "sanskrit": "Pratishyaya",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Kapha"
+      ],
+      "symptoms": [
+        "Runny nose",
+        "Congestion",
+        "Sneezing",
+        "Sore throat",
+        "Mild fever",
+        "Fatigue"
+      ],
+      "pathogenesis": "Kapha aggravation leading to common cold",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Tulsi tea with ginger and honey, Steam inhalation with eucalyptus, Rest and warm fluids, Avoid cold foods and drinks",
+          "ingredients": [
+            "Tulsi tea with ginger and honey",
+            "Steam inhalation with eucalyptus",
+            "Rest and warm fluids",
+            "Avoid cold foods and drinks"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Rest and warm fluids",
+        "Avoid cold foods and drinks"
+      ],
+      "precautions": [
+        "Regular exercise",
+        "Balanced diet",
+        "Adequate sleep",
+        "Seasonal lifestyle adjustments"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Regular exercise",
+        "Balanced diet",
+        "Adequate sleep",
+        "Seasonal lifestyle adjustments"
+      ],
+      "modernEquivalent": "Acute Viral Rhinopharyngitis",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_dental_caries_002",
+      "name": "Dental Caries",
+      "sanskrit": "Danta Shoola",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Pitta"
+      ],
+      "symptoms": [
+        "Tooth pain",
+        "Sensitivity to hot/cold",
+        "Visible cavities",
+        "Bad breath",
+        "Tooth discoloration"
+      ],
+      "pathogenesis": "Pitta aggravation leading to dental caries",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Oil pulling with sesame oil, Neem twig brushing, Triphala mouthwash, Clove oil application",
+          "ingredients": [
+            "Oil pulling with sesame oil",
+            "Neem twig brushing",
+            "Triphala mouthwash",
+            "Clove oil application"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Oil pulling with sesame oil",
+        "Neem twig brushing",
+        "Triphala mouthwash",
+        "Clove oil application"
+      ],
+      "precautions": [
+        "Regular brushing with herbal pastes",
+        "Oil pulling daily",
+        "Limit sugary foods",
+        "Regular dental checkups"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Regular brushing with herbal pastes",
+        "Oil pulling daily",
+        "Limit sugary foods",
+        "Regular dental checkups"
+      ],
+      "modernEquivalent": "Tooth Decay",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_hypertension_003",
+      "name": "Hypertension",
+      "sanskrit": "Raktagata Vata",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Pitta-Vata"
+      ],
+      "symptoms": [
+        "Headaches",
+        "Dizziness",
+        "Fatigue",
+        "Vision problems",
+        "Chest pain",
+        "Irregular heartbeat"
+      ],
+      "pathogenesis": "Pitta-Vata aggravation leading to hypertension",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Arjuna bark decoction, Brahmi supplements, Jatamansi for stress, Sarpagandha powder",
+          "ingredients": [
+            "Arjuna bark decoction",
+            "Brahmi supplements",
+            "Jatamansi for stress",
+            "Sarpagandha powder"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Arjuna bark decoction",
+        "Brahmi supplements",
+        "Jatamansi for stress",
+        "Sarpagandha powder"
+      ],
+      "precautions": [
+        "Stress management",
+        "Regular exercise",
+        "Low-salt diet",
+        "Meditation and yoga"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Stress management",
+        "Regular exercise",
+        "Low-salt diet",
+        "Meditation and yoga"
+      ],
+      "modernEquivalent": "High Blood Pressure",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_diabetes_004",
+      "name": "Diabetes",
+      "sanskrit": "Madhumeha",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Kapha-Pitta"
+      ],
+      "symptoms": [
+        "Excessive thirst",
+        "Frequent urination",
+        "Increased hunger",
+        "Weight loss",
+        "Fatigue",
+        "Blurred vision"
+      ],
+      "pathogenesis": "Kapha-Pitta aggravation leading to diabetes",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Gudmar (Gymnema sylvestre), Neem leaves, Jamun seeds, Bitter gourd juice",
+          "ingredients": [
+            "Gudmar (Gymnema sylvestre)",
+            "Neem leaves",
+            "Jamun seeds",
+            "Bitter gourd juice"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Gudmar (Gymnema sylvestre)",
+        "Neem leaves",
+        "Jamun seeds"
+      ],
+      "precautions": [
+        "Balanced diet",
+        "Regular exercise",
+        "Weight management",
+        "Stress reduction"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Balanced diet",
+        "Regular exercise",
+        "Weight management",
+        "Stress reduction"
+      ],
+      "modernEquivalent": "Diabetes Mellitus",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_migraine_005",
+      "name": "Migraine",
+      "sanskrit": "Ardhavabhedaka",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Vata-Pitta"
+      ],
+      "symptoms": [
+        "Severe one-sided headache",
+        "Nausea and vomiting",
+        "Sensitivity to light",
+        "Sensitivity to sound",
+        "Aura symptoms"
+      ],
+      "pathogenesis": "Vata-Pitta aggravation leading to migraine",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Jatamansi powder, Brahmi supplements, Shankhpushpi, Nasya with sesame oil",
+          "ingredients": [
+            "Jatamansi powder",
+            "Brahmi supplements",
+            "Shankhpushpi",
+            "Nasya with sesame oil"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Jatamansi powder",
+        "Brahmi supplements",
+        "Shankhpushpi",
+        "Nasya with sesame oil"
+      ],
+      "precautions": [
+        "Identify and avoid triggers",
+        "Regular sleep schedule",
+        "Stress management",
+        "Balanced diet"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Identify and avoid triggers",
+        "Regular sleep schedule",
+        "Stress management",
+        "Balanced diet"
+      ],
+      "modernEquivalent": "Migraine Headache",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_seasonal_allergies_006",
+      "name": "Seasonal Allergies",
+      "sanskrit": "Pratishyaya",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Kapha"
+      ],
+      "symptoms": [
+        "Sneezing",
+        "Runny nose",
+        "Itchy eyes",
+        "Nasal congestion",
+        "Post-nasal drip"
+      ],
+      "pathogenesis": "Kapha aggravation leading to seasonal allergies",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Tulsi tea, Yashtimadhu powder, Haridra (turmeric), Steam inhalation",
+          "ingredients": [
+            "Tulsi tea",
+            "Yashtimadhu powder",
+            "Haridra (turmeric)",
+            "Steam inhalation"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Yashtimadhu powder",
+        "Haridra (turmeric)"
+      ],
+      "precautions": [
+        "Seasonal lifestyle adjustments",
+        "Immunity building",
+        "Avoid allergens",
+        "Regular nasal cleansing"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Seasonal lifestyle adjustments",
+        "Immunity building",
+        "Avoid allergens",
+        "Regular nasal cleansing"
+      ],
+      "modernEquivalent": "Allergic Rhinitis",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_acne_007",
+      "name": "Acne",
+      "sanskrit": "Yuvan Pidika",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Pitta"
+      ],
+      "symptoms": [
+        "Pimples and blackheads",
+        "Whiteheads",
+        "Inflammation",
+        "Scarring",
+        "Oily skin"
+      ],
+      "pathogenesis": "Pitta aggravation leading to acne",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Neem paste, Turmeric paste, Aloe vera gel, Sandalwood paste",
+          "ingredients": [
+            "Neem paste",
+            "Turmeric paste",
+            "Aloe vera gel",
+            "Sandalwood paste"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Neem paste",
+        "Turmeric paste",
+        "Aloe vera gel",
+        "Sandalwood paste"
+      ],
+      "precautions": [
+        "Balanced diet",
+        "Regular cleansing",
+        "Stress management",
+        "Avoid oily foods"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Balanced diet",
+        "Regular cleansing",
+        "Stress management",
+        "Avoid oily foods"
+      ],
+      "modernEquivalent": "Acne Vulgaris",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_anxiety_008",
+      "name": "Anxiety",
+      "sanskrit": "Chittodvega",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Excessive worry",
+        "Restlessness",
+        "Panic attacks",
+        "Sleep problems",
+        "Concentration issues"
+      ],
+      "pathogenesis": "Vata aggravation leading to anxiety",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Jatamansi powder, Brahmi supplements, Shankhpushpi, Ashwagandha",
+          "ingredients": [
+            "Jatamansi powder",
+            "Brahmi supplements",
+            "Shankhpushpi",
+            "Ashwagandha"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Jatamansi powder",
+        "Brahmi supplements",
+        "Shankhpushpi",
+        "Ashwagandha"
+      ],
+      "precautions": [
+        "Meditation and yoga",
+        "Regular exercise",
+        "Balanced diet",
+        "Adequate sleep"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Meditation and yoga",
+        "Regular exercise",
+        "Balanced diet",
+        "Adequate sleep"
+      ],
+      "modernEquivalent": "Anxiety Disorders",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_gerd_009",
+      "name": "GERD",
+      "sanskrit": "Amlapitta",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Pitta"
+      ],
+      "symptoms": [
+        "Heartburn",
+        "Acid reflux",
+        "Chest pain",
+        "Difficulty swallowing",
+        "Regurgitation"
+      ],
+      "pathogenesis": "Pitta aggravation leading to gerd",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Amla powder, Yashtimadhu, Shatavari, Cooling herbs",
+          "ingredients": [
+            "Amla powder",
+            "Yashtimadhu",
+            "Shatavari",
+            "Cooling herbs"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Amla powder",
+        "Yashtimadhu",
+        "Shatavari",
+        "Cooling herbs"
+      ],
+      "precautions": [
+        "Avoid spicy foods",
+        "Eat smaller meals",
+        "Don't lie down after eating",
+        "Stress management"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Avoid spicy foods",
+        "Eat smaller meals",
+        "Don't lie down after eating",
+        "Stress management"
+      ],
+      "modernEquivalent": "Gastroesophageal Reflux Disease",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_osteoarthritis_010",
+      "name": "Osteoarthritis",
+      "sanskrit": "Sandhivata",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Joint pain",
+        "Stiffness",
+        "Reduced mobility",
+        "Joint swelling",
+        "Crepitus"
+      ],
+      "pathogenesis": "Vata aggravation leading to osteoarthritis",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Guggulu supplements, Ashwagandha, Shallaki (Boswellia), Sesame oil massage",
+          "ingredients": [
+            "Guggulu supplements",
+            "Ashwagandha",
+            "Shallaki (Boswellia)",
+            "Sesame oil massage"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Guggulu supplements",
+        "Ashwagandha",
+        "Shallaki (Boswellia)",
+        "Sesame oil massage"
+      ],
+      "precautions": [
+        "Regular exercise",
+        "Weight management",
+        "Joint protection",
+        "Balanced diet"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Regular exercise",
+        "Weight management",
+        "Joint protection",
+        "Balanced diet"
+      ],
+      "modernEquivalent": "Degenerative Joint Disease",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_depression_011",
+      "name": "Depression",
+      "sanskrit": "Vishada",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Kapha"
+      ],
+      "symptoms": [
+        "Persistent sadness",
+        "Loss of interest",
+        "Low energy",
+        "Sleep problems",
+        "Concentration issues"
+      ],
+      "pathogenesis": "Kapha aggravation leading to depression",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Brahmi supplements, Jatamansi, Ashwagandha, Saffron",
+          "ingredients": [
+            "Brahmi supplements",
+            "Jatamansi",
+            "Ashwagandha",
+            "Saffron"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Brahmi supplements",
+        "Jatamansi",
+        "Ashwagandha",
+        "Saffron"
+      ],
+      "precautions": [
+        "Regular exercise",
+        "Social connections",
+        "Sunlight exposure",
+        "Stress management"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Regular exercise",
+        "Social connections",
+        "Sunlight exposure",
+        "Stress management"
+      ],
+      "modernEquivalent": "Major Depressive Disorder",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_insomnia_012",
+      "name": "Insomnia",
+      "sanskrit": "Anidra",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Difficulty falling asleep",
+        "Waking up frequently",
+        "Early morning awakening",
+        "Daytime fatigue",
+        "Irritability"
+      ],
+      "pathogenesis": "Vata aggravation leading to insomnia",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Jatamansi powder, Brahmi supplements, Warm milk with nutmeg, Sesame oil massage",
+          "ingredients": [
+            "Jatamansi powder",
+            "Brahmi supplements",
+            "Warm milk with nutmeg",
+            "Sesame oil massage"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Jatamansi powder",
+        "Brahmi supplements",
+        "Warm milk with nutmeg",
+        "Sesame oil massage"
+      ],
+      "precautions": [
+        "Regular sleep schedule",
+        "Avoid screens before bed",
+        "Create sleep environment",
+        "Stress management"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Regular sleep schedule",
+        "Avoid screens before bed",
+        "Create sleep environment",
+        "Stress management"
+      ],
+      "modernEquivalent": "Sleep Disorders",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_back_pain_013",
+      "name": "Back Pain",
+      "sanskrit": "Kati Shoola",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Lower back pain",
+        "Stiffness",
+        "Reduced mobility",
+        "Radiating pain",
+        "Muscle spasms"
+      ],
+      "pathogenesis": "Vata aggravation leading to back pain",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Sesame oil massage, Guggulu supplements, Ashwagandha, Warm compress",
+          "ingredients": [
+            "Sesame oil massage",
+            "Guggulu supplements",
+            "Ashwagandha",
+            "Warm compress"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Sesame oil massage",
+        "Guggulu supplements",
+        "Ashwagandha",
+        "Warm compress"
+      ],
+      "precautions": [
+        "Proper posture",
+        "Regular exercise",
+        "Ergonomic setup",
+        "Stress management"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Proper posture",
+        "Regular exercise",
+        "Ergonomic setup",
+        "Stress management"
+      ],
+      "modernEquivalent": "Lower Back Pain",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_anemia_014",
+      "name": "Anemia",
+      "sanskrit": "Pandu",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Pitta"
+      ],
+      "symptoms": [
+        "Fatigue",
+        "Weakness",
+        "Pale skin",
+        "Shortness of breath",
+        "Dizziness"
+      ],
+      "pathogenesis": "Pitta aggravation leading to anemia",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Iron-rich foods, Amla powder, Shatavari, Yashtimadhu",
+          "ingredients": [
+            "Iron-rich foods",
+            "Amla powder",
+            "Shatavari",
+            "Yashtimadhu"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Iron-rich foods",
+        "Amla powder",
+        "Shatavari",
+        "Yashtimadhu"
+      ],
+      "precautions": [
+        "Balanced diet",
+        "Iron supplements",
+        "Regular checkups",
+        "Treat underlying causes"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Balanced diet",
+        "Iron supplements",
+        "Regular checkups",
+        "Treat underlying causes"
+      ],
+      "modernEquivalent": "Iron Deficiency Anemia",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_obesity_015",
+      "name": "Obesity",
+      "sanskrit": "Sthaulya",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Kapha"
+      ],
+      "symptoms": [
+        "Excess body weight",
+        "Difficulty breathing",
+        "Joint pain",
+        "Fatigue",
+        "Sleep problems"
+      ],
+      "pathogenesis": "Kapha aggravation leading to obesity",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Guggulu supplements, Triphala, Ginger tea, Regular exercise",
+          "ingredients": [
+            "Guggulu supplements",
+            "Triphala",
+            "Ginger tea",
+            "Regular exercise"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Guggulu supplements",
+        "Triphala",
+        "Regular exercise"
+      ],
+      "precautions": [
+        "Balanced diet",
+        "Regular exercise",
+        "Portion control",
+        "Stress management"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Balanced diet",
+        "Regular exercise",
+        "Portion control",
+        "Stress management"
+      ],
+      "modernEquivalent": "Overweight and Obesity",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_influenza_016",
+      "name": "Influenza",
+      "sanskrit": "Jwara",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Kapha-Pitta"
+      ],
+      "symptoms": [
+        "High fever",
+        "Body aches",
+        "Fatigue",
+        "Cough",
+        "Sore throat"
+      ],
+      "pathogenesis": "Kapha-Pitta aggravation leading to influenza",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Tulsi tea, Ginger tea, Turmeric milk, Rest and hydration",
+          "ingredients": [
+            "Tulsi tea",
+            "Ginger tea",
+            "Turmeric milk",
+            "Rest and hydration"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Turmeric milk",
+        "Rest and hydration"
+      ],
+      "precautions": [
+        "Annual vaccination",
+        "Good hygiene",
+        "Immunity building",
+        "Seasonal lifestyle"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Annual vaccination",
+        "Good hygiene",
+        "Immunity building",
+        "Seasonal lifestyle"
+      ],
+      "modernEquivalent": "Seasonal Flu",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_gastroenteritis_017",
+      "name": "Gastroenteritis",
+      "sanskrit": "Atisara",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Pitta"
+      ],
+      "symptoms": [
+        "Diarrhea",
+        "Vomiting",
+        "Abdominal cramps",
+        "Fever",
+        "Dehydration"
+      ],
+      "pathogenesis": "Pitta aggravation leading to gastroenteritis",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Ginger tea, Cumin water, Pomegranate juice, ORS solution",
+          "ingredients": [
+            "Ginger tea",
+            "Cumin water",
+            "Pomegranate juice",
+            "ORS solution"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "ORS solution"
+      ],
+      "precautions": [
+        "Good hygiene",
+        "Safe food handling",
+        "Clean water",
+        "Proper cooking"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Good hygiene",
+        "Safe food handling",
+        "Clean water",
+        "Proper cooking"
+      ],
+      "modernEquivalent": "Stomach Flu",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_uti_018",
+      "name": "UTI",
+      "sanskrit": "Mutrakricchra",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Pitta"
+      ],
+      "symptoms": [
+        "Frequent urination",
+        "Burning sensation",
+        "Cloudy urine",
+        "Lower abdominal pain",
+        "Fever"
+      ],
+      "pathogenesis": "Pitta aggravation leading to uti",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Cranberry juice, Gokshura powder, Punarnava, Increased water intake",
+          "ingredients": [
+            "Cranberry juice",
+            "Gokshura powder",
+            "Punarnava",
+            "Increased water intake"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Gokshura powder",
+        "Punarnava"
+      ],
+      "precautions": [
+        "Good hygiene",
+        "Adequate hydration",
+        "Urinate after intercourse",
+        "Avoid holding urine"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Good hygiene",
+        "Adequate hydration",
+        "Urinate after intercourse",
+        "Avoid holding urine"
+      ],
+      "modernEquivalent": "Urinary Tract Infection",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_asthma_019",
+      "name": "Asthma",
+      "sanskrit": "Shwasa",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Kapha-Vata"
+      ],
+      "symptoms": [
+        "Wheezing",
+        "Shortness of breath",
+        "Chest tightness",
+        "Coughing",
+        "Difficulty breathing"
+      ],
+      "pathogenesis": "Kapha-Vata aggravation leading to asthma",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Vasaka leaves, Kantakari, Talisadi churna, Sitopaladi churna",
+          "ingredients": [
+            "Vasaka leaves",
+            "Kantakari",
+            "Talisadi churna",
+            "Sitopaladi churna"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Vasaka leaves",
+        "Kantakari",
+        "Talisadi churna",
+        "Sitopaladi churna"
+      ],
+      "precautions": [
+        "Avoid triggers",
+        "Regular exercise",
+        "Breathing exercises",
+        "Clean environment"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Avoid triggers",
+        "Regular exercise",
+        "Breathing exercises",
+        "Clean environment"
+      ],
+      "modernEquivalent": "Bronchial Asthma",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_constipation_020",
+      "name": "Constipation",
+      "sanskrit": "Vibandha",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Infrequent bowel movements",
+        "Hard stools",
+        "Straining",
+        "Abdominal discomfort",
+        "Bloating"
+      ],
+      "pathogenesis": "Vata aggravation leading to constipation",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Triphala powder, Haritaki, Sesame oil, Warm water",
+          "ingredients": [
+            "Triphala powder",
+            "Haritaki",
+            "Sesame oil",
+            "Warm water"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Triphala powder",
+        "Haritaki",
+        "Sesame oil"
+      ],
+      "precautions": [
+        "High-fiber diet",
+        "Adequate hydration",
+        "Regular exercise",
+        "Regular meal times"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "High-fiber diet",
+        "Adequate hydration",
+        "Regular exercise",
+        "Regular meal times"
+      ],
+      "modernEquivalent": "Chronic Constipation",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_eczema_021",
+      "name": "Eczema",
+      "sanskrit": "Vicharchika",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Pitta-Kapha"
+      ],
+      "symptoms": [
+        "Itchy skin",
+        "Red patches",
+        "Dry skin",
+        "Scaling",
+        "Inflammation"
+      ],
+      "pathogenesis": "Pitta-Kapha aggravation leading to eczema",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Neem paste, Turmeric paste, Coconut oil, Aloe vera",
+          "ingredients": [
+            "Neem paste",
+            "Turmeric paste",
+            "Coconut oil",
+            "Aloe vera"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Neem paste",
+        "Turmeric paste",
+        "Coconut oil",
+        "Aloe vera"
+      ],
+      "precautions": [
+        "Moisturize regularly",
+        "Avoid triggers",
+        "Stress management",
+        "Gentle skin care"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Moisturize regularly",
+        "Avoid triggers",
+        "Stress management",
+        "Gentle skin care"
+      ],
+      "modernEquivalent": "Atopic Dermatitis",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_hemorrhoids_022",
+      "name": "Hemorrhoids",
+      "sanskrit": "Arsha",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Vata-Pitta"
+      ],
+      "symptoms": [
+        "Rectal pain",
+        "Bleeding",
+        "Itching",
+        "Swelling",
+        "Discomfort"
+      ],
+      "pathogenesis": "Vata-Pitta aggravation leading to hemorrhoids",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Triphala powder, Haritaki, Sitz bath, Witch hazel",
+          "ingredients": [
+            "Triphala powder",
+            "Haritaki",
+            "Sitz bath",
+            "Witch hazel"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Triphala powder",
+        "Haritaki",
+        "Sitz bath",
+        "Witch hazel"
+      ],
+      "precautions": [
+        "High-fiber diet",
+        "Adequate hydration",
+        "Regular exercise",
+        "Avoid straining"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "High-fiber diet",
+        "Adequate hydration",
+        "Regular exercise",
+        "Avoid straining"
+      ],
+      "modernEquivalent": "Piles",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_tinnitus_023",
+      "name": "Tinnitus",
+      "sanskrit": "Karnanada",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Ringing in ears",
+        "Buzzing",
+        "Hissing",
+        "Clicking sounds",
+        "Hearing sensitivity"
+      ],
+      "pathogenesis": "Vata aggravation leading to tinnitus",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Jatamansi powder, Brahmi supplements, Sesame oil drops, Stress management",
+          "ingredients": [
+            "Jatamansi powder",
+            "Brahmi supplements",
+            "Sesame oil drops",
+            "Stress management"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Jatamansi powder",
+        "Brahmi supplements",
+        "Sesame oil drops",
+        "Stress management"
+      ],
+      "precautions": [
+        "Protect from loud noises",
+        "Stress management",
+        "Regular checkups",
+        "Healthy lifestyle"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Protect from loud noises",
+        "Stress management",
+        "Regular checkups",
+        "Healthy lifestyle"
+      ],
+      "modernEquivalent": "Ringing in Ears",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_carpal_tunnel_024",
+      "name": "Carpal Tunnel",
+      "sanskrit": "Manibandha Shoola",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Hand numbness",
+        "Tingling",
+        "Weakness",
+        "Pain in wrist",
+        "Difficulty gripping"
+      ],
+      "pathogenesis": "Vata aggravation leading to carpal tunnel",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Sesame oil massage, Ashwagandha, Guggulu supplements, Wrist exercises",
+          "ingredients": [
+            "Sesame oil massage",
+            "Ashwagandha",
+            "Guggulu supplements",
+            "Wrist exercises"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Sesame oil massage",
+        "Ashwagandha",
+        "Guggulu supplements",
+        "Wrist exercises"
+      ],
+      "precautions": [
+        "Ergonomic setup",
+        "Regular breaks",
+        "Wrist exercises",
+        "Proper posture"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Ergonomic setup",
+        "Regular breaks",
+        "Wrist exercises",
+        "Proper posture"
+      ],
+      "modernEquivalent": "Carpal Tunnel Syndrome",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_myopia_025",
+      "name": "Myopia",
+      "sanskrit": "Drishti Dosha",
+      "source": "Charaka Samhita, Sushruta Samhita",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Blurred distance vision",
+        "Eye strain",
+        "Headaches",
+        "Squinting",
+        "Difficulty driving"
+      ],
+      "pathogenesis": "Vata aggravation leading to myopia",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Triphala eye wash, Rose water, Eye exercises, Amla supplements",
+          "ingredients": [
+            "Triphala eye wash",
+            "Rose water",
+            "Eye exercises",
+            "Amla supplements"
+          ],
+          "source": "Charaka Samhita, Sushruta Samhita"
+        }
+      ],
+      "herbs": [
+        "Triphala eye wash",
+        "Eye exercises",
+        "Amla supplements"
+      ],
+      "precautions": [
+        "Regular eye breaks",
+        "Outdoor activities",
+        "Proper lighting",
+        "Regular eye checkups"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Regular eye breaks",
+        "Outdoor activities",
+        "Proper lighting",
+        "Regular eye checkups"
+      ],
+      "modernEquivalent": "Nearsightedness",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_vitamin_d_deficiency_026",
+      "name": "Vitamin D Deficiency",
+      "sanskrit": "Surya Kshaya",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Fatigue",
+        "Bone pain",
+        "Muscle weakness",
+        "Mood changes",
+        "Frequent infections"
+      ],
+      "pathogenesis": "Vata aggravation leading to vitamin d deficiency",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Sunlight exposure, Vitamin D supplements, Fatty fish, Egg yolks",
+          "ingredients": [
+            "Sunlight exposure",
+            "Vitamin D supplements",
+            "Fatty fish",
+            "Egg yolks"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Sunlight exposure",
+        "Vitamin D supplements",
+        "Fatty fish",
+        "Egg yolks"
+      ],
+      "precautions": [
+        "Regular sunlight exposure",
+        "Balanced diet",
+        "Supplements if needed",
+        "Regular checkups"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Regular sunlight exposure",
+        "Balanced diet",
+        "Supplements if needed",
+        "Regular checkups"
+      ],
+      "modernEquivalent": "Hypovitaminosis D",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_digital_eye_strain_027",
+      "name": "Digital Eye Strain",
+      "sanskrit": "Netra Shrama",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Vata-Pitta"
+      ],
+      "symptoms": [
+        "Eye fatigue",
+        "Dry eyes",
+        "Blurred vision",
+        "Headaches",
+        "Neck pain"
+      ],
+      "pathogenesis": "Vata-Pitta aggravation leading to digital eye strain",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Triphala eye wash, Rose water drops, Eye exercises, 20-20-20 rule",
+          "ingredients": [
+            "Triphala eye wash",
+            "Rose water drops",
+            "Eye exercises",
+            "20-20-20 rule"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Triphala eye wash",
+        "Eye exercises",
+        "20-20-20 rule"
+      ],
+      "precautions": [
+        "Regular breaks",
+        "Proper lighting",
+        "Correct screen distance",
+        "Blue light filters"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Regular breaks",
+        "Proper lighting",
+        "Correct screen distance",
+        "Blue light filters"
+      ],
+      "modernEquivalent": "Computer Vision Syndrome",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_chronic_stress_028",
+      "name": "Chronic Stress",
+      "sanskrit": "Manasika Shrama",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Vata"
+      ],
+      "symptoms": [
+        "Anxiety",
+        "Irritability",
+        "Sleep problems",
+        "Fatigue",
+        "Physical symptoms"
+      ],
+      "pathogenesis": "Vata aggravation leading to chronic stress",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Ashwagandha, Brahmi supplements, Jatamansi, Meditation",
+          "ingredients": [
+            "Ashwagandha",
+            "Brahmi supplements",
+            "Jatamansi",
+            "Meditation"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Ashwagandha",
+        "Brahmi supplements",
+        "Jatamansi",
+        "Meditation"
+      ],
+      "precautions": [
+        "Stress management",
+        "Regular exercise",
+        "Healthy relationships",
+        "Work-life balance"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Stress management",
+        "Regular exercise",
+        "Healthy relationships",
+        "Work-life balance"
+      ],
+      "modernEquivalent": "Stress Disorders",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    },
+    {
+      "diseaseId": "common_sedentary_lifestyle_029",
+      "name": "Sedentary Lifestyle",
+      "sanskrit": "Alasya",
+      "source": "Charaka Samhita, Ashtanga Hridaya",
+      "dosha": [
+        "Kapha"
+      ],
+      "symptoms": [
+        "Weight gain",
+        "Fatigue",
+        "Poor posture",
+        "Weak muscles",
+        "Low energy"
+      ],
+      "pathogenesis": "Kapha aggravation leading to sedentary lifestyle",
+      "treatments": [
+        {
+          "type": "Herbal",
+          "description": "Regular exercise, Walking, Yoga, Active hobbies",
+          "ingredients": [
+            "Regular exercise",
+            "Walking",
+            "Yoga",
+            "Active hobbies"
+          ],
+          "source": "Charaka Samhita, Ashtanga Hridaya"
+        }
+      ],
+      "herbs": [
+        "Regular exercise",
+        "Walking",
+        "Yoga",
+        "Active hobbies"
+      ],
+      "precautions": [
+        "Daily movement",
+        "Standing desk",
+        "Regular breaks",
+        "Active transportation"
+      ],
+      "diet": {
+        "include": [],
+        "avoid": []
+      },
+      "lifestyle": [
+        "Daily movement",
+        "Standing desk",
+        "Regular breaks",
+        "Active transportation"
+      ],
+      "modernEquivalent": "Physical Inactivity",
+      "evidenceLevel": "Class B",
+      "isActive": true
+    }
+  ]
+}

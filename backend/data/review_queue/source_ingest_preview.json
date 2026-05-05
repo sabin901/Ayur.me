@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-05-05T13:39:18.292Z",
+  "policy": "Preview records are not public educational content until reviewed for licensing, attribution, and source accuracy.",
+  "records": [
+    {
+      "canonicalId": "med-42054235",
+      "title": "Efficacy of Ayurveda Regimen as an Adjunct to Hydroxyurea in Sickle Cell Disease: Protocol for a Prospective, Randomized, Open-Label, Blinded End Point Exploratory Study.",
+      "sourceUrl": "https://europepmc.org/article/MED/42054235",
+      "sourceName": "Europe PMC",
+      "license": "Metadata preview; article license must be checked before content reuse.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "needs_review",
+      "confidence": 0.62,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "med-41982590",
+      "title": "The Role of Ayurveda in Chronic Disease Management: A Review of Clinical Evidence.",
+      "sourceUrl": "https://europepmc.org/article/MED/41982590",
+      "sourceName": "Europe PMC",
+      "license": "Metadata preview; article license must be checked before content reuse.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "needs_review",
+      "confidence": 0.62,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "med-42060370",
+      "title": "Status of Evidence on the Efficacy and Safety of Indian Traditional Medicine for Prediabetes and Type 2 Diabetes Mellitus: Protocol for a Systematic Review and Evidence Map Synthesis.",
+      "sourceUrl": "https://europepmc.org/article/MED/42060370",
+      "sourceName": "Europe PMC",
+      "license": "Metadata preview; article license must be checked before content reuse.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "needs_review",
+      "confidence": 0.62,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "med-42040613",
+      "title": "An exploratory randomized controlled trial protocol evaluating Cognitive Behavioral Therapy for Insomnia with adjunct Ayurvedic external therapies (Siro-pichu and Padabhyanga) in perimenopausal women.",
+      "sourceUrl": "https://europepmc.org/article/MED/42040613",
+      "sourceName": "Europe PMC",
+      "license": "Metadata preview; article license must be checked before content reuse.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "needs_review",
+      "confidence": 0.62,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "med-41824950",
+      "title": "Evaluation of the Comparative Efficacy of an Ayurvedic Formulation (Nimba-Amalakyadi Powder) vs Metformin in the Management of Type 2 Diabetes Mellitus: Protocol for a Pilot Study.",
+      "sourceUrl": "https://europepmc.org/article/MED/41824950",
+      "sourceName": "Europe PMC",
+      "license": "Metadata preview; article license must be checked before content reuse.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "needs_review",
+      "confidence": 0.62,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "med-41950501",
+      "title": "Effectiveness of Ayurvedic Nutritional Supplements and Yoga Protocol in Reducing the Incidence and Severity of Acute Mountain Sickness (AYAMS Study): Study Protocol for an Open-Label Randomized Controlled Trial.",
+      "sourceUrl": "https://europepmc.org/article/MED/41950501",
+      "sourceName": "Europe PMC",
+      "license": "Metadata preview; article license must be checked before content reuse.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "needs_review",
+      "confidence": 0.62,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "med-41694292",
+      "title": "Diabetes management using a clinical guideline versus usual practice: a feasibility trial-based qualitative study among Ayurvedic practitioners and patients in Nepal.",
+      "sourceUrl": "https://europepmc.org/article/MED/41694292",
+      "sourceName": "Europe PMC",
+      "license": "Metadata preview; article license must be checked before content reuse.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "needs_review",
+      "confidence": 0.62,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "med-41580651",
+      "title": "Efficacy of Ayurveda interventions (Pushkar Guggulu and Haritaki) as an adjunct to standard care in stable coronary artery disease: study protocol for a double-blind, randomized controlled study.",
+      "sourceUrl": "https://europepmc.org/article/MED/41580651",
+      "sourceName": "Europe PMC",
+      "license": "Metadata preview; article license must be checked before content reuse.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "needs_review",
+      "confidence": 0.62,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "europe-pmc-ayurveda-clinical",
+      "title": "Europe PMC ingestion source",
+      "type": "clinical_evidence",
+      "sourceUrl": "https://europepmc.org/RestfulWebService",
+      "sourceName": "Europe PMC",
+      "license": "Provider metadata API; individual article reuse varies by record.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "source_registered",
+      "confidence": 0.7,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "ayurwiki-open-kb",
+      "title": "Ayurwiki ingestion source",
+      "type": "ayurveda_reference",
+      "sourceUrl": "https://ayurwiki.org/",
+      "sourceName": "Ayurwiki",
+      "license": "Open community knowledge base; verify page-level reuse before publishing copied text.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "source_registered",
+      "confidence": 0.7,
+      "contraindications": []
+    },
+    {
+      "canonicalId": "ncbi-eutilities",
+      "title": "NCBI E-utilities ingestion source",
+      "type": "clinical_evidence",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/home/develop/api/",
+      "sourceName": "NCBI E-utilities",
+      "license": "Public API metadata; follow NCBI rate limits and data policies.",
+      "scrapedAt": "2026-05-05T13:39:18.291Z",
+      "reviewStatus": "source_registered",
+      "confidence": 0.7,
+      "contraindications": []
+    }
+  ]
+}

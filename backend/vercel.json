@@ -1,0 +1,4 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "echo 'ERROR: Root Directory must be EMPTY. This is the backend (no build script). The frontend is at repo root.' && exit 1"
+}

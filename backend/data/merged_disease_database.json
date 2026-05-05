@@ -1,0 +1,288 @@
+[
+  {
+    "diseaseId": "EXTRACTED_1",
+    "name": "Diabetes",
+    "sanskrit": "मधुमेह",
+    "source": "The Ayurveda Encyclopedia (Vempilly)",
+    "dosha": [
+      "Kapha",
+      "Vata"
+    ],
+    "symptoms": [
+      "Excessive thirst",
+      "Frequent urination",
+      "Fatigue",
+      "Weight loss"
+    ],
+    "pathogenesis": "Imbalance of Kapha and Vata affecting metabolism",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Gudmar, Shilajit, Bitter gourd",
+        "ingredients": [
+          "Gudmar",
+          "Shilajit",
+          "Bitter gourd"
+        ],
+        "source": "The Ayurveda Encyclopedia"
+      }
+    ],
+    "herbs": [
+      "Gudmar",
+      "Shilajit",
+      "Bitter gourd",
+      "Jamun"
+    ],
+    "precautions": [
+      "Avoid sweets",
+      "Regular exercise",
+      "Monitor blood sugar"
+    ],
+    "diet": {
+      "include": [
+        "Bitter foods",
+        "Barley",
+        "Millets"
+      ],
+      "avoid": [
+        "Sweets",
+        "Heavy foods"
+      ]
+    },
+    "lifestyle": [
+      "Daily walking",
+      "Stress management"
+    ],
+    "modernEquivalent": "Type 2 Diabetes (ICD-10: E11)",
+    "isActive": true
+  },
+  {
+    "diseaseId": "EXTRACTED_2",
+    "name": "Arthritis",
+    "sanskrit": "आमवात",
+    "source": "Ayurvedic Healing: A Comprehensive Guide (Frawley)",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Joint pain",
+      "Stiffness",
+      "Swelling",
+      "Reduced mobility"
+    ],
+    "pathogenesis": "Imbalance of Kapha causing joint inflammation",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Guggulu, Ashwagandha, Shallaki",
+        "ingredients": [
+          "Guggulu",
+          "Ashwagandha",
+          "Shallaki"
+        ],
+        "source": "Ayurvedic Healing Guide"
+      }
+    ],
+    "herbs": [
+      "Guggulu",
+      "Ashwagandha",
+      "Shallaki",
+      "Nirgundi"
+    ],
+    "precautions": [
+      "Avoid cold",
+      "Gentle exercise",
+      "Warm oil massage"
+    ],
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Ginger",
+        "Turmeric"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Dairy"
+      ]
+    },
+    "lifestyle": [
+      "Gentle yoga",
+      "Warm baths",
+      "Adequate rest"
+    ],
+    "modernEquivalent": "Osteoarthritis (ICD-10: M15)",
+    "isActive": true
+  },
+  {
+    "diseaseId": "EXTRACTED_3",
+    "name": "Hypertension",
+    "sanskrit": "रक्तगत वात",
+    "source": "The Ayurveda Encyclopedia (Vempilly)",
+    "dosha": [
+      "Vata",
+      "Pitta"
+    ],
+    "symptoms": [
+      "High blood pressure",
+      "Headache",
+      "Dizziness",
+      "Palpitations"
+    ],
+    "pathogenesis": "Imbalance of Pitta affecting blood circulation",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Arjuna, Brahmi, Jatamansi",
+        "ingredients": [
+          "Arjuna",
+          "Brahmi",
+          "Jatamansi"
+        ],
+        "source": "The Ayurveda Encyclopedia"
+      }
+    ],
+    "herbs": [
+      "Arjuna",
+      "Brahmi",
+      "Jatamansi",
+      "Sarpagandha"
+    ],
+    "precautions": [
+      "Reduce salt",
+      "Avoid stress",
+      "Regular monitoring"
+    ],
+    "diet": {
+      "include": [
+        "Low sodium foods",
+        "Potassium rich foods"
+      ],
+      "avoid": [
+        "Salt",
+        "Processed foods"
+      ]
+    },
+    "lifestyle": [
+      "Meditation",
+      "Pranayama",
+      "Regular exercise"
+    ],
+    "modernEquivalent": "Hypertension (ICD-10: I10)",
+    "isActive": true
+  },
+  {
+    "diseaseId": "EXTRACTED_4",
+    "name": "Asthma",
+    "sanskrit": "श्वास",
+    "source": "Ayurvedic Healing: A Comprehensive Guide (Frawley)",
+    "dosha": [
+      "Vata",
+      "Kapha"
+    ],
+    "symptoms": [
+      "Breathlessness",
+      "Wheezing",
+      "Chest tightness",
+      "Cough"
+    ],
+    "pathogenesis": "Imbalance of Kapha affecting respiratory system",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Vasa, Kantakari, Tulsi",
+        "ingredients": [
+          "Vasa",
+          "Kantakari",
+          "Tulsi"
+        ],
+        "source": "Ayurvedic Healing Guide"
+      }
+    ],
+    "herbs": [
+      "Vasa",
+      "Kantakari",
+      "Tulsi",
+      "Pushkarmool"
+    ],
+    "precautions": [
+      "Avoid triggers",
+      "Keep inhaler handy",
+      "Regular checkups"
+    ],
+    "diet": {
+      "include": [
+        "Warm foods",
+        "Honey",
+        "Ginger"
+      ],
+      "avoid": [
+        "Cold foods",
+        "Dairy"
+      ]
+    },
+    "lifestyle": [
+      "Pranayama",
+      "Avoid smoking",
+      "Clean environment"
+    ],
+    "modernEquivalent": "Bronchial Asthma (ICD-10: J45)",
+    "isActive": true
+  },
+  {
+    "diseaseId": "EXTRACTED_5",
+    "name": "Anemia",
+    "sanskrit": "पाण्डुरोग",
+    "source": "The Ayurveda Encyclopedia (Vempilly)",
+    "dosha": [
+      "Pitta"
+    ],
+    "symptoms": [
+      "Fatigue",
+      "Pallor",
+      "Weakness",
+      "Shortness of breath"
+    ],
+    "pathogenesis": "Imbalance of Pitta affecting blood formation",
+    "treatments": [
+      {
+        "type": "Herbal",
+        "description": "Lauha Bhasma, Amalaki, Mandura Bhasma",
+        "ingredients": [
+          "Lauha Bhasma",
+          "Amalaki",
+          "Mandura Bhasma"
+        ],
+        "source": "The Ayurveda Encyclopedia"
+      }
+    ],
+    "herbs": [
+      "Lauha Bhasma",
+      "Amalaki",
+      "Mandura Bhasma",
+      "Navayasa Loha"
+    ],
+    "precautions": [
+      "Iron rich diet",
+      "Vitamin C",
+      "Regular checkups"
+    ],
+    "diet": {
+      "include": [
+        "Iron rich foods",
+        "Green vegetables",
+        "Dates"
+      ],
+      "avoid": [
+        "Tea with meals"
+      ]
+    },
+    "lifestyle": [
+      "Adequate rest",
+      "Gentle exercise",
+      "Stress management"
+    ],
+    "modernEquivalent": "Iron Deficiency Anemia (ICD-10: D64)",
+    "isActive": true
+  }
+]

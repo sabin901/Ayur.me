@@ -1,0 +1,71 @@
+{
+  "diseases": [
+    {
+      "id": "ayurveda",
+      "name": "Ayurveda",
+      "sanskrit": "Ayurveda",
+      "description": "Ayurveda (; IAST: āyurveda) is an alternative medicine system with historical roots in the Indian subcontinent. It is heavily practised throughout India and Nepal, where as much as 80% of the population report using ayurveda. Ayurveda has been adapted for Western consumption, notably by Baba Hari Da...",
+      "source": "Wikipedia - Ayurveda"
+    },
+    {
+      "id": "agada",
+      "name": "Agada",
+      "sanskrit": "Agada",
+      "description": "Agada is one of the eight branches into which ayurveda medicine is traditionally divided. Literally, gada means a disease and agada means any agent which makes the body free from disease; however the term agada is used specifically for the branch of medicine dealing with toxicology, the description ...",
+      "source": "Wikipedia - Agada"
+    },
+    {
+      "id": "ashtavaidya",
+      "name": "Ashtavaidya",
+      "sanskrit": "Ashtavaidya",
+      "description": "An Ashtavaidya is a practitioner of the Ayurveda system of medicine belonging to a group of families of Namboothiri in the Indian state of Kerala. Among the Ayurvedic healers of Kerala, the Ashtavaidyas are the physicians who are masters of the eight branches of Ayurveda mentioned in classical texts...",
+      "source": "Wikipedia - Ashtavaidya"
+    },
+    {
+      "id": "basti-(panchakarma)",
+      "name": "Basti (Panchakarma)",
+      "sanskrit": "Basti (Panchakarma)",
+      "description": "Basti is an enema of herbal oils or decoctions used in Ayurveda.\nBasti is one of the five Pradhana Karmas of Panchakarma and it is used to treat vata disorders....",
+      "source": "Wikipedia - Basti (Panchakarma)"
+    },
+    {
+      "id": "clinical-trials-on-ayurveda",
+      "name": "Clinical trials on ayurveda",
+      "sanskrit": "Clinical trials on ayurveda",
+      "description": "Clinical trials on ayurveda refers to any clinical trials done on ayurvedic treatment. Ayurveda is a traditional medicine system in India and like other cultural medical practices includes both conventional medicine and also complementary and alternative medicine. When there are clinical trials in a...",
+      "source": "Wikipedia - Clinical trials on ayurveda"
+    },
+    {
+      "id": "dosha",
+      "name": "Dosha",
+      "sanskrit": "Dosha",
+      "description": "Dosha (Sanskrit: दोषः, IAST: doṣa) is a central term in ayurveda originating from Sanskrit, and which refers to three categories or types of substances that are believed to be present conceptually in a person's body and mind. These Dosha are assigned specific qualities and functions. These qualities...",
+      "source": "Wikipedia - Dosha"
+    },
+    {
+      "id": "medical-ethnobotany-of-india",
+      "name": "Medical ethnobotany of India",
+      "sanskrit": "Medical ethnobotany of India",
+      "description": "The medical ethnobotany of India is the study of Indian medicinal plants and their traditional uses. Plants have been used in the Indian subcontinent for treatment of disease and health maintenance for thousands of years, and remain important staples of health and folk medicine for millions. Indians...",
+      "source": "Wikipedia - Medical ethnobotany of India"
+    }
+  ],
+  "herbs": [
+    {
+      "name": "Abhyanga",
+      "description": "Abhyanga (\"oil massage\") is a form of ayurvedic therapy that involves massage of the entire body from the head to the toe with Dosha-specific warm herb-infused oil. The oil is commonly pre-mixed with herbs for specific conditions. Traditionally, the base oil used is sesame but, ayurveda professional..."
+    },
+    {
+      "name": "Jeronis de Soysa",
+      "description": "Gate Mudaliyar Jeronis de Soysa (19 April 1797 – 28 May 1862) was a pioneering Ceylonese entrepreneur and philanthropist. He was a pioneer coffee planter and an industrialist who became the wealthiest Ceylonese of the 19th century by establishing the largest native commercial enterprise of the era. ..."
+    },
+    {
+      "name": "Kashayam",
+      "description": "Kashayam (Sanskrit: kaṣāyaṁ) is an Ayurveda term and does not denote any one particular Ayurvedic medicine, but a generic term for various types of medicinal concoction in Ayurveda. Kashayam refers to a water decoction or water extract of a single herb or group of herbs and can be used for ailments ..."
+    },
+    {
+      "name": "Medimix",
+      "description": "Medimix is an Indian brand of ayurvedic/herbal soap manufactured and marketed by AVA Cholayil Private Limited and  Cholayil Private Limited, a Chennai-based company. The brand was founded by Dr. Valiparambil Padmanabhan Sidhan from Valapad, Thrissur, Kerala. The company has a global presence and is ..."
+    }
+  ]
+}

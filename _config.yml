@@ -1,0 +1,10 @@
+# Jekyll config for GitHub Pages - exclude build artifacts & deps
+# This repo is a Vite/React app (deployed via Vercel), not a Jekyll site.
+# GitHub Pages uses Jekyll by default; exclude paths that break Liquid parsing.
+exclude:
+  - node_modules
+  - backend/node_modules
+  - dist
+  - .vite
+  - scripts
+  - "*.pyc"
